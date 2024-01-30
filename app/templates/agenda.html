@@ -1,0 +1,81 @@
+{# This page contains information about the agenda of
+the event, using embeds from swapcard #}
+{#FIXME Creo que lo mejor sería meter un a _blank a la aplicación y listo, es muy pesado para el navegador y molesto para el usuario cargar las agendas #}
+{% extends "base.html" %}
+{% block content %}
+   <link rel="stylesheet"
+         href="{{ url_for('static', filename='css/dark_custom_button.css') }}">
+   <link rel="stylesheet"
+         href="{{ url_for('static', filename='css/agenda-accordion-colors.css') }}">
+   <section id="agenda">
+      <div class="container-fluid bg-trama bg-trama-fit bg-trama-purple-1"
+           id="sponsors-thanks">
+         <div class="row d-flex flex-row-reverse align-items-center justify-content-center py-4">
+            <!-- <div class="col-6 col-md-4">
+               <img src="{{ url_for('static', filename='img/logos/nerd-square-detailed.png') }}" alt="Nerd logo cuadrado" class="responsive-image">
+            </div> -->
+            <div class="col-12 col-md-12 text-center text-md-start"
+                 style="margin-left:4rem;
+                        width:90%">
+               <h1 class="display-1 fw-bold text-white">{{ _("Conocé la agenda del evento") }}</h1>
+               <h3 class="text-white">
+                  <br>
+                  <br>
+                  {{ _("Te traemos una selección de más de 150 charlas, talleres y actividades de primer nivel.") }}
+                  <br />
+                  <ul>
+                     <li>{{ _("Martes 26 y miércoles 27: solo charlas virtuales") }}</li>
+                     <li>{{ _("Jueves 28 al sábado 30: presencial en el Konex") }}</li>
+                     <li>{{ _("Los talleres son solamente de manera virtual") }}</li>
+                  </ul>
+                  {{ _("Todo el contenido va a estar disponible vía streaming en vivo, para que no te pierdas de nada.") }}
+                  <br>
+                  <br>
+               </h3>
+            </div>
+         </div>
+      </div>
+      <br />
+      <div class="container">
+         <h1>{{ _("Desplegá los ítems para conocer la agenda de cada track") }}</h1>
+         {# Acordeón con el contenido de las FAQ #}
+         <div class="accordion">
+            {% for item in agenda %}
+               {% if not item.ignore %}
+                  <div class="accordion-item ">
+                     <h2 class="accordion-header ">
+                        <button class="accordion-button agenda-bg-{{ item.cssName }} collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#panel-{{ item.title|whitespace_to_dash }}"
+                                aria-expanded="false"
+                                aria-controls="panel-{{ item.title|whitespace_to_dash }}">{{ item.title }}</button>
+                     </h2>
+                     <div id="panel-{{ item.title|whitespace_to_dash }}"
+                          class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                           <div class="loading" id="loading~{{ item.title|whitespace_to_dash }}">{{ _("Cargando agenda...") }}</div>
+                           <iframe id="{{ item.title|whitespace_to_dash }}"
+                                   src="{{ item.iframe_url }}"
+                                   height="500px"
+                                   loading="lazy"
+                                   width="100%">
+                           </iframe>
+                        </div>
+                     </div>
+                  </div>
+               {% endif %}
+            {% endfor %}
+         </div>
+      </div>
+      <div class="d-flex flex-column align-items-center justify-content-center ">
+         <a href='https://registro.nerdear.la/?utm_source=agenda'
+            class="dark_custom_button my-3">
+            <div class="dark_button__line"></div>
+            <div class="dark_button__line"></div>
+            <span class="dark_button__text">{{ _("Sacá tu entrada gratuita!") }}</span>
+         </a>
+      </div>
+      <script src="{{ url_for('static', filename='js/agenda.js') }}"></script>
+   </section>
+{% endblock content %}

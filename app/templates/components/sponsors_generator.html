@@ -1,0 +1,50 @@
+<link rel="stylesheet"
+      href="{{ url_for('static', filename='css/sponsors_generator.css') }}">
+<div class="container">
+   {# Get the category and the sponsors for that category#}
+   {% for category, sponsors in grouped_sponsors.items() if (not featured_categories_only) or (featured_categories_only and category in featured_categories) %}
+      {# For every category:
+					* Show the category as an h1
+					* Create a row with every sponsor as a column
+		#}
+      {# HACK: This hardcoded thing here translates special categories titles into other languages #}
+      {% if lang_code == "en" %}
+         {# HACK: The special categories are here #}
+         {% if category == "nos apoyan" %}
+            {% set category = "supported by" %}
+         {% endif %}
+         {% if category == "comunidades" %}
+            {% set category = "communities" %}
+         {% endif %}
+      {% endif %}
+      <h1 class="text-center display-3 mt-5 fw-medium text-capitalize extending-underline mx-5">{{ category }}</h1>
+      {# Define the sizes that the columns that hold the cards are going to have depending if they are featured categories or not.
+				Also define sizes for responsiveness#}
+      {% if category in featured_categories %}
+         {% set col_class = "col-6 col-lg-3" %}
+      {% else %}
+         {% set col_class = "col-4 col-lg-2" %}
+      {% endif %}
+      <div class="row">
+         <div class="d-flex flex-wrap justify-content-center align-items-center">
+            {% for sponsor in sponsors %}
+               {% set file = 'img/sponsors/' ~ sponsor['file'] %}
+               {# Generate the sponsor card using the provided links, file, and name #}
+               <div class="{{ col_class }}">
+                  <div class="sponsor-card">
+                     <div class="card-img-block">
+                        <a href="{{ sponsor['link'] }}"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                           <img class="card-img-top"
+                                src="{{ url_for('static', filename=file) }}"
+                                alt="{{ sponsor['name'] }}">
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            {% endfor %}
+         </div>
+      </div>
+   {% endfor %}
+</div>

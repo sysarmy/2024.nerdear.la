@@ -1,0 +1,151 @@
+/*
+Base config fot the background trama
+Typical usage:
+
+<div class="bg-trama bg-trama-green-1">
+	your html code here
+</div>
+
+You should ALWAYS use the .bg-trama class because it configures the position of the background
+*/
+
+.bg-trama {
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% auto;
+}
+.bg-trama-fit {
+	background-size: cover;
+}
+/* BLACK */
+.bg-trama-black-1 {
+	background-image: url(../img/svg/tramas/trama-black-1.svg);
+}
+/* BLUE */
+.bg-trama-blue-1 {
+	background-image: url(../img/svg/tramas/trama-blue-1.svg);
+}
+.bg-trama-blue-2 {
+	background-image: url(../img/svg/tramas/trama-blue-2.svg);
+}
+.bg-trama-blue-3 {
+	background-image: url(../img/svg/tramas/trama-blue-3.svg);
+}
+.bg-trama-blue-4 {
+	background-image: url(../img/svg/tramas/trama-blue-4.svg);
+}
+/* GRAY */
+.bg-trama-gray-1 {
+	background-image: url(../img/svg/tramas/trama-gray-1.svg);
+}
+/* GREEN */
+.bg-trama-green-1 {
+	background-image: url(../img/svg/tramas/trama-green-1.svg);
+}
+.bg-trama-green-2 {
+	background-image: url(../img/svg/tramas/trama-green-2.svg);
+}
+.bg-trama-green-3 {
+	background-image: url(../img/svg/tramas/trama-green-3.svg);
+}
+.bg-trama-green-4 {
+	background-image: url(../img/svg/tramas/trama-green-4.svg);
+}
+.bg-trama-green-5 {
+	background-image: url(../img/svg/tramas/trama-green-5.svg);
+}
+/* ORANGE */
+.bg-trama-orange-1 {
+	background-image: url(../img/svg/tramas/trama-orange-1.svg);
+}
+.bg-trama-orange-2 {
+	background-image: url(../img/svg/tramas/trama-orange-2.svg);
+}
+.bg-trama-orange-3 {
+	background-image: url(../img/svg/tramas/trama-orange-3.svg);
+}
+.bg-trama-orange-4 {
+	background-image: url(../img/svg/tramas/trama-orange-4.svg);
+}
+.bg-trama-orange-5 {
+	background-image: url(../img/svg/tramas/trama-orange-5.svg);
+}
+/* PURPLE */
+.bg-trama-purple-1 {
+	background-image: url(../img/svg/tramas/trama-purple-1.svg);
+}
+.bg-trama-purple-2 {
+	background-image: url(../img/svg/tramas/trama-purple-2.svg);
+}
+.bg-trama-purple-3 {
+	background-image: url(../img/svg/tramas/trama-purple-3.svg);
+}
+.bg-trama-purple-4 {
+	background-image: url(../img/svg/tramas/trama-purple-4.svg);
+}
+/* RED */
+.bg-trama-red-1 {
+	background-image: url(../img/svg/tramas/trama-red-1.svg);
+}
+.bg-trama-red-2 {
+	background-image: url(../img/svg/tramas/trama-red-2.svg);
+	/* YELLOW */
+}
+.bg-trama-yellow-1 {
+	background-image: url(../img/svg/tramas/trama-yellow-1.svg);
+}
+.bg-trama-yellow-2 {
+	background-image: url(../img/svg/tramas/trama-yellow-2.svg);
+}
+
+.bg-nerd-yellow {
+	background-color: var(--nerd-yellow);
+}
+.bg-nerd-green {
+	background-color: var(--nerd-green);
+}
+.bg-nerd-red {
+	background-color: var(--nerd-red);
+}
+.bg-nerd-orange {
+	background-color: var(--nerd-orange);
+}
+.bg-nerd-darkblue {
+	background-color: var(--nerd-dark-blue);
+}
+.bg-nerd-black {
+	background-color: black;
+}
+
+.bg-pattern {
+	background-image: url(../img/svg/tramas/pattern.svg);
+	background-size: cover;
+	background-position: top center;
+	background-repeat: repeat-x;
+}
+.bg-pattern-1 {
+	background-image: url(../img/svg/tramas/pattern-1.svg);
+	background-size: 70%;
+	background-position: bottom center;
+	background-repeat: repeat-x;
+}
+.bg-container {
+	background-image: url(../img/bg-container.png);
+	background-size: contain;
+	background-position: center;
+	background-repeat: repeat;
+	position: relative;
+}
+.bg-pattern-2 {
+	background-image: url(../img/svg/tramas/pattern-2.svg);
+	background-size: 50%;
+	background-position: bottom center;
+	background-repeat: repeat-x;
+	padding-bottom: 5rem;
+}
+
+@media screen and (max-width: 576px) {
+	.bg-pattern-2 {
+		background-size: 100%;
+	}
+}

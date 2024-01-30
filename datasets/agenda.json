@@ -1,0 +1,75 @@
+[
+	{
+		"title": "Stands Virtuales",
+		"iframe_url": "https://app.swapcard.com/widget/event/nerdearla-2022/exhibitors/RXZlbnRWaWV3XzM3ODQ1Nw==?showActions=true",
+		"ignore": true
+	},
+	{
+		"title": "Ofertas Laborales",
+		"iframe_url": "https://app.swapcard.com/widget/event/nerdearla-2022/products/RXZlbnRWaWV3XzM4NDU0MA==?showActions=true",
+		"ignore": true
+	},
+	{
+		"title": "On-demand",
+		"iframe_url": "https://app.swapcard.com/widget/event/nerdearla-2022/plannings/RXZlbnRWaWV3XzM4NTU3Ng==?showActions=true",
+		"ignore": true
+	},
+	{
+		"title": "Track DATA",
+		"iframe_url": "https://app.swapcard.com/widget/event/nerdearla-2023/plannings/RXZlbnRWaWV3XzYwMjEwNw==?showActions=true",
+		"ignore": false,
+		"cssName": "data"
+	},
+	{
+		"title": "Track DEV",
+		"iframe_url": "https://app.swapcard.com/widget/event/nerdearla-2023/plannings/RXZlbnRWaWV3XzYwMjEwOA==?showActions=true",
+		"ignore": false,
+		"cssName": "dev"
+	},
+	{
+		"title": "Track INFRA",
+		"iframe_url": "https://app.swapcard.com/widget/event/nerdearla-2023/plannings/RXZlbnRWaWV3XzYwMjEwOQ==?showActions=true",
+		"ignore": false,
+		"cssName": "infra"
+	},
+	{
+		"title": "Track KIDS",
+		"iframe_url": "https://app.swapcard.com/widget/event/nerdearla-2023/plannings/RXZlbnRWaWV3XzYzODcyMw==?showActions=true",
+		"ignore": false,
+		"cssName": "kids"
+	},
+	{
+		"title": "Track NERD",
+		"iframe_url": "https://app.swapcard.com/widget/event/nerdearla-2023/plannings/RXZlbnRWaWV3XzYwMjExMQ==?showActions=true",
+		"ignore": false,
+		"cssName": "nerd"
+	},
+	{
+		"title": "Track SEC",
+		"iframe_url": "https://app.swapcard.com/widget/event/nerdearla-2023/plannings/RXZlbnRWaWV3XzYwMjExMg==?showActions=true",
+		"ignore": false,
+		"cssName": "sec"
+	},
+	{
+		"title": "Track TEST",
+		"iframe_url": "https://app.swapcard.com/widget/event/nerdearla-2023/plannings/RXZlbnRWaWV3XzYwMjExMw==?showActions=true",
+		"ignore": false,
+		"cssName": "test"
+	},
+	{
+		"title": "Track UX",
+		"iframe_url": "https://app.swapcard.com/widget/event/nerdearla-2023/plannings/RXZlbnRWaWV3XzYwMjExMA==?showActions=true",
+		"ignore": false,
+		"cssName": "ux"
+	},
+	{
+		"title": "Workshops",
+		"iframe_url": "https://app.swapcard.com/widget/event/nerdearla-2023/plannings/RXZlbnRWaWV3XzYwMjExNg==?showActions=true",
+		"ignore": false
+	},
+	{
+		"title": "Agenda Completa",
+		"iframe_url": "https://app.swapcard.com/widget/event/nerdearla-2023/plannings/RXZlbnRWaWV3XzYwMjEwNg==?showActions=true",
+		"ignore": false
+	}
+]

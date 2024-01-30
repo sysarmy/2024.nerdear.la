@@ -1,0 +1,56 @@
+{# This component displays a countdown till the start of the event.
+The start date is defined inside countdown.js
+ #}
+<section id="countdown" class="countdown bg-pattern">
+   <link rel="stylesheet"
+         href="{{ url_for('static', filename='css/countdown.css') }}">
+   <div class="container">
+      <div class="text-center text-white highlight-yellow">
+         <h2>
+            <span>{{ _("26 al 30") }}</span>
+            <br>
+            {{ _("Septiembre") }}
+         </h2>
+         <p class="border-round">{{ _("Todo el contenido en streaming") }}</p>
+      </div>
+      <div class="text-center text-white d-flex justify-content-between">
+         <div class="highlight-red">
+            <h3>{{ _("26 y 27") }}</h3>
+            <p class="border-round">{{ _("Charlas virtuales") }}</p>
+         </div>
+         <div class="highlight-green">
+            <h3>{{ _("28 al 30") }}</h3>
+            <p class="border-round">{{ _("Evento presencial") }}</p>
+         </div>
+      </div>
+   </div>
+</section>
+<section class="bg-texture timer-wrapper bg-pattern">
+   <div class="container">
+      <h2 class="display-3 text-center text-white py-3">{{ _("Cuánto Falta para Nerdearla 2023?") }}</h2>
+      <div class="timer d-flex flex-column flex-sm-row align-items-center justify-content-center">
+         <div class="timer-item">
+            <div class="timer-number days bg-trama bg-trama-red-1 bg-trama-fit "></div>
+            <div class="timer-info">{{ _("Días") }}</div>
+         </div>
+         <div class="timer-item">
+            <div class="timer-number hours  bg-trama bg-trama-green-1 bg-trama-fit"></div>
+            <div class="timer-info">{{ _("Horas") }}</div>
+         </div>
+         <div class="timer-item">
+            <div class="timer-number minutes  bg-trama bg-trama-yellow-1 bg-trama-fit"></div>
+            <div class="timer-info">{{ _("Minutos") }}</div>
+         </div>
+         <div class="timer-item">
+            <div class="timer-number seconds  bg-trama bg-trama-blue-1 bg-trama-fit"></div>
+            <div class="timer-info">{{ _("Segundos") }}</div>
+         </div>
+      </div>
+   </div>
+   <div class="d-flex flex-column align-items-center justify-content-center">
+      <a href="https://registro.nerdear.la/?utm_source=navbar"
+         class="custom_button">{{ _("¡Registrate gratis!") }}</a>
+   </div>
+   <p class="text-center timer-info"></p>
+   <script src="{{ url_for('static', filename='js/countdown.js') }}"></script>
+</section>

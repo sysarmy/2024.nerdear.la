@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body, html {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+
+    #fullsize-frame {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 80%;
+      border: none;
+    }
+
+    #image {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 20%;
+      background-image: url('/static/img/svg/footer-captioner.svg');
+      background-size: cover;
+      background-position: center;
+    }
+
+    #overlay {
+            position: absolute;
+            bottom: 20%;
+            left: 0;
+            width: 100%;
+            height: 10%;
+            background-color: black;
+            display: none; /* Initially hidden */
+            z-index: 10; /* To make sure it's on top of the iframe */
+        }
+  </style>
+   <script>
+        function toggleOverlay() {
+            var overlay = document.getElementById('overlay');
+            overlay.style.display = overlay.style.display === 'none' ? 'block' : 'none';
+        }
+    </script>
+</head>
+<body>
+  <iframe id="fullsize-frame" src="https://webcaptioner.com/captioner" allow="microphone"></iframe>
+  <div id="overlay"></div> <!-- Black overlay div -->
+  <div id="image" onclick="toggleOverlay()"></div>
+<script>
+    navigator.mediaDevices.getUserMedia({ audio: true })
+      .then(function(stream) {
+        console.log('Microphone access granted');
+      })
+      .catch(function(err) {
+        console.log('Microphone access denied');
+      });
+  </script>
+</body>
+</html>
+

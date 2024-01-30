@@ -1,0 +1,378 @@
+# Translations template for PROJECT.
+# Copyright (C) 2023 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2023-09-02 19:55-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.12.1\n"
+
+#: app/templates/agenda.html:18
+msgid "Conocé la agenda del evento"
+msgstr ""
+
+#: app/templates/agenda.html:22
+msgid "Te traemos una selección de más de 150 charlas, talleres y actividades de primer nivel."
+msgstr ""
+
+#: app/templates/agenda.html:25
+msgid "Martes 26 y miércoles 27: solo charlas virtuales"
+msgstr ""
+
+#: app/templates/agenda.html:26
+msgid "Jueves 28 al sábado 30: presencial en el Konex"
+msgstr ""
+
+#: app/templates/agenda.html:27
+msgid "Los talleres son solamente de manera virtual"
+msgstr ""
+
+#: app/templates/agenda.html:29
+msgid "Todo el contenido va a estar disponible vía streaming en vivo, para que no te pierdas de nada."
+msgstr ""
+
+#: app/templates/agenda.html:38
+msgid "Desplegá los ítems para conocer la agenda de cada track"
+msgstr ""
+
+#: app/templates/agenda.html:55
+msgid "Cargando agenda..."
+msgstr ""
+
+#: app/templates/agenda.html:74
+msgid "Sacá tu entrada gratuita!"
+msgstr ""
+
+#: app/templates/base.html:62
+msgid "Nerdearla 10ma edición - 26 al 30 de septiembre"
+msgstr ""
+
+#: app/templates/code_of_conduct.html:16
+#: app/templates/components/footer.html:34
+msgid "Código de Conducta"
+msgstr ""
+
+#: app/templates/code_of_conduct.html:18
+msgid "INFORMACIÓN GENERAL"
+msgstr ""
+
+#: app/templates/code_of_conduct.html:20
+msgid "A través de este código de conducta establecemos el marco para los fundamentos de Nerdearla."
+msgstr ""
+
+#: app/templates/code_of_conduct.html:22
+msgid "El objetivo principal del evento es crear un espacio de intercambio colaborativo donde podamos divertirnos, aprender y compartir problemas y conocimientos."
+msgstr ""
+
+#: app/templates/code_of_conduct.html:24
+msgid "CONFIAMOS EN LA DIVERSIDAD COMO PRINCIPIO ÉTICO FUNDAMENTAL DE CUALQUIER INTERCAMBIO"
+msgstr ""
+
+#: app/templates/code_of_conduct.html:26
+msgid "Nos unimos en los esfuerzos para trazar de nuevo los caminos de la discriminación, exclusión y condena de las minorías que sufrieron y sufren más dificultades para ejercer con libertad e igualdad de oportunidades sus plenas competencias, capacidades y potencialidades."
+msgstr ""
+
+#: app/templates/code_of_conduct.html:28
+msgid "NUESTRO ESPÍRITU ES FOMENTAR UN AMBIENTE LIBRE DE DISCRIMINACIÓN"
+msgstr ""
+
+#: app/templates/code_of_conduct.html:30
+msgid "Somos conscientes de los múltiples cruces que interfieren con el logro de este objetivo máximo, por lo que creemos que es nuestro trabajo activo y el de toda la comunidad involucrarse en este desafío."
+msgstr ""
+
+#: app/templates/code_of_conduct.html:33
+msgid "Esperamos que los patrocinadores, oradores, organizadores y todas las personas que asistan al evento respeten los siguientes principios de participación y colaboración:"
+msgstr ""
+
+#: app/templates/code_of_conduct.html:37
+msgid "Mantener en todo momento un diálogo amigable y respetuoso que fomente la mejor versión del intercambio posible."
+msgstr ""
+
+#: app/templates/code_of_conduct.html:40
+msgid "Respetar la diversidad en todas sus formas: cultural, género, orientación sexual, discapacidad, apariencia física, edad, profesional, religiosa, perspectivas ideológicas, etc."
+msgstr ""
+
+#: app/templates/code_of_conduct.html:43
+msgid "No discriminar, excluir, acosar o ejercer actos que de cualquier manera menoscaben la dignidad de las personas."
+msgstr ""
+
+#: app/templates/code_of_conduct.html:45
+msgid "Responsabilizarse del espacio compartido cuidándolo."
+msgstr ""
+
+#: app/templates/code_of_conduct.html:47
+msgid "Abstenerse de presentar material, imágenes o actividades cuyo contenido pueda dañar, disminuir u objetivar a personas o grupos."
+msgstr ""
+
+#: app/templates/code_of_conduct.html:50
+msgid "CONTACTA A LA ORGANIZACIÓN"
+msgstr ""
+
+#: app/templates/code_of_conduct.html:52
+msgid "Si observas y/o experimentas que estos principios no están siendo respetados, contacta con la organización. (durante el evento proporcionaremos un número de teléfono) que garantizará la atención necesaria."
+msgstr ""
+
+#: app/templates/code_of_conduct.html:55
+msgid "Ante comportamientos de acoso, discriminación o agresión, se espera que cesen de inmediato. Dependiendo del caso, se procederá a sancionar, expulsar y/o revisar la permanencia en futuros eventos de la comunidad."
+msgstr ""
+
+#: app/templates/code_of_conduct.html:58
+msgid "Esperamos contar con la cooperación activa de cada participante para generar un espacio enriquecedor y virtuoso que acompañe estas políticas y haga de Nerdearla un lugar de encuentro heterogéneo, múltiple, amigable e inclusivo."
+msgstr ""
+
+#: app/templates/code_of_conduct.html:61
+msgid "Este código de conducta fue desarrollado por"
+msgstr ""
+
+#: app/templates/code_of_conduct.html:64
+msgid "DiG Encuentros"
+msgstr ""
+
+#: app/templates/code_of_conduct.html:65
+msgid "y está disponible para su uso en eventos producidos por comunidades con entrada gratuita, bajo la"
+msgstr ""
+
+#: app/templates/code_of_conduct.html:69
+msgid "Licencia Internacional Attribution-NonCommercial-ShareAlike 4.0 de Creative Commons"
+msgstr ""
+
+#: app/templates/donation.html:13
+msgid "¡Gracias por tu apoyo! ❤️"
+msgstr ""
+
+#: app/templates/donation.html:15
+msgid "Te esperamos de 26 al 30 de septiembre en Ciudad Cultural Konex y online."
+msgstr ""
+
+#: app/templates/donation.html:17
+msgid "Como agradecimiento por tu aporte, de ofrecemos algunos ?✂️ en la Cuponerda"
+msgstr ""
+
+#: app/templates/donation.html:20
+msgid "Ir a la Cuponerda"
+msgstr ""
+
+#: app/templates/index.html:40
+msgid "Nerdearla 2023 es posible gracias a"
+msgstr ""
+
+#: app/templates/index.html:45
+msgid "Conocé todos los sponsors"
+msgstr ""
+
+#: app/templates/sponsors.html:72
+msgid "Nerdearla es posible gracias a nuestros maravillosos sponsors"
+msgstr ""
+
+#: app/templates/sponsors.html:74
+msgid "Desde 2014, nuestro objetivo ha sido organizar un evento de clase mundial para personas en América Latina, con entrada"
+msgstr ""
+
+#: app/templates/sponsors.html:76
+msgid "gratuita. Eso no sería posible sin nuestros patrocinadores y las organizaciones que nos apoyan."
+msgstr ""
+
+#: app/templates/sponsors.html:79
+msgid "Convertite en sponsor hoy!"
+msgstr ""
+
+#: app/templates/components/about.html:11
+msgid "gratis"
+msgstr ""
+
+#: app/templates/components/about.html:14
+msgid "Sobre Nerdearla"
+msgstr ""
+
+#: app/templates/components/about.html:25
+msgid "Nerdearla es una experiencia social, tanto en el formato en persona como online, con espacio de coworking y chats en vivo, charlas, talleres y muchas oportunidades para aprender de líderes de la industria."
+msgstr ""
+
+#: app/templates/components/about.html:29
+msgid "Desde 2014 nos dedicamos a organizar una conferencia de clase mundial, completamente gratuita, con contenido de vanguardia en ciencia y tecnología."
+msgstr ""
+
+#: app/templates/components/contact.html:6
+msgid "¡Muchas gracias por suscribirte!"
+msgstr ""
+
+#: app/templates/components/contact.html:8
+msgid " Subscribite a nuestro newsletter "
+msgstr ""
+
+#: app/templates/components/contact.html:9
+msgid "¡Enterate de todas las novedades del evento!"
+msgstr ""
+
+#: app/templates/components/contact.html:64
+msgid "¿Sos una persona?"
+msgstr ""
+
+#: app/templates/components/contact.html:79
+msgid "Suscribirme"
+msgstr ""
+
+#: app/templates/components/countdown.html:10
+msgid "26 al 30"
+msgstr ""
+
+#: app/templates/components/countdown.html:12
+msgid "Septiembre"
+msgstr ""
+
+#: app/templates/components/countdown.html:14
+msgid "Todo el contenido en streaming"
+msgstr ""
+
+#: app/templates/components/countdown.html:18
+msgid "26 y 27"
+msgstr ""
+
+#: app/templates/components/countdown.html:19
+msgid "Charlas virtuales"
+msgstr ""
+
+#: app/templates/components/countdown.html:22
+msgid "28 al 30"
+msgstr ""
+
+#: app/templates/components/countdown.html:23
+#: app/templates/components/location.html:9
+msgid "Evento presencial"
+msgstr ""
+
+#: app/templates/components/countdown.html:30
+msgid "Cuánto Falta para Nerdearla 2023?"
+msgstr ""
+
+#: app/templates/components/countdown.html:34
+msgid "Días"
+msgstr ""
+
+#: app/templates/components/countdown.html:38
+msgid "Horas"
+msgstr ""
+
+#: app/templates/components/countdown.html:42
+msgid "Minutos"
+msgstr ""
+
+#: app/templates/components/countdown.html:46
+msgid "Segundos"
+msgstr ""
+
+#: app/templates/components/countdown.html:52
+#: app/templates/components/navbar.html:72
+msgid "¡Registrate gratis!"
+msgstr ""
+
+#: app/templates/components/faq.html:30
+msgid "Preguntas frecuentes sobre"
+msgstr ""
+
+#: app/templates/components/faq.html:30
+msgid "Nerdearla"
+msgstr ""
+
+#: app/templates/components/hero.html:11
+msgid "Tu dispositivo no soporta el video de fondo :("
+msgstr ""
+
+#: app/templates/components/hero.html:15
+msgid "¡Estamos en vivo!"
+msgstr ""
+
+#: app/templates/components/hero.html:17
+msgid "26 al 30 de septiembre de 2023"
+msgstr ""
+
+#: app/templates/components/intro.html:10
+msgid "3 veces más grande que cualquier otra conferencia en Buenos Aires"
+msgstr ""
+
+#: app/templates/components/intro.html:13
+msgid "Access cutting-edge Product Management industry trends and networking opportunities at ProductCon London, organized by Product School. Get the European perspective on Product during a time when the field is spreading throughout the continent"
+msgstr ""
+
+#: app/templates/components/location.html:14
+msgid "Ciudad Cultural Konex"
+msgstr ""
+
+#: app/templates/components/location.html:14
+msgid "con streaming en vivo para todo el mundo."
+msgstr ""
+
+#: app/templates/components/location.html:16
+msgid "Sarmiento 3131, entre Anchorena y Jean Jaures, a unas cuadras de la estación Carlos Gardel (Abasto) del Subte B y estación Once de tren y línea A."
+msgstr ""
+
+#: app/templates/components/navbar.html:35
+msgid "Home"
+msgstr ""
+
+#: app/templates/components/navbar.html:37
+msgid "Sponsors"
+msgstr ""
+
+#: app/templates/components/navbar.html:39
+msgid "Agenda"
+msgstr ""
+
+#: app/templates/components/recap.html:4
+msgid "Recap del año pasado"
+msgstr ""
+
+#: app/templates/components/register.html:6
+msgid "Registrate a Nerdearla 2023"
+msgstr ""
+
+#: app/templates/components/register.html:7
+msgid "El evento gratuito de ciencia y tecnología más grande de Latinoamérica."
+msgstr ""
+
+#: app/templates/components/register.html:21
+msgid "tunombre@gmail.com"
+msgstr ""
+
+#: app/templates/components/register.html:23
+msgid "Por favor ingresá un email válido"
+msgstr ""
+
+#: app/templates/components/register.html:29
+msgid "Registrate gratis"
+msgstr ""
+
+#: app/templates/components/statistics.html:13
+msgid "Así fue nuestro evento de 2022"
+msgstr ""
+
+#: app/templates/components/statistics.html:42
+msgid "Más de 7.000 participantes presenciales en Buenos Aires."
+msgstr ""
+
+#: app/templates/components/statistics.html:45
+msgid "Más de 20.000 participantes online durante las conferencias."
+msgstr ""
+
+#: app/templates/components/statistics.html:48
+msgid "Más de 200 speakers de más de 20 países."
+msgstr ""
+
+#: app/templates/components/statistics.html:51
+msgid "El evento es"
+msgstr ""
+
+#: app/templates/components/statistics.html:51
+msgid "gratuito, desde el día 0."
+msgstr ""
+

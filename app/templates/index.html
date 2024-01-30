@@ -1,0 +1,57 @@
+{# This is the index. This page takes the desired components from components/ and displays them
+This is done for code manteinability and readability
+#}
+{% extends "base.html" %}
+{% block content %}
+   <link rel="stylesheet"
+         href="{{ url_for('static', filename='css/dark_custom_button.css') }}">
+   {# Hero with the title and a CTA #}
+   {% include "components/hero.html" %}
+   <div class="bg-nerd-yellow px-5 py-3">
+      {# This generates the FAQ #}
+      {# {% include "components/faq.html" %} #}
+      {# Contact form like https://productschool.com/productcon/london-2024 #}
+      {% include "components/register.html" %}
+   </div>
+   {# Countdown till the start of the event #}
+   <div class="bg-nerd-darkblue py-5">{% include "components/countdown.html" %}</div>
+   <div class="bg-nerd-orange bg-pattern-1 py-5">
+      {# About section with introductory info about the event #}
+      {% include "components/about.html" %}
+   </div>
+   {# {% include "components/intro.html" %} <!-- Intro with cool image--> #}
+   {# Nerdearla in numbers (atendees, speakers, sponsors, exhibitors, etc...) #}
+   {% include "components/statistics.html" %}
+   {# About the speakers #}
+   {# TODO: Speakers #}
+   {# {% include "components/speakers.html" %} #}
+   <div class="bg-nerd-green bg-pattern-2">
+      {# Directions to the event and Google maps iframe #}
+      {% include "components/location.html" %}
+   </div>
+   <div class="bg-trama-black-1 px-5 py-3">
+      {# This generates the FAQ #}
+      {# {% include "components/faq.html" %} #}
+      {# Contact form like https://productschool.com/productcon/london-2024 #}
+      {% include "components/contact.html" %}
+   </div>
+   <div class="bg-nerd-yellow px-5 py-3">
+      {% if not sponsors_error %}
+         <h2 class="text-center fw-bold my-5">{{ _("Nerdearla 2023 es posible gracias a") }}</h2>
+         <div class="container bg-white py-1">
+            {% include "components/sponsors_generator.html" %}
+            <div class="d-flex flex-column align-items-center justify-content-center mb-5">
+               <a href='{{ url_for("sponsors", lang_code=lang_code) }}'
+                  class="custom_button my-3">{{ _("Conocé todos los sponsors") }}</a>
+            </div>
+         </div>
+      {% endif %}
+      <div class="d-flex align-items-center justify-content-center m-4 me-md-auto">
+         <a href="https://sysarmy.com" target="_blank" rel="noopener noreferrer">
+            <img src="{{ url_for('static', filename='img/logos/sysarmy-10anios.png') }}"
+                 alt="logo"
+                 height="90px">
+         </a>
+      </div>
+   </div>
+{% endblock content %}

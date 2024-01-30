@@ -1,0 +1,184 @@
+section#hero {
+	/*background: url(../img/hero-background.jpeg) no-repeat center center;*/
+	background-size: cover;
+	height: 40vw;
+}
+#event-info {
+	background-color: rgb(203, 195, 195, 0.1);
+	border-bottom: solid var(--nerd-red);
+	transition: 200ms linear;
+}
+#event-info:hover {
+	background-color: rgb(203, 195, 195, 0.2);
+}
+/* Call to action button */
+button#cta {
+	background-color: var(--nerd-red);
+	border: 2px solid var(--nerd-red);
+	border-radius: 6px;
+	box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+	box-sizing: border-box;
+	color: #ffffff;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 16px;
+	font-weight: 800;
+	line-height: 16px;
+	min-height: 40px;
+	outline: 0;
+	padding: 12px 14px;
+	text-align: center;
+	text-rendering: geometricprecision;
+	text-transform: none;
+	user-select: none;
+	-webkit-user-select: none;
+	touch-action: manipulation;
+	vertical-align: middle;
+}
+button#cta:hover,
+button#cta:active {
+	background-color: #da2d36;
+	border-color: #da2d36;
+	background-position: 0 0;
+}
+button#cta:active {
+	opacity: 0.9;
+}
+
+.title,
+.subtitle {
+	font-family: "Rift Soft";
+}
+.title {
+	font-style: italic;
+}
+
+/* An animation used in the title */
+.bar-scan-effect {
+	--b: 0.1em; /* the thickness of the line */
+	--c: var(--nerd-red); /* the color */
+
+	color: #0000;
+	padding-block: var(--b);
+	background: linear-gradient(var(--c) 50%, #000 0) 0% calc(100% - var(--_p, 0%)) / 100% 200%,
+		linear-gradient(var(--c) 0 0) 0% var(--_p, 0%) / var(--_p, 0%) var(--b) no-repeat;
+	-webkit-background-clip: text, padding-box;
+	background-clip: text, padding-box;
+	transition: 0.25s var(--_s, 0s) linear, background-size 0.25s calc(0.25s - var(--_s, 0s));
+}
+.bar-scan-effect:hover {
+	--_p: 100%;
+	--_s: 0.25s;
+}
+
+.video-container {
+	position: relative;
+	width: 100vw;
+	height: 40vw; /* 16:9 Aspect Ratio */
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	z-index: 1 !important;
+	background: url(../img/hero-background.jpeg) no-repeat center center;
+	background-size: cover;
+}
+
+video {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -1;
+	background: transparent;
+}
+
+.darken-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+	z-index: 0; /* Above the video, but below the content */
+}
+
+.logo {
+	width: 60%; /* relative size */
+	max-width: 1100px; /* maximum size */
+	min-width: 150px; /* minimum size */
+	height: 150px;
+	background: url("/static/img/logos/nerdearla-detailed-no-bg.svg") no-repeat top center;
+	background-size: contain;
+	z-index: 2;
+	margin-top:5rem;
+}
+
+.blurb {
+	border: 2px solid;
+	border-radius: 50px;
+	color: white;
+	font-family: "Rift Soft";
+	font-size: 2rem;
+	letter-spacing: 0.03em;
+	margin: 5% auto 3rem;
+	padding: 0.2rem 1.8rem;
+	text-align: center;
+	z-index: 2;
+}
+
+.custom_button_qr {
+	background-color: var(--nerd-green);
+	border: 0;
+	border-radius: 50px;
+	color: var(--nerd-black);
+	font-family: "Rift Soft";
+	font-size: 2.5rem;
+	font-weight: bold;
+	letter-spacing: 0.03em;
+	line-height: 1.2;
+	margin: 1.8rem auto 0.2rem;
+	padding: 0.4rem 1.8rem;
+	text-align: center;
+	text-decoration: none;
+	transition: all 0.3s ease;
+	z-index: 0;
+}
+
+.custom_button_vivo {
+	background-color: var(--nerd-red);
+	border: 0;
+	border-radius: 50px;
+	color: var(--nerd-black);
+	font-family: "Rift Soft";
+	font-size: 2.5rem;
+	font-weight: bold;
+	letter-spacing: 0.03em;
+	line-height: 1.2;
+	margin: 1.8rem auto 0.2rem;
+	padding: 0.4rem 1.8rem;
+	text-align: center;
+	text-decoration: none;
+	transition: all 0.3s ease;
+	z-index: 0;
+}
+.custom_button_vivo:hover {
+	background-color: var(--nerd-yellow);
+}
+
+/* Media Query for smaller screens */
+@media screen and (max-width: 768px) {
+	.blurb {
+		font-size: 1.5rem; /* Adjust font size for smaller screens */
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.logo {
+		display: none;
+	}
+}

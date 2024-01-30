@@ -1,0 +1,57 @@
+{# This component displays a Frequently Asked Questions section.
+For each element inside the accordion_dataset variable, a question is generated 
+accordion_dataset should be a list of dictionaries with number, title, and description, like the following example:
+
+accordion_dataset = [
+	{
+		"number": 1,
+		"title": "Que es Nerdearla",
+		"description": "Nerdearla es lorem ipsum bla bla bla",
+	},
+	{
+		"number": 2,
+		"title": "Cuando se hace la Nerdearla",
+		"description": "La respuesta esta en tu corazon",
+	},
+	{
+		"number": 3,
+		"title": "Cúanto sale?",
+		"description": "Paga Jolo",
+	},
+]
+#}
+<section id="faq" class="y-spaced-section">
+   <link rel="stylesheet"
+         href="{{ url_for('static', filename='css/faq.css') }}">
+   <div class="container">
+      <div class="row">
+         <div class="col-sm-3">
+            <h1 class="me-3 text-white text-center">
+               {{ _("Preguntas frecuentes sobre") }} <strong>{{ _("Nerdearla") }}</strong>
+            </h1>
+         </div>
+         <div class="col-sm-9 bg-">
+            {# Acordeón con el contenido de las FAQ #}
+            <div class="accordion borderless-accordion">
+               {% for item in accordion_dataset %}
+                  <div class="accordion-item">
+                     <h2 class="accordion-header">
+                        <button class="accordion-button collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#panel-{{ item.title|whitespace_to_dash }}"
+                                aria-expanded="false"
+                                aria-controls="panel-{{ item.title|whitespace_to_dash }}">{{ _(item.title) }}</button>
+                     </h2>
+                     <div id="panel-{{ item.title|whitespace_to_dash }}"
+                          class="accordion-collapse collapse">
+                        <div class="accordion-body">{{ _(item.description) }}</div>
+                     </div>
+                  </div>
+               {% endfor %}
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="container"></div>
+</section>

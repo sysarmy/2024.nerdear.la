@@ -1,0 +1,46 @@
+.accordion {
+	--DATA: #ffba00;
+	--DEV: #ff323c;
+	--INFRA: #236ee2;
+	--KIDS: #f9a70c;
+	--NERD: #7a00e2;
+	--SEC: #030507;
+	--TEST: #00aca8;
+	--UX: #849f9d;
+}
+
+.accordion-button {
+	font-weight: 500;
+	font-size: 1.2rem;
+}
+
+.accordion-button.agenda-bg-data {
+	background-color: var(--DATA);
+}
+.accordion-button.agenda-bg-dev {
+	background-color: var(--DEV);
+	color: white;
+}
+.accordion-button.agenda-bg-infra {
+	background-color: var(--INFRA);
+	color: white;
+}
+.accordion-button.agenda-bg-kids {
+	background-color: var(--KIDS);
+}
+.accordion-button.agenda-bg-nerd {
+	background-color: var(--NERD);
+	color: white;
+}
+.accordion-button.agenda-bg-sec {
+	background-color: var(--SEC);
+	color: white;
+}
+.accordion-button.agenda-bg-test {
+	background-color: var(--TEST);
+	color: white;
+}
+.accordion-button.agenda-bg-ux {
+	background-color: var(--UX);
+	color: white;
+}

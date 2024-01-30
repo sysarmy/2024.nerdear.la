@@ -1,0 +1,25 @@
+{# Basado en la introduccion de https://productschool.com/productcon/london-2024 #}
+{# TODO: Fix this component so the <img> starts showing from the right #}
+{# This component shoud give some general information about the event, with a image that starts showing from the right #}
+<section id="intro">
+   <link rel="stylesheet"
+         href="{{ url_for('static', filename='css/intro.css') }}">
+   <div class="container">
+      <div class="row d-flex flex-column flex-md-row align-items-center">
+         <div class="col-4 align-items-center">
+            <h1 class="display-4 fw-medium">{{ _("3 veces más grande que cualquier otra conferencia en Buenos Aires") }}</h1>
+            <p>
+               {# TODO: Traducir esto #}
+               {{ _("Access cutting-edge Product Management industry trends and networking opportunities at ProductCon London, organized by Product School. Get the European perspective on Product during a time when the field is spreading throughout the continent") }}
+            </p>
+         </div>
+         <div class="col d-flex align-items-center justify-content-end">
+            {# Updated class: justify-content-end #}
+            <img src="{{ url_for('static', filename='img/stage.jpeg') }}"
+                 id="stage-image"
+                 alt="stage"
+                 height="300px">
+         </div>
+      </div>
+   </div>
+</section>
