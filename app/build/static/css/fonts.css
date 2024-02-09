@@ -1,0 +1,104 @@
+/* This file loads the fonts from fonts/ */
+/*
+	DO NOT DO THIS MANUALLY, ITS A WASTE OF TIME
+	USE https://transfonter.org/ INSTEAD
+	Family support should be ON, and the formats should be TTF and WOFF.
+	You should only keep the fonts files from the zip, move the .css file to static/css, and change the url() value to match the font directory
+
+	For example:
+		url('RiftSoft-Italic.ttf') format('truetype');
+	transforms into
+		url('../fonts/RiftSoft/RiftSoft-Italic.ttf') format('truetype');
+
+*/
+
+/* ------ Rift Soft ------ */
+@font-face {
+	font-family: "Rift Soft";
+	src: url("../fonts/RiftSoft/RiftSoft-Italic.woff") format("woff"),
+		url("../fonts/RiftSoft/RiftSoft-Italic.ttf") format("truetype");
+	font-weight: normal;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Rift Soft";
+	src: url("../fonts/RiftSoft/RiftSoft-Bold.woff") format("woff"),
+		url("../fonts/RiftSoft/RiftSoft-Bold.ttf") format("truetype");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Rift Soft";
+	src: url("../fonts/RiftSoft/RiftSoft-LightItalic.woff") format("woff"),
+		url("../fonts/RiftSoft/RiftSoft-LightItalic.ttf") format("truetype");
+	font-weight: 300;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Rift Soft";
+	src: url("../fonts/RiftSoft/RiftSoft-Light.woff") format("woff"),
+		url("../fonts/RiftSoft/RiftSoft-Light.ttf") format("truetype");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Rift Soft";
+	src: url("../fonts/RiftSoft/RiftSoft-BoldItalic.woff") format("woff"),
+		url("../fonts/RiftSoft/RiftSoft-BoldItalic.ttf") format("truetype");
+	font-weight: bold;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Rift Soft";
+	src: url("../fonts/RiftSoft/RiftSoft-Regular.woff") format("woff"),
+		url("../fonts/RiftSoft/RiftSoft-Regular.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Rift Soft";
+	src: url("../fonts/RiftSoft/RiftSoft-MediumItalic.woff") format("woff"),
+		url("../fonts/RiftSoft/RiftSoft-MediumItalic.ttf") format("truetype");
+	font-weight: 500;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Rift Soft";
+	src: url("../fonts/RiftSoft/RiftSoft-Medium.woff") format("woff"),
+		url("../fonts/RiftSoft/RiftSoft-Medium.ttf") format("truetype");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Rift Soft Demi";
+	src: url("../fonts/RiftSoft/RiftSoft-Demi.woff") format("woff"),
+		url("../fonts/RiftSoft/RiftSoft-Demi.ttf") format("truetype");
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Rift Soft Demi";
+	src: url("../fonts/RiftSoft/RiftSoft-DemiItalic.woff") format("woff"),
+		url("../fonts/RiftSoft/RiftSoft-DemiItalic.ttf") format("truetype");
+	font-weight: 600;
+	font-style: italic;
+	font-display: swap;
+}

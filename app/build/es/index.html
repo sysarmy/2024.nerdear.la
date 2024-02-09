@@ -1,0 +1,553 @@
+
+<!-- Base document, to be extended by other html files with Jinja -->
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <script>
+          (function(w, d, s, l, i) {
+              w[l] = w[l] || [];
+              w[l].push({
+                  'gtm.start': new Date().getTime(),
+                  event: 'gtm.js'
+              });
+              var f = d.getElementsByTagName(s)[0],
+                  j = d.createElement(s),
+                  dl = l != 'dataLayer' ? '&l=' + l : '';
+              j.async = true;
+              j.src =
+                  'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+              f.parentNode.insertBefore(j, f);
+          })(window, document, 'script', 'dataLayer', 'GTM-W7TDQZ5');
+      </script>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+            crossorigin="anonymous" />
+      
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100&display=swap"
+            rel="stylesheet">
+      <!-- Load local installation of fontawesome -->
+      <link rel="stylesheet"
+            href="/static/fontawesome/css/fontawesome.min.css" />
+      <link rel="stylesheet"
+            href="/static/fontawesome/css/solid.min.css" />
+      <link rel="stylesheet"
+            href="/static/fontawesome/css/regular.min.css" />
+      <link rel="stylesheet"
+            href="/static/fontawesome/css/brands.min.css" />
+      
+      <link rel="stylesheet"
+            href="/static/css/variables.css" />
+      
+      <link rel="stylesheet"
+            href="/static/css/fonts.css" />
+      
+      <link rel="stylesheet"
+            href="/static/css/style.css" />
+      
+      <link rel="stylesheet"
+            href="/static/css/trama_backgrounds.css" />
+      
+      <link rel="shortcut icon"
+            href=" /static/img/logos/n-simple.png"
+            type="image/x-icon" />
+      
+      <title>Nerdearla 10ma edición - 26 al 30 de septiembre</title>
+      <meta name="description"
+            content="Nerdearla 2023, cinco días con más de 150 charlas y talleres de tecnología, divulgación científica y una gran variedad de temas." />
+      <link rel="canonical" href="https://nerdear.la/" />
+      <meta property="og:locale" content="es_ES" />
+      <meta property="og:type" content="website" />
+      <meta property="og:title"
+            content="#Nerdearla 2023 - 26 al 30 de septiembre" />
+      <meta property="og:description"
+            content="Festejamos la décima edición del evento más nerd del año en el Konex, en Buenos Aires y online, con entrada libre y gratuita. 5 días con más de 150 charlas y talleres de tecnología, divulgación científica y una gran variedad de temas." />
+      <meta property="og:url" content="https://nerdear.la/" />
+      <meta property="og:site_name" content="nerdear.la" />
+      <meta property="article:publisher" content="https://facebook.com/nerdearla" />
+      <meta property="og:image"
+            content="https://i.postimg.cc/8cQg1L78/nerdearla-2023-share.jpg" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:title"
+            content="#Nerdearla 2023 - 26 al 30 de septiembre" />
+      <meta name="twitter:description"
+            content="Festejamos la décima edición del evento más nerd del año en el Konex, en Buenos Aires y online, con entrada libre y gratuita. 5 días con más de 150 charlas y talleres de tecnología, divulgación científica y una gran variedad de temas." />
+      <meta name="twitter:image"
+            content="https://i.postimg.cc/8cQg1L78/nerdearla-2023-share.jpg" />
+      <meta name="twitter:site" content="@nerdearla" />
+   </head>
+   <body>
+      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W7TDQZ5"
+        height="0"
+        width="0"
+        style="display:none;
+               visibility:hidden"></iframe></noscript>
+      
+      
+
+<style>
+:ul{
+--bs-dropdown-min-width: 3rem
+}
+</style>
+
+<section id="navbar">
+   <link rel="stylesheet"
+         href="/static/css/custom_button.css">
+   <link rel="stylesheet"
+         href="/static/css/navbar.css">
+   <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+      <div class="container-fluid">
+         <a class="navbar-brand"
+            href="/es/">
+            <img src="/static/img/logos/n-detailed.svg"
+                 alt="Bootstrap"
+                 height="90" />
+         </a>
+         <button class="navbar-toggler"
+                 type="button"
+                 data-bs-toggle="collapse"
+                 data-bs-target="#collapsable-navbar-menu"
+                 aria-controls="collapsable-navbar-menu"
+                 aria-expanded="false"
+                 aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse " id="collapsable-navbar-menu">
+            <div class="navbar-nav me-auto justify-content-center align-items-center">
+               
+               <a class="nav-link nav-item"
+                  href="/es/">Home</a>
+               <a href="/es/code_of_conduct/" class="nav-item nav-link px-2 text-white">Código
+                     de Conducta</a>
+              
+              
+              
+              
+            </div>
+            
+            <div class="lang-nav ms-auto">
+               <a class="lang-item lang-es"
+                  href="/es/">ES</a> |
+               <a class="lang-item lang-en"
+                  href="/en/">EN</a>
+            </div>
+            
+            <div class="navbar-nav d-flex justify-content-center align-items-center flex-row gap-4 gap-sm-2 gap-lg-1">
+               <!-- Icons -->
+               <a class="nav-link nav-item" href="https://sysar.my/discord">
+                  <i class="fab fa-discord text-white"></i>
+               </a>
+               <a class="nav-link nav-item"
+                  href="https://www.instagram.com/nerdear_la/">
+                  <i class="fab fa-instagram text-white"></i>
+               </a>
+               <a class="nav-link nav-item"
+                  href="https://www.linkedin.com/company/sysarmy/">
+                  <i class="fab fa-linkedin text-white"></i>
+               </a>
+               <a class="nav-link nav-item" href="https://nerdear.live/spotify">
+                  <i class="fab fa-spotify text-white"></i>
+               </a>
+               <a class="nav-link nav-item" href="https://twitter.com/nerdearla">
+                  <i class="fab fa-twitter text-white"></i>
+               </a>
+            </div>
+            <div class="navbar-nav d-flex justify-content-center align-items-center">
+               
+               
+                  <a href="https://sessionize.com/n24cl"
+                  class="custom_button">¡Envía tu propuesta!</a> 
+            </div>
+         </div>
+      </div>
+   </nav>
+</section>
+      
+      
+   <link rel="stylesheet"
+         href="/static/css/dark_custom_button.css">
+   
+   
+
+<section id="hero">
+   <link rel="stylesheet"
+         href="/static/css/hero.css" />
+   <div class="d-flex  justify-content-center">
+      <div class="video-container">
+         <video autoplay loop muted playsinline>
+            <source src="/static/img/intro.webm"
+                    type="video/webm">
+            Tu dispositivo no soporta el video de fondo :(
+         </video>
+         <div class="darken-overlay"></div>
+      
+         <div class="logo"></div>
+         <p class="blurb no-border text-center">11 al 13 de abril, 2024 - Santiago de Chile
+            <br />Ya está abierto el llamado a charlas</p>
+         <a href="https://sessionize.com/n24cl" class="custom_button_vivo">¡Envía tu propuesta!</a>
+
+         </div>
+   </div>
+</section>
+   
+   
+   
+   
+   <div class="bg-trama-black-1 px-5 py-3">
+      
+      <section id="contact">
+   <a name="newsletter"></a>
+   <link rel="stylesheet"
+         href="/static/css/mautic_form.css">
+   <div class="text-center text-white">
+      <h2 id="newsletter__gracias" class="display-3 py-5 fw-semibold d-none">¡Muchas gracias por suscribirte!</h2>
+      <div id="newsletter__title">
+         <h2 class="display-6 fw-semibold m-0"> Subscribite a nuestro newsletter </h2>
+         <p class="fs-5">¡Enterate de todas las novedades del evento!</p>
+      </div>
+      <script type="text/javascript">
+          /* This section is only needed once per page if manually copying */
+          if (typeof MauticSDKLoaded == 'undefined') {
+              var MauticSDKLoaded = true;
+              var head = document.getElementsByTagName('head')[0];
+              var script = document.createElement('script');
+              script.type = 'text/javascript';
+              script.src = 'https://mk4.sysarmy.com/media/js/mautic-form.js?v4e2a0a57';
+              script.onload = function() {
+                  MauticSDK.onLoad();
+              };
+              head.appendChild(script);
+              var MauticDomain = 'https://mk4.sysarmy.com';
+              var MauticLang = {
+                  'submittingMessage': "Please wait..."
+              }
+          } else if (typeof MauticSDK != 'undefined') {
+              MauticSDK.onLoad();
+          }
+      </script>
+      <div id="mauticform_wrapper_webnerdearlasimple" class="mauticform_wrapper">
+         <form autocomplete="false"
+               role="form"
+               method="post"
+               action="https://mk4.sysarmy.com/form/submit?formId=5"
+               id="mauticform_webnerdearlasimple"
+               data-mautic-form="webnerdearlasimple"
+               enctype="multipart/form-data"
+               onsubmit="toggleVisibility('#mauticform_wrapper_webnerdearlasimple', '#newsletter__gracias', '#newsletter__title')">
+            <div class="mauticform-error" id="mauticform_webnerdearlasimple_error"></div>
+            <div class="mauticform-message" id="mauticform_webnerdearlasimple_message"></div>
+            <div class="mauticform-innerform">
+               <div class="mauticform-page-wrapper mauticform-page-1"
+                    data-mautic-form-page="1">
+                  <div id="mauticform_webnerdearlasimple_email"
+                       data-validate="email"
+                       data-validation-type="email"
+                       class="mauticform-row mauticform-email mauticform-field-1 mauticform-required">
+                     <label id="mauticform_label_webnerdearlasimple_email"
+                            for="mauticform_input_webnerdearlasimple_email"
+                            class="mauticform-label">Email</label>
+                     <input id="mauticform_input_webnerdearlasimple_email"
+                            name="mauticform[email]"
+                            value=""
+                            class="mauticform-input"
+                            type="email" required>
+                     <span class="mauticform-errormsg" style="display: none;">Por favor ingresá un email válido</span>
+                  </div>
+                  <div id="mauticform_webnerdearlasimple_sos_una_persona"
+                       style="display: none"
+                       class="mauticform-row mauticform-text mauticform-field-2">
+                     <label id="mauticform_label_webnerdearlasimple_sos_una_persona"
+                            for="mauticform_input_webnerdearlasimple_sos_una_persona"
+                            class="mauticform-label">¿Sos una persona?</label>
+                     <input id="mauticform_input_webnerdearlasimple_sos_una_persona"
+                            name="mauticform[sos_una_persona]"
+                            value=""
+                            class="mauticform-input"
+                            type="text">
+                     <span class="mauticform-errormsg" style="display: none;"></span>
+                  </div>
+                  <div id="mauticform_webnerdearlasimple_submit"
+                       class="mauticform-row mauticform-button-wrapper mauticform-field-3">
+                     
+                     <button type="submit"
+                             name="mauticform[submit]"
+                             id="mauticform_input_webnerdearlasimple_submit"
+                             value=""
+                             class="mauticform-button btn btn-default">Suscribirme</button>
+                  </div>
+               </div>
+            </div>
+            <input type="hidden"
+                   name="mauticform[formId]"
+                   id="mauticform_webnerdearlasimple_id"
+                   value="5">
+            <input type="hidden"
+                   name="mauticform[return]"
+                   id="mauticform_webnerdearlasimple_return"
+                   value="">
+            <input type="hidden"
+                   name="mauticform[formName]"
+                   id="mauticform_webnerdearlasimple_name"
+                   value="webnerdearlasimple">
+         </form>
+      </div>
+   </div>
+</section>
+   </div>
+   
+   <div class="bg-nerd-darkblue py-5">
+<section id="countdown" class="countdown bg-pattern">
+   <link rel="stylesheet"
+         href="/static/css/countdown.css">
+   <div class="container">
+      <div class="text-center text-white highlight-yellow">
+         <h2>
+            <span>NERDEARLA</span>
+            <br>
+            100% gratis
+         </h2>
+         <p class="border-round">Presencial y en streaming</p>
+      </div>
+      <div class="text-center text-white d-flex justify-content-between">
+         <div class="highlight-red">
+            <h3>Santiago de Chile</h3>
+            <p class="border-round">11 al 13 de abril</p>
+         </div>
+         <div class="highlight-green">
+            <h3>Buenos Aires</h3>
+            <p class="border-round">24 al 28 de septiembre</p>
+         </div>
+      </div>
+   </div>
+</section>
+<section class="bg-texture timer-wrapper bg-pattern">
+   <div class="container">
+      <h2 class="display-3 text-center text-white py-3">¿Cuánto Falta para Nerdearla 🇨🇱 2024?</h2>
+      <div class="timer d-flex flex-column flex-sm-row align-items-center justify-content-center">
+         <div class="timer-item">
+            <div class="timer-number days bg-trama bg-trama-red-1 bg-trama-fit "></div>
+            <div class="timer-info">Días</div>
+         </div>
+         <div class="timer-item">
+            <div class="timer-number hours  bg-trama bg-trama-green-1 bg-trama-fit"></div>
+            <div class="timer-info">Horas</div>
+         </div>
+         <div class="timer-item">
+            <div class="timer-number minutes  bg-trama bg-trama-yellow-1 bg-trama-fit"></div>
+            <div class="timer-info">Minutos</div>
+         </div>
+         <div class="timer-item">
+            <div class="timer-number seconds  bg-trama bg-trama-blue-1 bg-trama-fit"></div>
+            <div class="timer-info">Segundos</div>
+         </div>
+      </div>
+   </div>
+   <div class="d-flex flex-column align-items-center justify-content-center">
+     
+   </div>
+   <p class="text-center timer-info"></p>
+   <script src="/static/js/countdown.js"></script>
+</section></div>
+   <div class="bg-nerd-orange bg-pattern-1 py-5">
+      
+      
+<section id="about" class="about">
+   <link rel="stylesheet"
+         href="/static/css/custom_button_2.css">
+   <link rel="stylesheet"
+         href="/static/css/about.css">
+   <svg xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 83.43 73.78"
+        class="sticker-3">
+      <path d="M41.72 72.28H5.73c-3.25 0-5.28-3.52-3.66-6.34l17.99-31.16 18-31.17c1.63-2.82 5.69-2.82 7.32 0l17.99 31.16 17.99 31.16c1.63 2.82-.41 6.34-3.66 6.34H41.72Z" fill="#ffba00" stroke="#34495e" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" />
+      <text transform="translate(25.53 47.5)" fill="#34495e" font-family="RiftSoft-Bold, 'Rift Soft'" font-size="20"><tspan>100%</tspan><tspan x="-6.66" y="18">gratis</tspan></text>
+   </svg>
+   <div class="container">
+      <h1 class="main-title">Sobre Nerdearla</h1>
+      <div class="d-flex flex-column flex-xl-row justify-content-center align-items-center">
+         <div>
+            <iframe width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/LEvRHxyekKQ?si=R_7V7pampR1929s4"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            <p class="about-1">
+               <span>Nerdearla es una experiencia social, tanto en el formato en persona como online, con espacio de coworking y chats en vivo, charlas, talleres y muchas oportunidades para aprender de líderes de la industria.</span>
+            </p>
+         </div>
+         <p class="about-2">
+            Desde 2014 nos dedicamos a organizar una conferencia de clase mundial, completamente gratuita, con contenido de vanguardia en ciencia y tecnología.
+         </p>
+      </div>
+   </div>
+</section>
+   </div>
+   
+   
+   
+   
+   
+<section id="statistics" class="bg-container">
+   <link rel="stylesheet"
+         href="/static/css/statistics.css">
+   <div class="container d-flex flex-column">
+      <img src="/static/img/sticker-nasa.png"
+           alt="nasa"
+           class="sticker sticker1">
+      <img src="/static/img/sticker-this-is-fine.png"
+           alt="this is fine"
+           class="sticker sticker2">
+      
+      <h2 class="mx-auto my-4 bg-black px-5 title-container">Así fue nuestro evento de 2023</h2>
+      <div class="css-tabs">
+         <input class="state"
+                type="radio"
+                title="tab-one"
+                name="tabs-state"
+                id="tab-one"
+                checked>
+         <input class="state"
+                type="radio"
+                title="tab-two"
+                name="tabs-state"
+                id="tab-two">
+         <input class="state"
+                type="radio"
+                title="tab-three"
+                name="tabs-state"
+                id="tab-three" />
+         <input class="state"
+                type="radio"
+                title="tab-four"
+                name="tabs-state"
+                id="tab-four">
+         <div class="tabs flex-tabs">
+            <label for="tab-one" id="tab-one-label" class="tab">800</label>
+            <label for="tab-two" id="tab-two-label" class="tab">5K</label>
+            <label for="tab-three" id="tab-three-label" class="tab">150</label>
+            <label for="tab-four" id="tab-four-label" class="tab">100%</label>
+            <div id="tab-one-panel" class="panel active">
+               <p>Más de 800 participantes presenciales en Santiago de Chile.</p>
+            </div>
+            <div id="tab-two-panel" class="panel">
+               <p>Más de 5.000 participantes online durante las conferencias.</p>
+            </div>
+            <div id="tab-three-panel" class="panel">
+               <p>Más de 150 speakers de la región.</p>
+            </div>
+            <div id="tab-four-panel" class="panel">
+               <p>El evento es 100% gratuito, desde el día 0.</p>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+   
+   
+   
+   <div class="bg-nerd-green bg-pattern-2">
+      
+      
+<section id="ubication" class="py-5">
+   <div class="container">
+      <h2 class="fw-bold"
+          style="background-color:#2E4053;
+                 color:white;
+                 padding:.5rem .5rem .5rem 6rem;
+                 width:max-content;
+                 margin-left:-6rem">Evento presencial</h2>
+      <p class="fs-4 mb-5 lh-sm">
+         <a href="https://gam.cl/"
+            class="link-dark"
+            target="_blank"
+            rel="noopener noreferrer">Centro Gabriela Mistral</a>, con streaming en vivo para todo el mundo.
+         <br>
+         Av. Alameda Libertador Bernardo O'Higgins 227, Santiago, Región Metropolitana.
+      </p>
+      
+      
+      <div class="d-none d-sm-block ratio ratio-21x9">
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.3786999960917!2d-70.64237502348146!3d-33.439438896949746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c59b6ee5a887%3A0x43a746bfa98d9592!2sCentre%20Gabriela%20Mistral!5e0!3m2!1sen!2scl!4v1697755793826!5m2!1sen!2scl"
+                 allowfullscreen=""
+                 loading="lazy"
+                 referrerpolicy="no-referrer-when-downgrade"
+                 style="outline: 1px solid white;
+                        outline-offset: 2rem"></iframe>
+      </div>
+      
+      <div class="d-block d-sm-none ratio ratio-1x1">
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.3786999960917!2d-70.64237502348146!3d-33.439438896949746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c59b6ee5a887%3A0x43a746bfa98d9592!2sCentre%20Gabriela%20Mistral!5e0!3m2!1sen!2scl!4v1697755793826!5m2!1sen!2scl"
+                 allowfullscreen=""
+                 loading="lazy"
+                 referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+   </div>
+</section>
+   </div>
+   <div class="bg-nerd-yellow px-5 py-3">
+   
+      <div class="d-flex align-items-center justify-content-center m-4 me-md-auto">
+         <a href="https://sysarmy.com" target="_blank" rel="noopener noreferrer">
+            <img src="/static/img/logos/sysarmy-10anios.png"
+                 alt="logo"
+                 height="90px">
+         </a>
+      </div>
+   </div>
+
+
+      
+      
+<section id="footer" class="bg-black footer">
+   <link rel="stylesheet"
+         href="/static/css/footer.css">
+   <footer class="d-flex flex-wrap justify-content-between align-items-center px-5 py-3">
+      <p class="col-md-4 text-white mb-0">© 2023 Nerdearla</p>
+      
+      <div class="col-md-4 d-flex justify-content-center align-items-center flex-row gap-4">
+         <!-- Icons -->
+         <a class="nav-link nav-item" href="https://sysar.my/discord">
+            <i class="fab fa-discord text-white"></i>
+         </a>
+         <a class="nav-link nav-item"
+            href="https://www.instagram.com/nerdear_la/">
+            <i class="fab fa-instagram text-white"></i>
+         </a>
+         <a class="nav-link nav-item"
+            href="https://www.linkedin.com/company/sysarmy/">
+            <i class="fab fa-linkedin text-white"></i>
+         </a>
+         <a class="nav-link nav-item" href="https://nerdear.live/spotify">
+            <i class="fab fa-spotify text-white"></i>
+         </a>
+         <a class="nav-link nav-item" href="https://twitter.com/nerdearla">
+            <i class="fab fa-twitter text-white"></i>
+         </a>
+      </div>
+      <ul class="nav col-md-4 justify-content-md-end">
+         <a href="/es/"
+            class="nav-item nav-link px-2 text-white">Home</a>
+        
+         <a href="/es/code_of_conduct/"
+            class="nav-item nav-link px-2 text-white">Código de Conducta</a>
+         
+      </ul>
+   </footer>
+</section>
+      
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous">
+      </script>
+      
+      <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.3/dist/index.bundle.min.js"></script>
+      <script src='/static/js/toggleVisibility.js'></script>
+   </body>
+</html>

@@ -1,0 +1,527 @@
+
+
+<!-- Base document, to be extended by other html files with Jinja -->
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <script>
+          (function(w, d, s, l, i) {
+              w[l] = w[l] || [];
+              w[l].push({
+                  'gtm.start': new Date().getTime(),
+                  event: 'gtm.js'
+              });
+              var f = d.getElementsByTagName(s)[0],
+                  j = d.createElement(s),
+                  dl = l != 'dataLayer' ? '&l=' + l : '';
+              j.async = true;
+              j.src =
+                  'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+              f.parentNode.insertBefore(j, f);
+          })(window, document, 'script', 'dataLayer', 'GTM-W7TDQZ5');
+      </script>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+            crossorigin="anonymous" />
+      
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100&display=swap"
+            rel="stylesheet">
+      <!-- Load local installation of fontawesome -->
+      <link rel="stylesheet"
+            href="/static/fontawesome/css/fontawesome.min.css" />
+      <link rel="stylesheet"
+            href="/static/fontawesome/css/solid.min.css" />
+      <link rel="stylesheet"
+            href="/static/fontawesome/css/regular.min.css" />
+      <link rel="stylesheet"
+            href="/static/fontawesome/css/brands.min.css" />
+      
+      <link rel="stylesheet"
+            href="/static/css/variables.css" />
+      
+      <link rel="stylesheet"
+            href="/static/css/fonts.css" />
+      
+      <link rel="stylesheet"
+            href="/static/css/style.css" />
+      
+      <link rel="stylesheet"
+            href="/static/css/trama_backgrounds.css" />
+      
+      <link rel="shortcut icon"
+            href=" /static/img/logos/n-simple.png"
+            type="image/x-icon" />
+      
+      <title>Nerdearla 10th edition - September 26 to 30</title>
+      <meta name="description"
+            content="Nerdearla 2023, cinco días con más de 150 charlas y talleres de tecnología, divulgación científica y una gran variedad de temas." />
+      <link rel="canonical" href="https://nerdear.la/" />
+      <meta property="og:locale" content="es_ES" />
+      <meta property="og:type" content="website" />
+      <meta property="og:title"
+            content="#Nerdearla 2023 - 26 al 30 de septiembre" />
+      <meta property="og:description"
+            content="Festejamos la décima edición del evento más nerd del año en el Konex, en Buenos Aires y online, con entrada libre y gratuita. 5 días con más de 150 charlas y talleres de tecnología, divulgación científica y una gran variedad de temas." />
+      <meta property="og:url" content="https://nerdear.la/" />
+      <meta property="og:site_name" content="nerdear.la" />
+      <meta property="article:publisher" content="https://facebook.com/nerdearla" />
+      <meta property="og:image"
+            content="https://i.postimg.cc/8cQg1L78/nerdearla-2023-share.jpg" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:title"
+            content="#Nerdearla 2023 - 26 al 30 de septiembre" />
+      <meta name="twitter:description"
+            content="Festejamos la décima edición del evento más nerd del año en el Konex, en Buenos Aires y online, con entrada libre y gratuita. 5 días con más de 150 charlas y talleres de tecnología, divulgación científica y una gran variedad de temas." />
+      <meta name="twitter:image"
+            content="https://i.postimg.cc/8cQg1L78/nerdearla-2023-share.jpg" />
+      <meta name="twitter:site" content="@nerdearla" />
+   </head>
+   <body>
+      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W7TDQZ5"
+        height="0"
+        width="0"
+        style="display:none;
+               visibility:hidden"></iframe></noscript>
+      
+      
+
+<style>
+:ul{
+--bs-dropdown-min-width: 3rem
+}
+</style>
+
+<section id="navbar">
+   <link rel="stylesheet"
+         href="/static/css/custom_button.css">
+   <link rel="stylesheet"
+         href="/static/css/navbar.css">
+   <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+      <div class="container-fluid">
+         <a class="navbar-brand"
+            href="/en/">
+            <img src="/static/img/logos/n-detailed.svg"
+                 alt="Bootstrap"
+                 height="90" />
+         </a>
+         <button class="navbar-toggler"
+                 type="button"
+                 data-bs-toggle="collapse"
+                 data-bs-target="#collapsable-navbar-menu"
+                 aria-controls="collapsable-navbar-menu"
+                 aria-expanded="false"
+                 aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse " id="collapsable-navbar-menu">
+            <div class="navbar-nav me-auto justify-content-center align-items-center">
+               
+               <a class="nav-link nav-item"
+                  href="/en/">Home</a>
+               <a href="/en/code_of_conduct/" class="nav-item nav-link px-2 text-white">Código
+                     de Conducta</a>
+              
+              
+              
+              
+            </div>
+            
+            <div class="lang-nav ms-auto">
+               <a class="lang-item lang-es"
+                  href="/es/">ES</a> |
+               <a class="lang-item lang-en"
+                  href="/en/">EN</a>
+            </div>
+            
+            <div class="navbar-nav d-flex justify-content-center align-items-center flex-row gap-4 gap-sm-2 gap-lg-1">
+               <!-- Icons -->
+               <a class="nav-link nav-item" href="https://sysar.my/discord">
+                  <i class="fab fa-discord text-white"></i>
+               </a>
+               <a class="nav-link nav-item"
+                  href="https://www.instagram.com/nerdear_la/">
+                  <i class="fab fa-instagram text-white"></i>
+               </a>
+               <a class="nav-link nav-item"
+                  href="https://www.linkedin.com/company/sysarmy/">
+                  <i class="fab fa-linkedin text-white"></i>
+               </a>
+               <a class="nav-link nav-item" href="https://nerdear.live/spotify">
+                  <i class="fab fa-spotify text-white"></i>
+               </a>
+               <a class="nav-link nav-item" href="https://twitter.com/nerdearla">
+                  <i class="fab fa-twitter text-white"></i>
+               </a>
+            </div>
+            <div class="navbar-nav d-flex justify-content-center align-items-center">
+               
+               
+                  <a href="https://sessionize.com/n24cl"
+                  class="custom_button">¡Envía tu propuesta!</a> 
+            </div>
+         </div>
+      </div>
+   </nav>
+</section>
+      
+      
+   <link rel="stylesheet"
+         href="/static/css/dark_custom_button.css">
+   <link rel="stylesheet"
+         href="/static/css/agenda-accordion-colors.css">
+   <section id="agenda">
+      <div class="container-fluid bg-trama bg-trama-fit bg-trama-purple-1"
+           id="sponsors-thanks">
+         <div class="row d-flex flex-row-reverse align-items-center justify-content-center py-4">
+            <!-- <div class="col-6 col-md-4">
+               <img src="/static/img/logos/nerd-square-detailed.png" alt="Nerd logo cuadrado" class="responsive-image">
+            </div> -->
+            <div class="col-12 col-md-12 text-center text-md-start"
+                 style="margin-left:4rem;
+                        width:90%">
+               <h1 class="display-1 fw-bold text-white">Nerdearla 2023 schedule</h1>
+               <h3 class="text-white">
+                  <br>
+                  <br>
+                  We are bringing you a selection of 150+ world-class talks, workshops and activities.
+                  <br />
+                  <ul>
+                     <li>Sept 26 and 27: virtual talks only</li>
+                     <li>Sept 28 - 30: in-person event in Buenos Aires</li>
+                     <li>Workshops are only held in virtual format</li>
+                  </ul>
+                  All the conference content will be available via live streaming, so you won't miss anything.
+                  <br>
+                  <br>
+               </h3>
+            </div>
+         </div>
+      </div>
+      <br />
+      <div class="container">
+         <h1>Click on each item to see the full track schedule</h1>
+         
+         <div class="accordion">
+            
+               
+            
+               
+            
+               
+            
+               
+                  <div class="accordion-item ">
+                     <h2 class="accordion-header ">
+                        <button class="accordion-button agenda-bg-data collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#panel-Track-DATA"
+                                aria-expanded="false"
+                                aria-controls="panel-Track-DATA">Track DATA</button>
+                     </h2>
+                     <div id="panel-Track-DATA"
+                          class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                           <div class="loading" id="loading~Track-DATA">Loading schedule...</div>
+                           <iframe id="Track-DATA"
+                                   src="https://app.swapcard.com/widget/event/nerdearla-2023/plannings/RXZlbnRWaWV3XzYwMjEwNw==?showActions=true"
+                                   height="500px"
+                                   loading="lazy"
+                                   width="100%">
+                           </iframe>
+                        </div>
+                     </div>
+                  </div>
+               
+            
+               
+                  <div class="accordion-item ">
+                     <h2 class="accordion-header ">
+                        <button class="accordion-button agenda-bg-dev collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#panel-Track-DEV"
+                                aria-expanded="false"
+                                aria-controls="panel-Track-DEV">Track DEV</button>
+                     </h2>
+                     <div id="panel-Track-DEV"
+                          class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                           <div class="loading" id="loading~Track-DEV">Loading schedule...</div>
+                           <iframe id="Track-DEV"
+                                   src="https://app.swapcard.com/widget/event/nerdearla-2023/plannings/RXZlbnRWaWV3XzYwMjEwOA==?showActions=true"
+                                   height="500px"
+                                   loading="lazy"
+                                   width="100%">
+                           </iframe>
+                        </div>
+                     </div>
+                  </div>
+               
+            
+               
+                  <div class="accordion-item ">
+                     <h2 class="accordion-header ">
+                        <button class="accordion-button agenda-bg-infra collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#panel-Track-INFRA"
+                                aria-expanded="false"
+                                aria-controls="panel-Track-INFRA">Track INFRA</button>
+                     </h2>
+                     <div id="panel-Track-INFRA"
+                          class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                           <div class="loading" id="loading~Track-INFRA">Loading schedule...</div>
+                           <iframe id="Track-INFRA"
+                                   src="https://app.swapcard.com/widget/event/nerdearla-2023/plannings/RXZlbnRWaWV3XzYwMjEwOQ==?showActions=true"
+                                   height="500px"
+                                   loading="lazy"
+                                   width="100%">
+                           </iframe>
+                        </div>
+                     </div>
+                  </div>
+               
+            
+               
+                  <div class="accordion-item ">
+                     <h2 class="accordion-header ">
+                        <button class="accordion-button agenda-bg-kids collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#panel-Track-KIDS"
+                                aria-expanded="false"
+                                aria-controls="panel-Track-KIDS">Track KIDS</button>
+                     </h2>
+                     <div id="panel-Track-KIDS"
+                          class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                           <div class="loading" id="loading~Track-KIDS">Loading schedule...</div>
+                           <iframe id="Track-KIDS"
+                                   src="https://app.swapcard.com/widget/event/nerdearla-2023/plannings/RXZlbnRWaWV3XzYzODcyMw==?showActions=true"
+                                   height="500px"
+                                   loading="lazy"
+                                   width="100%">
+                           </iframe>
+                        </div>
+                     </div>
+                  </div>
+               
+            
+               
+                  <div class="accordion-item ">
+                     <h2 class="accordion-header ">
+                        <button class="accordion-button agenda-bg-nerd collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#panel-Track-NERD"
+                                aria-expanded="false"
+                                aria-controls="panel-Track-NERD">Track NERD</button>
+                     </h2>
+                     <div id="panel-Track-NERD"
+                          class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                           <div class="loading" id="loading~Track-NERD">Loading schedule...</div>
+                           <iframe id="Track-NERD"
+                                   src="https://app.swapcard.com/widget/event/nerdearla-2023/plannings/RXZlbnRWaWV3XzYwMjExMQ==?showActions=true"
+                                   height="500px"
+                                   loading="lazy"
+                                   width="100%">
+                           </iframe>
+                        </div>
+                     </div>
+                  </div>
+               
+            
+               
+                  <div class="accordion-item ">
+                     <h2 class="accordion-header ">
+                        <button class="accordion-button agenda-bg-sec collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#panel-Track-SEC"
+                                aria-expanded="false"
+                                aria-controls="panel-Track-SEC">Track SEC</button>
+                     </h2>
+                     <div id="panel-Track-SEC"
+                          class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                           <div class="loading" id="loading~Track-SEC">Loading schedule...</div>
+                           <iframe id="Track-SEC"
+                                   src="https://app.swapcard.com/widget/event/nerdearla-2023/plannings/RXZlbnRWaWV3XzYwMjExMg==?showActions=true"
+                                   height="500px"
+                                   loading="lazy"
+                                   width="100%">
+                           </iframe>
+                        </div>
+                     </div>
+                  </div>
+               
+            
+               
+                  <div class="accordion-item ">
+                     <h2 class="accordion-header ">
+                        <button class="accordion-button agenda-bg-test collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#panel-Track-TEST"
+                                aria-expanded="false"
+                                aria-controls="panel-Track-TEST">Track TEST</button>
+                     </h2>
+                     <div id="panel-Track-TEST"
+                          class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                           <div class="loading" id="loading~Track-TEST">Loading schedule...</div>
+                           <iframe id="Track-TEST"
+                                   src="https://app.swapcard.com/widget/event/nerdearla-2023/plannings/RXZlbnRWaWV3XzYwMjExMw==?showActions=true"
+                                   height="500px"
+                                   loading="lazy"
+                                   width="100%">
+                           </iframe>
+                        </div>
+                     </div>
+                  </div>
+               
+            
+               
+                  <div class="accordion-item ">
+                     <h2 class="accordion-header ">
+                        <button class="accordion-button agenda-bg-ux collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#panel-Track-UX"
+                                aria-expanded="false"
+                                aria-controls="panel-Track-UX">Track UX</button>
+                     </h2>
+                     <div id="panel-Track-UX"
+                          class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                           <div class="loading" id="loading~Track-UX">Loading schedule...</div>
+                           <iframe id="Track-UX"
+                                   src="https://app.swapcard.com/widget/event/nerdearla-2023/plannings/RXZlbnRWaWV3XzYwMjExMA==?showActions=true"
+                                   height="500px"
+                                   loading="lazy"
+                                   width="100%">
+                           </iframe>
+                        </div>
+                     </div>
+                  </div>
+               
+            
+               
+                  <div class="accordion-item ">
+                     <h2 class="accordion-header ">
+                        <button class="accordion-button agenda-bg- collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#panel-Workshops"
+                                aria-expanded="false"
+                                aria-controls="panel-Workshops">Workshops</button>
+                     </h2>
+                     <div id="panel-Workshops"
+                          class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                           <div class="loading" id="loading~Workshops">Loading schedule...</div>
+                           <iframe id="Workshops"
+                                   src="https://app.swapcard.com/widget/event/nerdearla-2023/plannings/RXZlbnRWaWV3XzYwMjExNg==?showActions=true"
+                                   height="500px"
+                                   loading="lazy"
+                                   width="100%">
+                           </iframe>
+                        </div>
+                     </div>
+                  </div>
+               
+            
+               
+                  <div class="accordion-item ">
+                     <h2 class="accordion-header ">
+                        <button class="accordion-button agenda-bg- collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#panel-Agenda-Completa"
+                                aria-expanded="false"
+                                aria-controls="panel-Agenda-Completa">Agenda Completa</button>
+                     </h2>
+                     <div id="panel-Agenda-Completa"
+                          class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                           <div class="loading" id="loading~Agenda-Completa">Loading schedule...</div>
+                           <iframe id="Agenda-Completa"
+                                   src="https://app.swapcard.com/widget/event/nerdearla-2023/plannings/RXZlbnRWaWV3XzYwMjEwNg==?showActions=true"
+                                   height="500px"
+                                   loading="lazy"
+                                   width="100%">
+                           </iframe>
+                        </div>
+                     </div>
+                  </div>
+               
+            
+         </div>
+      </div>
+      <div class="d-flex flex-column align-items-center justify-content-center ">
+         <a href='https://registro.nerdear.la/?utm_source=agenda'
+            class="dark_custom_button my-3">
+            <div class="dark_button__line"></div>
+            <div class="dark_button__line"></div>
+            <span class="dark_button__text">Get your free tickets!</span>
+         </a>
+      </div>
+      <script src="/static/js/agenda.js"></script>
+   </section>
+
+      
+      
+<section id="footer" class="bg-black footer">
+   <link rel="stylesheet"
+         href="/static/css/footer.css">
+   <footer class="d-flex flex-wrap justify-content-between align-items-center px-5 py-3">
+      <p class="col-md-4 text-white mb-0">© 2023 Nerdearla</p>
+      
+      <div class="col-md-4 d-flex justify-content-center align-items-center flex-row gap-4">
+         <!-- Icons -->
+         <a class="nav-link nav-item" href="https://sysar.my/discord">
+            <i class="fab fa-discord text-white"></i>
+         </a>
+         <a class="nav-link nav-item"
+            href="https://www.instagram.com/nerdear_la/">
+            <i class="fab fa-instagram text-white"></i>
+         </a>
+         <a class="nav-link nav-item"
+            href="https://www.linkedin.com/company/sysarmy/">
+            <i class="fab fa-linkedin text-white"></i>
+         </a>
+         <a class="nav-link nav-item" href="https://nerdear.live/spotify">
+            <i class="fab fa-spotify text-white"></i>
+         </a>
+         <a class="nav-link nav-item" href="https://twitter.com/nerdearla">
+            <i class="fab fa-twitter text-white"></i>
+         </a>
+      </div>
+      <ul class="nav col-md-4 justify-content-md-end">
+         <a href="/en/"
+            class="nav-item nav-link px-2 text-white">Home</a>
+        
+         <a href="/en/code_of_conduct/"
+            class="nav-item nav-link px-2 text-white">Code of Conduct</a>
+         
+      </ul>
+   </footer>
+</section>
+      
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous">
+      </script>
+      
+      <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.3/dist/index.bundle.min.js"></script>
+      <script src='/static/js/toggleVisibility.js'></script>
+   </body>
+</html>

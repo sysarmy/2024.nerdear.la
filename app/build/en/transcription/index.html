@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsive meta tag -->
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        #container {
+            display: flex;
+            flex-direction: column; /* Stack children vertically */
+            height: 100%;
+        }
+
+        #fullsize-frame {
+            flex: 9; /* Take up 9 parts of the container */
+            width: 100%;
+            border: none;
+        }
+
+        #image {
+            flex: 1; /* Take up 1 part of the container */
+            width: 100%;
+            background-image: url('/static/img/svg/footer-captioner.svg');
+            background-size: cover;
+            background-position: center;
+        }
+
+        /* Example media query for small screens */
+        @media only screen and (max-width: 600px) {
+            #image {
+                background-size: contain;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <iframe id="fullsize-frame" src="https://stm.live/j59-e2nh-thx/fullscreen?embed=true&language=es-AR&hide-stt=true&hide-toolbar=true&font-size=xx-large"></iframe>
+        <div id="image"></div>
+    </div>
+</body>
+</html>

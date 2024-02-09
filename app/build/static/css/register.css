@@ -1,0 +1,89 @@
+.register-text {
+	flex: 1 0 60%;
+}
+.register-wrapper {
+	font-family: "Roboto", sans-serif;
+	max-width: 600px;
+	padding-bottom: 1rem;
+	width: 100%;
+}
+.register-wrapper form {
+	font-size: 1.2rem;
+}
+.register-label {
+	color: black;
+}
+.register-errormsg {
+	color: var(--nerd-red);
+	display: none;
+	font-size: 1rem;
+	font-weight: bold;
+	position: absolute;
+	bottom: -1.6rem;
+}
+.register-email {
+	display: flex;
+	flex-direction: column;
+	flex: 1 1 60%;
+	margin-bottom: 1.6rem;
+	position: relative;
+}
+
+.register-input {
+	border: 1px solid white;
+	border-radius: 0;
+	flex: 1 0 60%;
+	letter-spacing: 0.05em;
+	padding: 0.5rem;
+}
+input.register-input::placeholder {
+	font-style: italic;
+	font-size: 1.2rem;
+	opacity: 0.8;
+}
+input.register-input:placeholder-shown + .register-errormsg {
+	display: none;
+}
+.register-input:invalid + .register-errormsg {
+	display: block;
+}
+
+.btn-register {
+	background-color: var(--nerd-green);
+	border: 2px solid var(--nerd-green);
+	border-radius: 0 !important;
+	color: var(--nerd-black);
+	flex: 1 0 40%;
+	font-family: "Rift Soft";
+	font-size: 1.2rem;
+	font-weight: bold;
+	letter-spacing: 0.05em;
+	padding: 0.5rem;
+	width: 100%;
+}
+.btn-register:hover {
+	background-color: var(--nerd-red);
+	border-color: var(--nerd-red);
+	transition: all 0.2s;
+}
+@media screen and (max-width: 576px) {
+	.bg-nerd-yellow {
+		padding: 1rem 2rem !important;
+	}
+}
+
+@media screen and (min-width: 576px) {
+	.register-wrapper form {
+		align-items: flex-end;
+		display: flex;
+	}
+	.register-email {
+		margin-bottom: 0;
+	}
+}
+
+@media (min-width: 992px) {
+	.register-wrapper {
+		margin-left: auto;
+	}
+}
