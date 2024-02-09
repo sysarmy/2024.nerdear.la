@@ -1,0 +1,3 @@
+logs/
+app/__pycache__/
+app/classes/__pycache__/
