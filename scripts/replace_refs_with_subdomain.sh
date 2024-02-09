@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define the subdomain variable
-subdomain="2023.nerdear.la"
+subdomain="2024.nerdear.la"
 
 # Get the directory of the script
 SCRIPT_DIR=$(dirname "$0")

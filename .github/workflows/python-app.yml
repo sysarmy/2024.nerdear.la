@@ -34,7 +34,7 @@ jobs:
       - name: Freeze application with frozen_flask
         run: |
           python freeze.py
-      #- name: Replace URL's with 2023.nerdear.la prefix
+      #- name: Replace URL's with 2024.nerdear.la prefix
       #  run: |
       #    bash scripts/replace_refs_with_subdomain.sh
       # GITHUB PAGES HERE
