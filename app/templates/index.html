@@ -7,11 +7,13 @@ This is done for code manteinability and readability
          href="{{ url_for('static', filename='css/dark_custom_button.css') }}">
    {# Hero with the title and a CTA #}
    {% include "components/hero.html" %}
-   <div class="bg-nerd-yellow px-5 py-3">
+   
+   {# <div class="bg-nerd-yellow px-5 py-3"> #}
+   {# {% include "components/register.html" %} #}
+   {# </div> #}
+   <div class="bg-trama-black-1 px-5 py-3">
       {# This generates the FAQ #}
-      {# {% include "components/faq.html" %} #}
-      {# Contact form like https://productschool.com/productcon/london-2024 #}
-      {% include "components/register.html" %}
+      {% include "components/contact.html" %}
    </div>
    {# Countdown till the start of the event #}
    <div class="bg-nerd-darkblue py-5">{% include "components/countdown.html" %}</div>
@@ -19,7 +21,9 @@ This is done for code manteinability and readability
       {# About section with introductory info about the event #}
       {% include "components/about.html" %}
    </div>
+   
    {# {% include "components/intro.html" %} <!-- Intro with cool image--> #}
+   
    {# Nerdearla in numbers (atendees, speakers, sponsors, exhibitors, etc...) #}
    {% include "components/statistics.html" %}
    {# About the speakers #}
@@ -29,15 +33,9 @@ This is done for code manteinability and readability
       {# Directions to the event and Google maps iframe #}
       {% include "components/location.html" %}
    </div>
-   <div class="bg-trama-black-1 px-5 py-3">
-      {# This generates the FAQ #}
-      {# {% include "components/faq.html" %} #}
-      {# Contact form like https://productschool.com/productcon/london-2024 #}
-      {% include "components/contact.html" %}
-   </div>
    <div class="bg-nerd-yellow px-5 py-3">
-      {% if not sponsors_error %}
-         <h2 class="text-center fw-bold my-5">{{ _("Nerdearla 2023 es posible gracias a") }}</h2>
+   {#   {% if not sponsors_error %}
+         <h2 class="text-center fw-bold my-5">{{ _("Nerdearla 🇨🇱 2024 es posible gracias a") }}</h2>
          <div class="container bg-white py-1">
             {% include "components/sponsors_generator.html" %}
             <div class="d-flex flex-column align-items-center justify-content-center mb-5">
@@ -46,6 +44,7 @@ This is done for code manteinability and readability
             </div>
          </div>
       {% endif %}
+   #}
       <div class="d-flex align-items-center justify-content-center m-4 me-md-auto">
          <a href="https://sysarmy.com" target="_blank" rel="noopener noreferrer">
             <img src="{{ url_for('static', filename='img/logos/sysarmy-10anios.png') }}"
@@ -54,4 +53,5 @@ This is done for code manteinability and readability
          </a>
       </div>
    </div>
+
 {% endblock content %}

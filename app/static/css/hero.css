@@ -131,6 +131,10 @@ video {
 	z-index: 2;
 }
 
+.no-border {
+	border: 0 !important;
+}
+
 .custom_button_qr {
 	background-color: var(--nerd-green);
 	border: 0;
