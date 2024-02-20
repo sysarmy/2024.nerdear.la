@@ -186,3 +186,16 @@ video {
 		display: none;
 	}
 }
+
+/* added to improve appearance of hero section on mobile devices */
+@media screen and (max-width: 479px) {
+	section#hero {
+		height: 45vh;
+	}
+	.video-container {
+		height: 45vh;
+	}
+	.custom_button_vivo {
+	font-size: xx-large;
+	}
+}
