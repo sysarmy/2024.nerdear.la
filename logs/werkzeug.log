@@ -5693,3 +5693,101 @@
 2024-03-07 01:52:52,023 - INFO - 127.0.0.1 - - [07/Mar/2024 01:52:52] "[36mGET /static/img/sponsors/softwareguru.svg HTTP/1.1[0m" 304 -
 2024-03-07 01:52:52,025 - INFO - 127.0.0.1 - - [07/Mar/2024 01:52:52] "[36mGET /static/img/sponsors/educacionit.svg HTTP/1.1[0m" 304 -
 2024-03-07 01:52:52,025 - INFO - 127.0.0.1 - - [07/Mar/2024 01:52:52] "[36mGET /static/img/sponsors/codigofacilito.svg HTTP/1.1[0m" 304 -
+2024-03-07 01:58:54,781 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8081
+2024-03-07 01:58:54,782 - INFO - [33mPress CTRL+C to quit[0m
+2024-03-07 01:58:57,844 - INFO - 127.0.0.1 - - [07/Mar/2024 01:58:57] "GET /es/sponsors/ HTTP/1.1" 200 -
+2024-03-07 01:58:57,948 - INFO - 127.0.0.1 - - [07/Mar/2024 01:58:57] "GET /static/css/fonts.css HTTP/1.1" 200 -
+2024-03-07 01:58:57,948 - INFO - 127.0.0.1 - - [07/Mar/2024 01:58:57] "GET /static/fontawesome/css/solid.min.css HTTP/1.1" 200 -
+2024-03-07 01:58:57,949 - INFO - 127.0.0.1 - - [07/Mar/2024 01:58:57] "GET /static/fontawesome/css/brands.min.css HTTP/1.1" 200 -
+2024-03-07 01:58:57,951 - INFO - 127.0.0.1 - - [07/Mar/2024 01:58:57] "GET /static/fontawesome/css/fontawesome.min.css HTTP/1.1" 200 -
+2024-03-07 01:58:57,953 - INFO - 127.0.0.1 - - [07/Mar/2024 01:58:57] "GET /static/fontawesome/css/regular.min.css HTTP/1.1" 200 -
+2024-03-07 01:58:57,954 - INFO - 127.0.0.1 - - [07/Mar/2024 01:58:57] "GET /static/css/variables.css HTTP/1.1" 200 -
+2024-03-07 01:58:57,971 - INFO - 127.0.0.1 - - [07/Mar/2024 01:58:57] "GET /static/css/custom_button.css HTTP/1.1" 200 -
+2024-03-07 01:58:57,971 - INFO - 127.0.0.1 - - [07/Mar/2024 01:58:57] "GET /static/css/trama_backgrounds.css HTTP/1.1" 200 -
+2024-03-07 01:58:57,973 - INFO - 127.0.0.1 - - [07/Mar/2024 01:58:57] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-03-07 01:58:57,974 - INFO - 127.0.0.1 - - [07/Mar/2024 01:58:57] "GET /static/css/navbar.css HTTP/1.1" 200 -
+2024-03-07 01:58:57,982 - INFO - 127.0.0.1 - - [07/Mar/2024 01:58:57] "GET /static/img/logos/n-detailed.svg HTTP/1.1" 200 -
+2024-03-07 01:58:57,989 - INFO - 127.0.0.1 - - [07/Mar/2024 01:58:57] "GET /static/img/logos/nerd-square-detailed.png HTTP/1.1" 200 -
+2024-03-07 01:58:57,991 - INFO - 127.0.0.1 - - [07/Mar/2024 01:58:57] "GET /static/img/sponsors/falabella.svg HTTP/1.1" 200 -
+2024-03-07 01:58:57,991 - INFO - 127.0.0.1 - - [07/Mar/2024 01:58:57] "GET /static/img/sponsors/github.svg HTTP/1.1" 200 -
+2024-03-07 01:58:57,991 - INFO - 127.0.0.1 - - [07/Mar/2024 01:58:57] "GET /static/css/sponsors_generator.css HTTP/1.1" 200 -
+2024-03-07 01:58:57,993 - INFO - 127.0.0.1 - - [07/Mar/2024 01:58:57] "GET /static/img/sponsors/openqube.svg HTTP/1.1" 200 -
+2024-03-07 01:58:57,993 - INFO - 127.0.0.1 - - [07/Mar/2024 01:58:57] "GET /static/css/footer.css HTTP/1.1" 200 -
+2024-03-07 01:58:58,009 - INFO - 127.0.0.1 - - [07/Mar/2024 01:58:58] "GET /static/js/toggleVisibility.js HTTP/1.1" 200 -
+2024-03-07 01:58:58,009 - INFO - 127.0.0.1 - - [07/Mar/2024 01:58:58] "GET /static/img/sponsors/lpi.svg HTTP/1.1" 200 -
+2024-03-07 01:58:58,014 - INFO - 127.0.0.1 - - [07/Mar/2024 01:58:58] "GET /static/img/sponsors/areatres.svg HTTP/1.1" 200 -
+2024-03-07 01:58:58,018 - INFO - 127.0.0.1 - - [07/Mar/2024 01:58:58] "GET /static/img/sponsors/shortio.png HTTP/1.1" 200 -
+2024-03-07 01:58:58,020 - INFO - 127.0.0.1 - - [07/Mar/2024 01:58:58] "GET /static/img/sponsors/atdt.png HTTP/1.1" 200 -
+2024-03-07 01:58:58,021 - INFO - 127.0.0.1 - - [07/Mar/2024 01:58:58] "GET /static/img/sponsors/ovidio.svg HTTP/1.1" 200 -
+2024-03-07 01:58:58,024 - INFO - 127.0.0.1 - - [07/Mar/2024 01:58:58] "GET /static/img/sponsors/stickermule.png HTTP/1.1" 200 -
+2024-03-07 01:58:58,025 - INFO - 127.0.0.1 - - [07/Mar/2024 01:58:58] "GET /static/img/sponsors/osi.png HTTP/1.1" 200 -
+2024-03-07 01:58:58,029 - INFO - 127.0.0.1 - - [07/Mar/2024 01:58:58] "GET /static/img/sponsors/chm.png HTTP/1.1" 200 -
+2024-03-07 01:58:58,031 - INFO - 127.0.0.1 - - [07/Mar/2024 01:58:58] "GET /static/img/sponsors/isoc.png HTTP/1.1" 200 -
+2024-03-07 01:58:58,041 - INFO - 127.0.0.1 - - [07/Mar/2024 01:58:58] "GET /static/img/sponsors/planetario.svg HTTP/1.1" 200 -
+2024-03-07 01:58:58,042 - INFO - 127.0.0.1 - - [07/Mar/2024 01:58:58] "GET /static/img/sponsors/museoinformatica.png HTTP/1.1" 200 -
+2024-03-07 01:58:58,043 - INFO - 127.0.0.1 - - [07/Mar/2024 01:58:58] "GET /static/img/sponsors/dcc.svg HTTP/1.1" 200 -
+2024-03-07 01:58:58,049 - INFO - 127.0.0.1 - - [07/Mar/2024 01:58:58] "GET /static/img/sponsors/finis.png HTTP/1.1" 200 -
+2024-03-07 01:58:58,052 - INFO - 127.0.0.1 - - [07/Mar/2024 01:58:58] "GET /static/img/sponsors/udp.png HTTP/1.1" 200 -
+2024-03-07 01:58:58,055 - INFO - 127.0.0.1 - - [07/Mar/2024 01:58:58] "GET /static/img/sponsors/talentodigital.png HTTP/1.1" 200 -
+2024-03-07 01:58:58,069 - INFO - 127.0.0.1 - - [07/Mar/2024 01:58:58] "GET /static/fontawesome/webfonts/fa-brands-400.woff2 HTTP/1.1" 200 -
+2024-03-07 01:58:58,069 - INFO - 127.0.0.1 - - [07/Mar/2024 01:58:58] "GET /static/fonts/RiftSoft/RiftSoft-Medium.woff HTTP/1.1" 200 -
+2024-03-07 01:58:58,071 - INFO - 127.0.0.1 - - [07/Mar/2024 01:58:58] "GET /static/fonts/RiftSoft/RiftSoft-Bold.woff HTTP/1.1" 200 -
+2024-03-07 01:58:58,071 - INFO - 127.0.0.1 - - [07/Mar/2024 01:58:58] "GET /static/img/sponsors/carreralinux.svg HTTP/1.1" 200 -
+2024-03-07 01:58:58,072 - INFO - 127.0.0.1 - - [07/Mar/2024 01:58:58] "GET /static/img/svg/tramas/trama-green-3.svg HTTP/1.1" 200 -
+2024-03-07 01:58:58,075 - INFO - 127.0.0.1 - - [07/Mar/2024 01:58:58] "GET /static/img/sponsors/utn-inspt.svg HTTP/1.1" 200 -
+2024-03-07 01:58:58,103 - INFO - 127.0.0.1 - - [07/Mar/2024 01:58:58] "GET /static/img/sponsors/siglo21.svg HTTP/1.1" 200 -
+2024-03-07 01:58:58,106 - INFO - 127.0.0.1 - - [07/Mar/2024 01:58:58] "GET /static/img/sponsors/4geeks.svg HTTP/1.1" 200 -
+2024-03-07 01:58:58,108 - INFO - 127.0.0.1 - - [07/Mar/2024 01:58:58] "GET /static/img/sponsors/huesped.svg HTTP/1.1" 200 -
+2024-03-07 01:58:58,112 - INFO - 127.0.0.1 - - [07/Mar/2024 01:58:58] "GET /static/img/sponsors/elgatoylacaja.svg HTTP/1.1" 200 -
+2024-03-07 01:58:58,116 - INFO - 127.0.0.1 - - [07/Mar/2024 01:58:58] "GET /static/img/sponsors/pangea.svg HTTP/1.1" 200 -
+2024-03-07 01:58:58,117 - INFO - 127.0.0.1 - - [07/Mar/2024 01:58:58] "GET /static/img/sponsors/eidos.svg HTTP/1.1" 200 -
+2024-03-07 01:58:58,126 - INFO - 127.0.0.1 - - [07/Mar/2024 01:58:58] "GET /static/img/sponsors/met.svg HTTP/1.1" 200 -
+2024-03-07 01:58:58,137 - INFO - 127.0.0.1 - - [07/Mar/2024 01:58:58] "GET /static/img/sponsors/adva.svg HTTP/1.1" 200 -
+2024-03-07 01:58:58,138 - INFO - 127.0.0.1 - - [07/Mar/2024 01:58:58] "GET /static/img/sponsors/transti.svg HTTP/1.1" 200 -
+2024-03-07 01:58:58,138 - INFO - 127.0.0.1 - - [07/Mar/2024 01:58:58] "GET /static/img/sponsors/flor.svg HTTP/1.1" 200 -
+2024-03-07 01:58:58,138 - INFO - 127.0.0.1 - - [07/Mar/2024 01:58:58] "GET /static/img/sponsors/escueladedatosvivos.svg HTTP/1.1" 200 -
+2024-03-07 01:58:58,139 - INFO - 127.0.0.1 - - [07/Mar/2024 01:58:58] "GET /static/img/sponsors/itgrarte.png HTTP/1.1" 200 -
+2024-03-07 01:58:58,139 - INFO - 127.0.0.1 - - [07/Mar/2024 01:58:58] "GET /static/img/sponsors/abstracta.svg HTTP/1.1" 200 -
+2024-03-07 01:58:58,152 - INFO - 127.0.0.1 - - [07/Mar/2024 01:58:58] "GET /static/img/sponsors/cace.png HTTP/1.1" 200 -
+2024-03-07 01:58:58,155 - INFO - 127.0.0.1 - - [07/Mar/2024 01:58:58] "GET /static/img/sponsors/semillerodigital.svg HTTP/1.1" 200 -
+2024-03-07 01:58:58,156 - INFO - 127.0.0.1 - - [07/Mar/2024 01:58:58] "GET /static/img/sponsors/jschile.svg HTTP/1.1" 200 -
+2024-03-07 01:58:58,156 - INFO - 127.0.0.1 - - [07/Mar/2024 01:58:58] "GET /static/img/sponsors/sysarmycl.svg HTTP/1.1" 200 -
+2024-03-07 01:58:58,156 - INFO - 127.0.0.1 - - [07/Mar/2024 01:58:58] "GET /static/img/sponsors/pyconchile.png HTTP/1.1" 200 -
+2024-03-07 01:58:58,158 - INFO - 127.0.0.1 - - [07/Mar/2024 01:58:58] "GET /static/img/sponsors/jsconfchile.svg HTTP/1.1" 200 -
+2024-03-07 01:58:58,170 - INFO - 127.0.0.1 - - [07/Mar/2024 01:58:58] "GET /static/img/sponsors/sjnhs.svg HTTP/1.1" 200 -
+2024-03-07 01:58:58,170 - INFO - 127.0.0.1 - - [07/Mar/2024 01:58:58] "GET /static/img/sponsors/devschile.svg HTTP/1.1" 200 -
+2024-03-07 01:58:58,171 - INFO - 127.0.0.1 - - [07/Mar/2024 01:58:58] "GET /static/img/sponsors/womentechmakerschile.svg HTTP/1.1" 200 -
+2024-03-07 01:58:58,172 - INFO - 127.0.0.1 - - [07/Mar/2024 01:58:58] "GET /static/img/sponsors/awsgirls.svg HTTP/1.1" 200 -
+2024-03-07 01:58:58,173 - INFO - 127.0.0.1 - - [07/Mar/2024 01:58:58] "GET /static/img/sponsors/sysarmymx.png HTTP/1.1" 200 -
+2024-03-07 01:58:58,173 - INFO - 127.0.0.1 - - [07/Mar/2024 01:58:58] "GET /static/img/sponsors/doctarmy.png HTTP/1.1" 200 -
+2024-03-07 01:58:58,184 - INFO - 127.0.0.1 - - [07/Mar/2024 01:58:58] "GET /static/img/sponsors/midudev.png HTTP/1.1" 200 -
+2024-03-07 01:58:58,184 - INFO - 127.0.0.1 - - [07/Mar/2024 01:58:58] "GET /static/img/sponsors/mujeresencrypto.png HTTP/1.1" 200 -
+2024-03-07 01:58:58,186 - INFO - 127.0.0.1 - - [07/Mar/2024 01:58:58] "GET /static/img/sponsors/recruitment_latam.svg HTTP/1.1" 200 -
+2024-03-07 01:58:58,187 - INFO - 127.0.0.1 - - [07/Mar/2024 01:58:58] "GET /static/img/sponsors/mermelada_tech.svg HTTP/1.1" 200 -
+2024-03-07 01:58:58,188 - INFO - 127.0.0.1 - - [07/Mar/2024 01:58:58] "GET /static/img/sponsors/hackbuenosaires.svg HTTP/1.1" 200 -
+2024-03-07 01:58:58,190 - INFO - 127.0.0.1 - - [07/Mar/2024 01:58:58] "GET /static/img/sponsors/mepes.png HTTP/1.1" 200 -
+2024-03-07 01:58:58,191 - INFO - 127.0.0.1 - - [07/Mar/2024 01:58:58] "GET /static/img/sponsors/hackeandoproductos.svg HTTP/1.1" 200 -
+2024-03-07 01:58:58,199 - INFO - 127.0.0.1 - - [07/Mar/2024 01:58:58] "GET /static/img/sponsors/softwareguru.svg HTTP/1.1" 200 -
+2024-03-07 01:58:58,199 - INFO - 127.0.0.1 - - [07/Mar/2024 01:58:58] "GET /static/img/sponsors/educacionit.svg HTTP/1.1" 200 -
+2024-03-07 01:58:58,201 - INFO - 127.0.0.1 - - [07/Mar/2024 01:58:58] "GET /static/img/sponsors/codigofacilito.svg HTTP/1.1" 200 -
+2024-03-07 01:58:58,651 - INFO - 127.0.0.1 - - [07/Mar/2024 01:58:58] "GET /static/img/logos/n-simple.png HTTP/1.1" 200 -
+2024-03-07 01:59:04,711 - INFO - 127.0.0.1 - - [07/Mar/2024 01:59:04] "[32mGET /favicon.ico HTTP/1.1[0m" 308 -
+2024-03-07 01:59:04,739 - INFO - 127.0.0.1 - - [07/Mar/2024 01:59:04] "GET /favicon.ico/ HTTP/1.1" 200 -
+2024-03-07 01:59:21,997 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8081
+2024-03-07 01:59:21,998 - INFO - [33mPress CTRL+C to quit[0m
+2024-03-07 01:59:24,638 - INFO - 127.0.0.1 - - [07/Mar/2024 01:59:24] "GET /es/sponsors/ HTTP/1.1" 200 -
+2024-03-07 01:59:24,895 - INFO - 127.0.0.1 - - [07/Mar/2024 01:59:24] "GET /favicon.ico/ HTTP/1.1" 200 -
+2024-03-07 02:02:50,896 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8081
+2024-03-07 02:02:50,896 - INFO - [33mPress CTRL+C to quit[0m
+2024-03-07 02:02:53,899 - INFO - 127.0.0.1 - - [07/Mar/2024 02:02:53] "GET /es/sponsors/ HTTP/1.1" 200 -
+2024-03-07 02:02:54,176 - INFO - 127.0.0.1 - - [07/Mar/2024 02:02:54] "GET /favicon.ico/ HTTP/1.1" 200 -
+2024-03-07 02:03:02,908 - INFO - 127.0.0.1 - - [07/Mar/2024 02:03:02] "GET /en/sponsors/ HTTP/1.1" 200 -
+2024-03-07 02:03:03,161 - INFO - 127.0.0.1 - - [07/Mar/2024 02:03:03] "GET /favicon.ico/ HTTP/1.1" 200 -
+2024-03-07 02:03:58,581 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8081
+2024-03-07 02:03:58,581 - INFO - [33mPress CTRL+C to quit[0m
+2024-03-07 02:03:59,724 - INFO - 127.0.0.1 - - [07/Mar/2024 02:03:59] "GET /en/sponsors/ HTTP/1.1" 200 -
+2024-03-07 02:03:59,979 - INFO - 127.0.0.1 - - [07/Mar/2024 02:03:59] "GET /favicon.ico/ HTTP/1.1" 200 -
