@@ -1,65 +1,62 @@
-# English translations for .
-# Copyright (C) 2023 ORGANIZATION
-# This file is distributed under the same license as the project.
-# KRAPP RAMIRO <krappramiro@disroot.org>, 2023.
+# Translations template for Nerdearla 2024.
+# Copyright (C) 2024 Nerdearla
+# This file is distributed under the same license as the Nerdearla project.
+# FIRST AUTHOR <ajolo@sysarmy.com>, 2024.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version:  1.0\n"
-"Report-Msgid-Bugs-To: krappramiro@disroot.org\n"
-"POT-Creation-Date: 2023-09-02 19:55-0300\n"
-"PO-Revision-Date: 2023-08-14 01:22-0300\n"
-"Last-Translator: Krapp Ramiro <krappramiro@disroot.org>\n"
-"Language: en\n"
-"Language-Team: en <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Project-Id-Version: 1.0\n"
+"Report-Msgid-Bugs-To: ajolo@sysarmy.com\n"
+"POT-Creation-Date: 2024-03-07 01:34-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Ariel Jolo <ajolo@sysarmy.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.12.1\n"
 
-#: app/templates/agenda.html:18
+#: app/templates/agenda.html:20
 msgid "Conocé la agenda del evento"
-msgstr "Nerdearla 2023 schedule"
+msgstr ""
 
-#: app/templates/agenda.html:22
+#: app/templates/agenda.html:24
 msgid "Te traemos una selección de más de 150 charlas, talleres y actividades de primer nivel."
-msgstr "We are bringing you a selection of 150+ world-class talks, workshops and activities."
-
-#: app/templates/agenda.html:25
-msgid "Martes 26 y miércoles 27: solo charlas virtuales"
-msgstr "Sept 26 and 27: virtual talks only"
-
-#: app/templates/agenda.html:26
-msgid "Jueves 28 al sábado 30: presencial en el Konex"
-msgstr "Sept 28 - 30: in-person event in Buenos Aires"
+msgstr ""
 
 #: app/templates/agenda.html:27
-msgid "Los talleres son solamente de manera virtual"
-msgstr "Workshops are only held in virtual format"
+msgid "Martes 26 y miércoles 27: solo charlas virtuales"
+msgstr ""
+
+#: app/templates/agenda.html:28
+msgid "Jueves 28 al sábado 30: presencial en el Konex"
+msgstr ""
 
 #: app/templates/agenda.html:29
+msgid "Los talleres son solamente de manera virtual"
+msgstr ""
+
+#: app/templates/agenda.html:31
 msgid "Todo el contenido va a estar disponible vía streaming en vivo, para que no te pierdas de nada."
-msgstr "All the conference content will be available via live streaming, so you won't miss anything."
+msgstr ""
 
-#: app/templates/agenda.html:38
+#: app/templates/agenda.html:40
 msgid "Desplegá los ítems para conocer la agenda de cada track"
-msgstr "Click on each item to see the full track schedule"
+msgstr ""
 
-#: app/templates/agenda.html:55
+#: app/templates/agenda.html:57
 msgid "Cargando agenda..."
-msgstr "Loading schedule..."
+msgstr ""
 
-#: app/templates/agenda.html:74
+#: app/templates/agenda.html:76
 msgid "Sacá tu entrada gratuita!"
-msgstr "Get your free tickets!"
+msgstr ""
 
 #: app/templates/base.html:62
-msgid "Nerdearla 10ma edición - 26 al 30 de septiembre"
-msgstr "Nerdearla 10th edition - September 26 to 30"
+msgid "Nerdearla Chile – 2da edición – 11 al 13 de abril"
+msgstr "Nerdearla Chile – 2nd edition – Apr 11 - 13"
 
 #: app/templates/code_of_conduct.html:16
-#: app/templates/components/footer.html:34
+#: app/templates/components/footer.html:39
 msgid "Código de Conducta"
 msgstr "Code of Conduct"
 
@@ -150,7 +147,7 @@ msgstr "Attribution-NonCommercial-ShareAlike 4.0 International License of Creati
 
 #: app/templates/donation.html:13
 msgid "¡Gracias por tu apoyo! ❤️"
-msgstr "Thanks for your support ❤️"
+msgstr ""
 
 #: app/templates/donation.html:15
 msgid "Te esperamos de 26 al 30 de septiembre en Ciudad Cultural Konex y online."
@@ -162,14 +159,14 @@ msgstr ""
 
 #: app/templates/donation.html:20
 msgid "Ir a la Cuponerda"
-msgstr "Go to the Cuponerda"
+msgstr ""
 
-#: app/templates/index.html:40
-msgid "Nerdearla 2023 es posible gracias a"
-msgstr "Nerdearla 2023 is possible thanks to"
+#: app/templates/index.html:38
+msgid "Nerdearla 🇨🇱 2024 es posible gracias a"
+msgstr "Nerdearla 🇨🇱 2024 is possible thanks to"
 
-#: app/templates/index.html:45
-msgid "Conocé todos los sponsors"
+#: app/templates/index.html:43
+msgid "Conoce a nuestros sponsors"
 msgstr "See all sponsors"
 
 #: app/templates/sponsors.html:72
@@ -188,10 +185,6 @@ msgstr "free tickets. That would not be possible without our sponsors and suppor
 msgid "Convertite en sponsor hoy!"
 msgstr "Become a sponsor today!"
 
-#: app/templates/components/about.html:11
-msgid "gratis"
-msgstr "free"
-
 #: app/templates/components/about.html:14
 msgid "Sobre Nerdearla"
 msgstr "About Nerdearla"
@@ -209,53 +202,52 @@ msgid "¡Muchas gracias por suscribirte!"
 msgstr "Thank you for subscribing!"
 
 #: app/templates/components/contact.html:8
-msgid " Subscribite a nuestro newsletter "
-msgstr " Subscribe to our newsletter "
+msgid "Suscribite a nuestro newsletter"
+msgstr "Subscribe to our newsletter"
 
 #: app/templates/components/contact.html:9
 msgid "¡Enterate de todas las novedades del evento!"
-msgstr "Get all the updates about the event!"
+msgstr "Get the inside scoop!"
 
-#: app/templates/components/contact.html:64
+#: app/templates/components/contact.html:63
 msgid "¿Sos una persona?"
-msgstr "¿Are you a human being?"
+msgstr "Are you human?"
 
-#: app/templates/components/contact.html:79
+#: app/templates/components/contact.html:78
 msgid "Suscribirme"
 msgstr "Subscribe"
 
 #: app/templates/components/countdown.html:10
-msgid "26 al 30"
-msgstr "September"
+msgid "NERDEARLA"
+msgstr ""
 
 #: app/templates/components/countdown.html:12
-msgid "Septiembre"
-msgstr "26 - 30"
+msgid " gratuito"
+msgstr " free"
 
 #: app/templates/components/countdown.html:14
-msgid "Todo el contenido en streaming"
-msgstr "All the content via live streaming"
+msgid "Presencial y en streaming"
+msgstr "In-person + streaming"
 
 #: app/templates/components/countdown.html:18
-msgid "26 y 27"
-msgstr "26 & 27"
+msgid "Santiago de Chile"
+msgstr ""
 
 #: app/templates/components/countdown.html:19
-msgid "Charlas virtuales"
-msgstr "Virtual talks"
+msgid "11 al 13 de abril"
+msgstr "Apr 11 - 13"
 
 #: app/templates/components/countdown.html:22
-msgid "28 al 30"
-msgstr "28 - 30"
+msgid "Buenos Aires"
+msgstr ""
 
 #: app/templates/components/countdown.html:23
-#: app/templates/components/location.html:9
-msgid "Evento presencial"
-msgstr "In-person event"
+msgid "24 al 28 de septiembre"
+msgstr "Sept 24 - 28"
 
 #: app/templates/components/countdown.html:30
-msgid "Cuánto Falta para Nerdearla 2023?"
-msgstr "How long until Nerdearla 2023?"
+msgid "¿Cuánto Falta para Nerdearla 🇨🇱 2024?"
+msgstr "How long until Nerdearla 🇨🇱 2024?"
 
 #: app/templates/components/countdown.html:34
 msgid "Días"
@@ -273,74 +265,77 @@ msgstr "Minutes"
 msgid "Segundos"
 msgstr "Seconds"
 
-#: app/templates/components/countdown.html:52
-#: app/templates/components/navbar.html:72
-msgid "¡Registrate gratis!"
-msgstr "Get your free tickets!"
-
 #: app/templates/components/faq.html:30
 msgid "Preguntas frecuentes sobre"
-msgstr "Frequently asked questions about"
+msgstr ""
 
 #: app/templates/components/faq.html:30
 msgid "Nerdearla"
-msgstr "Nerdearla"
+msgstr ""
 
 #: app/templates/components/hero.html:11
 msgid "Tu dispositivo no soporta el video de fondo :("
-msgstr "Your device does not support background video :("
+msgstr ""
 
-#: app/templates/components/hero.html:15
-msgid "¡Estamos en vivo!"
-msgstr "We are live!"
+#: app/templates/components/hero.html:16
+msgid "11 al 13 de abril, 2024 - Santiago de Chile"
+msgstr "April 11 - 13, 2024 in Santiago de Chile"
 
 #: app/templates/components/hero.html:17
-msgid "26 al 30 de septiembre de 2023"
-msgstr "September 26 - 30, 2023"
+msgid "¡Muy pronto, registro gratuito!"
+msgstr "Registration coming soon!"
+
+#: app/templates/components/hero.html:18
+msgid "¡Envía tu propuesta!"
+msgstr ""
 
 #: app/templates/components/intro.html:10
 msgid "3 veces más grande que cualquier otra conferencia en Buenos Aires"
-msgstr "3 times larger than any other conference in Buenos Aires"
+msgstr ""
 
 #: app/templates/components/intro.html:13
 msgid "Access cutting-edge Product Management industry trends and networking opportunities at ProductCon London, organized by Product School. Get the European perspective on Product during a time when the field is spreading throughout the continent"
-msgstr "Access cutting-edge Product Management industry trends and networking opportunities at ProductCon London, organized by Product School. Get the European perspective on Product during a time when the field is spreading throughout the continent"
+msgstr ""
+
+#: app/templates/components/location.html:9
+msgid "Evento presencial"
+msgstr "In-person event"
 
 #: app/templates/components/location.html:14
-msgid "Ciudad Cultural Konex"
-msgstr "Ciudad Cultural Konex"
+msgid "Centro Gabriela Mistral"
+msgstr ""
 
 #: app/templates/components/location.html:14
 msgid "con streaming en vivo para todo el mundo."
-msgstr "with live streaming for the whole world."
+msgstr "plus live streaming for the whole world."
 
 #: app/templates/components/location.html:16
-msgid "Sarmiento 3131, entre Anchorena y Jean Jaures, a unas cuadras de la estación Carlos Gardel (Abasto) del Subte B y estación Once de tren y línea A."
-msgstr "Sarmiento 3131, between Anchorena and Jean Jaures, a few blocks from Carlos Gardel subway station (Abasto) and Once train station (line A)."
+msgid "Av. Alameda Libertador Bernardo O'Higgins 227, Santiago, Región Metropolitana."
+msgstr ""
 
 #: app/templates/components/navbar.html:35
 msgid "Home"
-msgstr "Home"
+msgstr ""
+
+#: app/templates/components/navbar.html:36
+msgid "Sponsors"
+msgstr ""
 
 #: app/templates/components/navbar.html:37
-msgid "Sponsors"
-msgstr "Sponsors"
-
-#: app/templates/components/navbar.html:39
-msgid "Agenda"
-msgstr "Schedule"
+msgid "Código de Conducta"
+msgstr "Code of Conduct"
 
 #: app/templates/components/recap.html:4
 msgid "Recap del año pasado"
-msgstr "Recap of last year"
+msgstr "Last year's recap"
 
 #: app/templates/components/register.html:6
 msgid "Registrate a Nerdearla 2023"
-msgstr "Register for Nerdearla 2023"
+msgstr "Register to Nerdearla 🇨🇱 2024"
 
 #: app/templates/components/register.html:7
 msgid "El evento gratuito de ciencia y tecnología más grande de Latinoamérica."
-msgstr "The largest free science and technology event in Latin America."
+msgstr ""
 
 #: app/templates/components/register.html:21
 msgid "tunombre@gmail.com"
@@ -348,27 +343,27 @@ msgstr "yourname@gmail.com"
 
 #: app/templates/components/register.html:23
 msgid "Por favor ingresá un email válido"
-msgstr "Please enter a valid email address"
+msgstr "Please enter a valid email address."
 
 #: app/templates/components/register.html:29
 msgid "Registrate gratis"
-msgstr "Register for free!"
+msgstr "Register for free"
 
 #: app/templates/components/statistics.html:13
-msgid "Así fue nuestro evento de 2022"
-msgstr "This was our event in 2022"
+msgid "Así fue nuestro evento de 2023"
+msgstr "Our 2023 event recap"
 
 #: app/templates/components/statistics.html:42
-msgid "Más de 7.000 participantes presenciales en Buenos Aires."
-msgstr "More than 7,000 in-person participants in Buenos Aires."
+msgid "Más de 800 participantes presenciales en Santiago de Chile."
+msgstr "Over 800 in-person participants in Santiago de Chile."
 
 #: app/templates/components/statistics.html:45
-msgid "Más de 20.000 participantes online durante las conferencias."
-msgstr "More than 20,000 online participants during the conferences."
+msgid "Más de 5.000 participantes online durante las conferencias."
+msgstr "Over 5,000 online attendees during the conferences."
 
 #: app/templates/components/statistics.html:48
-msgid "Más de 200 speakers de más de 20 países."
-msgstr "More than 200 speakers from over 20 countries."
+msgid "Más de 150 speakers de la región."
+msgstr "Over 150 speakers from Latin America."
 
 #: app/templates/components/statistics.html:51
 msgid "El evento es"
@@ -376,44 +371,5 @@ msgstr "The event is"
 
 #: app/templates/components/statistics.html:51
 msgid "gratuito, desde el día 0."
-msgstr "free, from day 0."
-
-#~ msgid "Conoce más!"
-#~ msgstr "Learn more!"
-
-#~ msgid "26 y 27 - charlas virtuales."
-#~ msgstr "Sept 26 and 27 - virtual talks only."
-
-#~ msgid "28 al 30 - evento presencial."
-#~ msgstr "Sept 28 30 - in-person event in Buenos Aires."
-
-#~ msgid "Todo el contenido saldrá vía streaming en vivo."
-#~ msgstr "All content will be streamed live."
-
-#~ msgid "Registrate gratis"
-#~ msgstr "Get your free tickets!"
-
-#~ msgid "¡Entrada gratuita próximamente!"
-#~ msgstr "Free tickets coming soon!"
-
-#~ msgid "Recibí todas las novedades"
-#~ msgstr "Receive all the updates"
-
-#~ msgid "Nerdearla en números"
-#~ msgstr "Nerdearla in numbers"
-
-#~ msgid "Tu e-mail"
-#~ msgstr "Your email address"
-
-#~ msgid "Suscribirme"
-#~ msgstr "Subscribe"
-
-#~ msgid "Registrarme"
-#~ msgstr "Register"
-
-#~ msgid "Stands virtuales"
-#~ msgstr "Virtual booths"
-
-#~ msgid "Búsquedas laborales"
-#~ msgstr "Job offers"
+msgstr "free, since day 0"
 
