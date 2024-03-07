@@ -1,125 +1,56 @@
 name                                       ,category       ,file                    ,link
-ICBC                                       ,Adamantium     ,icbc.svg                ,https://sysar.my/icbc
-Openqube                                   ,Adamantium     ,openqube.svg            ,https://sysar.my/openqube
-BBVA                                       ,Diamond        ,bbva.svg                ,https://sysar.my/bbva
-NEORIS                                     ,Diamond        ,neoris.svg              ,https://sysar.my/neoris
-Galicia                                    ,Diamond        ,galicia.svg             ,https://sysar.my/galicia
-AGEA (Clarín)                              ,Diamond        ,clarin.svg              ,https://sysar.my/clarin
-Accenture                                  ,Platinum       ,accenture.svg           ,https://sysar.my/accenture
-NTT Data                                   ,Platinum       ,nttdata.svg             ,https://sysar.my/ntt
-Naranja X                                  ,Platinum       ,naranjax.svg            ,https://sysar.my/naranjax
-Telecom                                    ,Platinum       ,telecom.svg             ,https://sysar.my/telecom
-Microsoft                                  ,Platinum       ,microsoft.svg           ,https://sysar.my/microsoft
-DigitalNaoTecmilenio                       ,Platinum       ,digitalnaox.svg         ,https://sysar.my/digitalnao
-Tecmilenio                                 ,Platinum       ,tecmilenio.svg          ,https://sysar.my/tecmilenio
-Kopius                                     ,Gold           ,kopius.svg              ,https://sysar.my/kopius
-Santander                                  ,Gold           ,santander.svg           ,https://sysar.my/santander
-Mirgor                                     ,Gold           ,mirgor.svg              ,https://sysar.my/mirgor
-IT Resources                               ,Gold           ,itr.svg                 ,https://sysar.my/itresources
-monashees                                  ,Gold           ,monashees.svg           ,https://sysar.my/monashees
-IPLAN                                      ,Gold           ,iplan.svg               ,https://sysar.my/iplan
-Payoneer                                   ,Gold           ,payoneer.png            ,https://sysar.my/payoneer
-WeWork                                     ,Gold           ,wework.svg              ,https://sysar.my/wework
+GitHub                                     ,Adamantium     ,github.svg              ,https://sysar.my/github
+Falabella								   ,Diamond		   ,falabella.svg           ,https://sysar.my/falabella
+Openqube                                   ,Diamond        ,openqube.svg            ,https://sysar.my/openqube
 Linux Professional Institute               ,Gold           ,lpi.svg                 ,https://sysar.my/lpi
-Prisma Medios de Pago                      ,Gold           ,prisma.svg              ,https://sysar.my/prisma
 AreaTres                                   ,Gold           ,areatres.svg            ,https://sysar.my/areatres
-Kin+Carta                                  ,Silver         ,kincarta.svg            ,https://sysar.my/kinandcarta
-Softtek                                    ,Silver         ,softtek.svg             ,https://sysar.my/softtek
-WeHouse                                    ,Silver         ,wehouse.svg             ,https://sysar.my/wehouse
-EmiLabs                                    ,Silver         ,emilabs.svg             ,https://sysar.my/emilabs
-Fu.do                                      ,Silver         ,fudo.svg                ,https://sysar.my/fudo
-Redbee                                     ,Silver         ,redbee_studio.svg       ,https://sysar.my/redbee
-Ekumen                                     ,Silver         ,ekumen.svg              ,https://sysar.my/ekumen
-Svitla                                     ,Silver         ,svitla.svg              ,https://sysar.my/svitla
-Galileo+Technisys                          ,Silver         ,galileo+technisys.svg   ,https://sysar.my/galileo
-UMA                                        ,Silver         ,uma.svg                 ,https://sysar.my/uma
-Datalytics                                 ,Bronze         ,datalytics.svg          ,https://sysar.my/datalytics
-Caylent                                    ,Bronze         ,caylent.svg             ,https://sysar.my/caylent
-Crowdar                                    ,Bronze         ,crowdar.svg             ,https://sysar.my/crowdar
-Wyeworks                                   ,Bronze         ,wyeworks.svg            ,https://sysar.my/wyeworks
-Interbanking                               ,Bronze         ,interbanking.svg        ,https://sysar.my/interbanking
-Oracle                                     ,Bronze         ,oracle.svg              ,https://sysar.my/oracle
-IT Patagonia                               ,Bronze         ,itpatagonia.svg         ,https://sysar.my/itpatagonia
-Iquall Networks                            ,Bronze         ,iquallnetworks.svg      ,https://sysar.my/iquallnetworks
-COELSA                                     ,Bronze         ,coelsa.svg              ,https://sysar.my/coelsa
-Pipol Hub                                  ,Bronze         ,pipol.svg               ,https://sysar.my/pipol
-Donweb Cloud                               ,Bronze         ,donweb.svg              ,https://sysar.my/donweb
-Envíalo Simple                             ,Bronze         ,envialosimple.svg       ,https://sysar.my/envialosimple
-Ordina                                     ,Bronze         ,ordina.svg              ,https://sysar.my/ordina
-Civo                                       ,Bronze         ,civo.svg                ,https://sysar.my/civo
-Modak                                      ,Bronze         ,modak.svg               ,https://sysar.my/modak
-Computer History Museum                    ,Nos apoyan     ,chm.png                 ,https://sysar.my/chm
+Ovidio                                     ,Silver         ,ovidio.svg              ,https://sysar.my/ovidio
+ATDT INFORMATICA SRL                       ,Silver         ,atdt.png                ,https://atdt.com.ar
+Short.io                                   ,Bronze         ,shortio.png             ,https://sysar.my/shortio
+Sticker Mule                               ,Bronze         ,stickermule.png         ,https://sysar.my/stickermule       
 Open Source Initiative                     ,Nos apoyan     ,osi.png                 ,https://sysar.my/osi
+Computer History Museum                    ,Nos apoyan     ,chm.png                 ,https://sysar.my/chm
 ISOC                                       ,Nos apoyan     ,isoc.png                ,https://sysar.my/isoc
-The Linux Fundation                        ,Nos apoyan     ,linuxfundation.png      ,https://www.linuxfoundation.org/
-Planetario                                 ,Nos apoyan     ,planetario.svg          ,https://planetario.buenosaires.gob.ar/
+Planetario                                 ,Nos apoyan     ,planetario.svg          ,https://planetario.buenosaires.gob.ar
 Museo de Informática                       ,Nos apoyan     ,museoinformatica.png    ,https://sysar.my/museoinformatica
-Huesped                                    ,Nos apoyan     ,huesped.svg             ,https://www.huesped.org.ar/
-El Gato y La Caja                          ,Nos apoyan     ,elgatoylacaja.svg       ,https://sysar.my/elgatoylacaja
-BungeBorn                                  ,Nos apoyan     ,bungeborn.png           ,https://www.fundacionbyb.org
-Chicas en Tecnología                       ,Nos apoyan     ,cet.svg                 ,https://chicasentecnologia.org/
-Roboteam                                   ,Nos apoyan     ,roboteam.png            ,https://ewh.ieee.org/r9/argentina/roboteam/
-Chalin Tech                                ,Nos apoyan     ,chalintech.svg          ,https://instagram.com/chalintech
-UADE                                       ,Nos apoyan     ,uade.png                ,https://sysar.my/uade
-ORT                                        ,Nos apoyan     ,ort.svg                 ,https://sysar.my/ort
-Investigaciones UBA                        ,Nos apoyan     ,ubainvestigacion.png    ,https://cyt.rec.uba.ar
-Departamento de Computación de Exactas-UBA ,Nos apoyan     ,deptocomputacionuba.png ,https://www.dc.uba.ar
-UTN-FRBA                                   ,Nos apoyan     ,utn.svg                 ,https://www.frba.utn.edu.ar 
+DCC                                        ,Nos apoyan     ,dcc.svg                 ,https://www.dcc.uchile.cl/
+Universidad Finis Terrae                   ,Nos apoyan     ,finis.png               ,https://ingenieria.uft.cl/
+Facultad de Ingeniería y Ciencias - UDP	   ,Nos apoyan	   ,udp.png					,https://eit.udp.cl/
+Talento Digital para Chile                 ,Nos apoyan     ,talentodigital.png      ,https://www.talentodigitalparachile.cl
+Carrera Linux                              ,Nos apoyan     ,carreralinux.svg        ,https://www.carreralinux.cl
 UTN-INSPT                                  ,Nos apoyan     ,utn-inspt.svg           ,https://inspt.utn.edu.ar
-UDESA                                      ,Nos apoyan     ,udesa.svg               ,https://udesa.edu.ar/
-Enfoque Lúdico                             ,Nos apoyan     ,enfoque_ludico.svg      ,https://enfoqueludico.com
+Universidad Siglo 21                       ,Nos apoyan     ,siglo21.svg             ,https://21.edu.ar
+4geeks                                     ,Nos apoyan     ,4geeks.svg              ,https://4geeksacademy.com/es/coding-campus/bootcamp-programacion-santiago
+Huesped                                    ,Nos apoyan     ,huesped.svg             ,https://www.huesped.org.ar
+El Gato y La Caja                          ,Nos apoyan     ,elgatoylacaja.svg       ,https://sysar.my/elgatoylacaja
+Pangea Cooperativa						   ,Nos apoyan     ,pangea.svg              ,https://www.pangeacooperativa.com
+Eidos                                      ,Nos apoyan     ,eidos.svg               ,https://www.eidosglobal.org
 Mujeres en Tecnología                      ,Nos apoyan     ,met.svg                 ,https://mujeresentecnologia.org/
-Incluyeme.com                              ,Nos apoyan     ,incluyeme.com.svg       ,https://incluyeme.com/
-Eidos                                      ,Nos apoyan     ,eidos.svg               ,https://www.eidosglobal.org/
+Abstracta                                  ,Nos apoyan     ,abstracta.svg           ,https://abstracta.us
 ITgrarte                                   ,Nos apoyan     ,itgrarte.png            ,https://sysar.my/itgrarte
-ADVA                                       ,Nos apoyan     ,adva.svg                ,https://adva.vg/
-Fundación FLOR                             ,Nos apoyan     ,flor.svg                ,https://www.flor.org.ar/
+ADVA                                       ,Nos apoyan     ,adva.svg                ,https://adva.vg
+Fundación FLOR                             ,Nos apoyan     ,flor.svg                ,https://www.flor.org.ar
 TransTI                                    ,Nos apoyan     ,transti.svg             ,https://trans-ti.com
-Nahual Argentina                           ,Nos apoyan     ,nahual_argentina.svg    ,http://www.nahual.com.ar/
-Nahual Uruguay                             ,Nos apoyan     ,nahual_uruguay.svg      ,https://nahual.uy/
-Mocha Celis                                ,Nos apoyan     ,mocha.svg               ,https://mochacelis.org
-Metadocencia                               ,Nos apoyan     ,metadocencia.png        ,https://www.metadocencia.org
-Stenomatic                                 ,Nos apoyan     ,stenomatic.svg          ,https://www.stenomatic.ai/conference-interpretation
-Dane                                       ,Nos apoyan     ,dane.svg                ,http://www.proyectodane.org
-TINC                                       ,Nos apoyan     ,tinc.png                ,https://sysar.my/tinc
-Transistemas                               ,Nos apoyan     ,transistemas.png        ,https://www.linkedin.com/company/transistemasok/
-Comité de Mujeres en Tecnología            ,Nos apoyan     ,comitemujeresentec.png  ,https://www.linkedin.com/company/comit%C3%A9-mujeres-en-tecnolog%C3%ADa
-Media Pila                                 ,Nos apoyan     ,mediapila.svg           ,https://mediapila.org.ar
-Semillero Digital                          ,Nos apoyan     ,semillerodigital.svg    ,https://semillerodigital.org/
-Fundación Pescar                           ,Nos apoyan     ,pescar.svg              ,https://www.pescar.org.ar
-Wingu                                      ,Nos apoyan     ,wingu.svg               ,https://winguweb.org
-Chicas Programadoras                       ,Nos apoyan     ,chicasprogramadoras.svg ,https://www.chicasprogramadoras.club/
-ATDT INFORMATICA SRL                       ,Nos apoyan     ,atdt.png                ,https://atdt.com.ar
-C mara Argentina de Comercio Electr nico   ,Nos apoyan     ,cace.png                ,https://cace.org.ar
 Escuela de Datos Vivos                     ,Nos apoyan     ,escueladedatosvivos.svg ,https://www.escueladedatosvivos.ai
+Cámara Argentina de Comercio Electrónico   ,Nos apoyan     ,cace.png                ,https://cace.org.ar
+Semillero Digital                   	   ,Nos apoyan	   ,semillerodigital.svg	,https://semillerodigital.org/
+Sysarmy Chile                              ,Comunidades    ,sysarmycl.svg           ,https://sysar.my/sysarmycl
+JSChile 								   ,Comunidades    ,jschile.svg 		    ,https://jschile.org
+JSConf Chile 							   ,Comunidades    ,jsconfchile.svg         ,https://jsconf.cl
+PyCon Chile                                ,Comunidades    ,pyconchile.png          ,https://pycon.cl
+Devs Chile                                 ,Comunidades    ,devschile.svg           ,https://devschile.cl
+SJNHS                                      ,Comunidades    ,sjnhs.svg               ,http://sinjrnohaysr.com
+Women Techmakers Chile                     ,Comunidades    ,womentechmakerschile.svg ,https://www.instagram.com/wtmchile
 Sysarmy México                             ,Comunidades    ,sysarmymx.png           ,https://sysar.my/sysarmymx
 AWS Girls                                  ,Comunidades    ,awsgirls.svg            ,https://www.linkedin.com/company/awsgirlsargentina
 Doctarmy                                   ,Comunidades    ,doctarmy.png            ,https://sysar.my/doctarmy
-Las De Sistemas                            ,Comunidades    ,lasdesistemas.png       ,https://lasdesistemas.org
-Frontend Café                              ,Comunidades    ,frontendcafe.png        ,https://frontend.cafe
-Speedcube                                  ,Comunidades    ,speedcube.svg           ,http://linktr.ee/asa_speedcubing
-Midudev					   ,Comunidades    ,midudev.png	  	    ,https://midu.dev/
-DVBahía                                    ,Comunidades    ,dvbahia.svg             ,https://instagram.com/dvbahia
-RLadies                                    ,Comunidades    ,rladies.svg             ,https://rladiesba.netlify.app
-Más Mujeres en UX                          ,Comunidades    ,masmujeresux.svg        ,https://www.instagram.com/masmujeresux.ar
-CanalDBA                                   ,Comunidades    ,canaldba.png            ,https://sysar.my/canaldba
-Hamping                                    ,Comunidades    ,hamping.png             ,https://sysar.my/hamping
-PyAR                                       ,Comunidades    ,pyar.svg                ,https://sysar.my/pyar
-SJNHS                                      ,Comunidades    ,sjnhs.svg               ,http://sinjrnohaysr.com/
+Midudev					                   ,Comunidades    ,midudev.png	  	        ,https://midu.dev
+Mujeres en Crypto                          ,Comunidades    ,mujeresencrypto.png     ,https://linktr.ee/mujeresencrypto
 Recruitment Latam                          ,Comunidades    ,recruitment_latam.svg   ,https://www.linkedin.com/company/recruitment-latam
 Mermelada Tech                             ,Comunidades    ,mermelada_tech.svg      ,https://www.youtube.com/channel/UCu4iiIYfIQKEYP7TH_-R9KQ
-Diseño Ético                               ,Comunidades    ,diseno_etico.svg        ,https://www.instagram.com/disenoetico.comunidad
-TestingUY                                  ,Comunidades    ,testinguy.svg           ,https://testinguy.org
-Mujeres en Crypto                          ,Comunidades    ,mujeresencrypto.png     ,https://linktr.ee/mujeresencrypto
-womens in games argentina                  ,Comunidades    ,womeningamesAR.svg      ,https://www.womeningamesar.com
-Misiones IT                                ,Comunidades    ,misionesit.svg          ,https://comit.ar
-Testing Bolivia                            ,Comunidades    ,testingbolivia.png      ,https://testingbolivia.com/
-Data Ar Community                          ,Comunidades    ,dataar.svg              ,https://linktr.ee/dataarcommunity
-Hackbuenosaires                            ,Comunidades    ,Hackbuenosaires.png     ,https://linktr.ee/hackbuenosaires27
-Banco Galicia Comunidad DataHolic          ,Comunidades    ,galiciaDataHolic.svg    ,https://www.linkedin.com/groups/12582371/
+Hack Buenos Aires %27                      ,Comunidades    ,hackbuenosaires.svg     ,https://twitter.com/hackbuenosaires
 MEPES                                      ,Media partners ,mepes.png               ,https://sysar.my/mepes
-CienciaHoy                                 ,Media partners ,cienciahoy.svg          ,https://www.chicosdecienciahoy.org.ar/
+Hackeando Productos Podcast                ,Media partners ,hackeandoproductos.svg   ,https://www.linkedin.com/company/hackeandoproductos/
 Software Gurú                              ,Media partners ,softwareguru.svg        ,https://sg.com.mx/eventos-sg
 Educación IT                               ,Media partners ,educacionit.svg         ,https://sysar.my/educacionit
-Biotecno Blog                              ,Media partners ,biotecnoblog.svg        ,https://instagram.com/biotecnoblog
-Código Facilito                            ,Media partners ,codigofacilito.svg      ,https://codigofacilito.com/
+Código Facilito                            ,Media partners ,codigofacilito.svg      ,https://codigofacilito.com

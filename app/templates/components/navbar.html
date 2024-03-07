@@ -33,10 +33,10 @@
                {# Put the items (apart of brand) of the navbar here #}
                <a class="nav-link nav-item"
                   href="{{ url_for('index', lang_code=lang_code) }}">{{ _("Home") }}</a>
+               <a class="nav-link nav-item" href="{{ url_for('sponsors', lang_code=lang_code) }}">{{ _("Sponsors") }}</a>
                <a href="{{ url_for('code_of_conduct', lang_code=lang_code) }}" class="nav-item nav-link px-2 text-white">{{ _("Código
                      de Conducta") }}</a>
-              {# <a class="nav-link nav-item"
-                  href="{{ url_for('sponsors', lang_code=lang_code) }}">{{ _("Sponsors") }}</a> #}
+              
               {# <a class="nav-link nav-item"
                   href="{{ url_for('agenda', lang_code=lang_code) }}">{{ _("Agenda") }}</a> #}
               {#  <a class="nav-link nav-item"
@@ -78,8 +78,6 @@
                {# Register button #}
                {# <a href="https://registro.nerdear.la/?utm_source=navbar"
                   class="custom_button">{{ _("¡Registrate gratis!") }}</a> #}
-                  <a href="https://sessionize.com/n24cl"
-                  class="custom_button">{{ _("¡Envía tu propuesta!") }}</a> 
             </div>
          </div>
       </div>
