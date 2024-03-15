@@ -24,6 +24,35 @@ h2 {
 	margin-bottom: 6rem;
 }
 
+.custom_button_bottom {
+	background-color: var(--nerd-red);
+	position: fixed;
+	bottom: 50px;
+	right: 30px;
+	border-radius: 50px;
+	color: #fff;
+	font-family: "Rift Soft";
+	font-size: 2.2rem;
+	font-weight: bold;
+	letter-spacing: 0.03em;
+	line-height: 1.2;
+	margin: 1.8rem auto;
+	padding: 0.4rem 1.8rem;
+	text-align: center;
+	text-decoration: none;
+	transition: all 0.3s ease;
+	z-index: 1000;
+	/* Ensure it's on top of other content */
+	border: 2px solid white;
+	/* White border */
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	/* Drop shadow */
+}
+.custom_button_bottom:hover {
+	background-color: var(--nerd-green);
+}
+
+
 @media screen and (max-width: 768px) {
 	h2 {
 		font-size: 3em;
