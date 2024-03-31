@@ -60,8 +60,8 @@ msgstr "Nerdearla Chile – 2nd edition – Apr 11 - 13"
 #: app/templates/base.html:64
 #: app/templates/base.html:71
 #: app/templates/base.html:81
-msgid "Nerdearla 2024, tres días con más de 100 charlas y talleres de tecnología, divulgación científica y una gran variedad de temas."
-msgstr "Nerdearla 2024, three days with over 100 technical talks and workshops, science content and much more!"
+msgid "Nerdearla 2024, tres días con más de 60 charlas y talleres de tecnología, divulgación científica y una gran variedad de temas."
+msgstr "Nerdearla 2024, three days with over 60 technical talks and workshops, science content and much more!"
 
 #: app/templates/code_of_conduct.html:16
 #: app/templates/components/footer.html:39
