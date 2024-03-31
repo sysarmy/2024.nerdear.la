@@ -21,11 +21,11 @@ the event, using embeds from swapcard #}
                <h3 class="text-white">
                   <br>
                   <br>
-                  {{ _("Te traemos una selección de más de 150 charlas, talleres y actividades de primer nivel.") }}
+                  {{ _("Te traemos una selección de charlas, talleres y actividades de primer nivel.") }}
                   <br />
                   <ul>
-                     <li>{{ _("Martes 26 y miércoles 27: solo charlas virtuales") }}</li>
-                     <li>{{ _("Jueves 28 al sábado 30: presencial en el Konex") }}</li>
+                     <li>{{ _("Jueves 11 de abril: solo charlas virtuales") }}</li>
+                     <li>{{ _("Viernes 12 y sábado 13 de abril: presencial en el GAM + streaming") }}</li>
                      <li>{{ _("Los talleres son solamente de manera virtual") }}</li>
                   </ul>
                   {{ _("Todo el contenido va a estar disponible vía streaming en vivo, para que no te pierdas de nada.") }}
@@ -37,7 +37,7 @@ the event, using embeds from swapcard #}
       </div>
       <br />
       <div class="container">
-         <h1>{{ _("Desplegá los ítems para conocer la agenda de cada track") }}</h1>
+         <h1>{{ _("Despliega los ítems para conocer la agenda de cada día") }}</h1>
          {# Acordeón con el contenido de las FAQ #}
          <div class="accordion">
             {% for item in agenda %}
@@ -69,11 +69,11 @@ the event, using embeds from swapcard #}
          </div>
       </div>
       <div class="d-flex flex-column align-items-center justify-content-center ">
-         <a href='https://registro.nerdear.la/?utm_source=agenda'
+         <a href='https://reg.nerdear.la/?utm_source=agenda'
             class="dark_custom_button my-3">
             <div class="dark_button__line"></div>
             <div class="dark_button__line"></div>
-            <span class="dark_button__text">{{ _("Sacá tu entrada gratuita!") }}</span>
+            <span class="dark_button__text">{{ _("¡Regístrate gratis!") }}</span>
          </a>
       </div>
       <script src="{{ url_for('static', filename='js/agenda.js') }}"></script>
