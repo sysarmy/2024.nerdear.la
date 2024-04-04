@@ -16,3 +16,4 @@ app/build/
 logs/
 !sponsors.csv
 !messages.mo
+logs/werkzeug.log
