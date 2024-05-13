@@ -1,0 +1,89 @@
+{# This page displays the sponsors of the event, divided into multiple categories #}
+{#
+	This code takes a variable with the information about each sponsor, and displays it separated by the sponsor category (which are, basically, tiers)
+
+	It expects the variable to be a dictionary with lists of dictionaries, just like the example.
+	It also expects the dictionaries to be already sorted.
+
+	If you want a version of this code that automatically sorts and groups that list of dictionaries and consumes that,
+	look for commit 66ec7bc90494a84472add4a44075da630359a510.
+	It was discarded because it looked messy
+
+EXAMPLE OF GROUPED SPONSORS:
+
+grouped sponsors = {
+    "adamantium": [
+        {
+            "name": "icbc",
+            "category": "adamantium",
+            "file": "icbc.png",
+            "link": "https://www.icbc.com.ar",
+        },
+        {
+            "name": "openqube",
+            "category": "adamantium",
+            "file": "openqube.png",
+            "link": "https://openqube.io/",
+        }
+    ],
+    "diamond": [
+        {
+            "name": "cognizant",
+            "category": "diamond",
+            "file": "cognizant.png",
+            "link": "https://sysar.my/cognizantsoftvision",
+        },
+        {
+            "name": "cognizant soft vision",
+            "category": "diamond",
+            "file": "cognizantsoftvision.png",
+            "link": "https://sysar.my/cognizantsoftvision",
+        }
+    ],
+    "silver": [
+        {
+            "name": "openqube",
+            "category": "silver",
+            "file": "openqube.png",
+            "link": "https://openqube.io/",
+        },
+        {
+            "name": "openqube",
+            "category": "silver",
+            "file": "openqube.png",
+            "link": "https://openqube.io/",
+        },
+    ],
+}
+#}
+{% extends "base.html" %}
+{% block content %}
+   <section id="sponsors">
+      <div class="container-fluid bg-trama bg-trama-fit bg-trama-green-3"
+           id="sponsors-thanks">
+         <div class="row d-flex flex-row-reverse align-items-center justify-content-center py-4">
+            <div class="col-6 col-md-4">
+               <img src="{{ url_for('static', filename='img/logos/nerd-square-detailed.png') }}"
+                    alt="Nerd logo cuadrado"
+                    class="responsive-image">
+            </div>
+            <div class="col-12 col-md-8 text-center text-md-start">
+               <div class="ms-md-4">
+                  <h1 class="display-1 fw-bold text-white">{{ _("Nerdearla es posible gracias a nuestros maravillosos sponsors") }}</h1>
+                  <h3 class="text-white">
+                     {{ _("Desde 2014, nuestro objetivo ha sido organizar un evento de clase mundial para personas en América Latina, con entrada") }}
+                     100%
+                     {{ _("gratuita. Eso no sería posible sin nuestros patrocinadores y las organizaciones que nos apoyan.") }}
+                     <br>
+                     <br>
+                     <a href="mailto:partner@sysarmy.com" style="color:#fff">{{ _("Convertite en sponsor hoy!") }}</a>
+                  </h3>
+               </div>
+            </div>
+         </div>
+      </div>
+      {% if not sponsors_error %}
+         {% include "components/sponsors_generator.html" %}
+      {% endif %}
+   </section>
+{% endblock content %}

@@ -1,0 +1,101 @@
+:root {
+	/* color type A */
+	--dark_custom_button_line_color: #000000;
+	--dark_custom_button_back_color: #ffecf6;
+
+	/* color type B */
+	/* --line_color: #1b1919;
+	--back_color: #e9ecff; */
+
+	/* color type C */
+	/* --line_color: #00135c;
+	--back_color: #defffa; */
+}
+
+.dark_custom_button {
+	position: relative;
+	z-index: 0;
+	width: 260px;
+	height: 56px;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: bold;
+	color: var(--dark_custom_button_line_color);
+	letter-spacing: 2px;
+	transition: all 0.3s ease;
+}
+.dark_button__text {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+}
+.dark_custom_button::before,
+.dark_custom_button::after,
+.dark_button__text::before,
+.dark_button__text::after {
+	content: "";
+	position: absolute;
+	height: 3px;
+	border-radius: 2px;
+	background: var(--dark_custom_button_line_color);
+	transition: all 0.5s ease;
+}
+.dark_custom_button::before {
+	top: 0;
+	left: 54px;
+	width: calc(100% - 56px * 2 - 16px);
+}
+.dark_custom_button::after {
+	top: 0;
+	right: 54px;
+	width: 8px;
+}
+.dark_button__text::before {
+	bottom: 0;
+	right: 54px;
+	width: calc(100% - 56px * 2 - 16px);
+}
+.dark_button__text::after {
+	bottom: 0;
+	left: 54px;
+	width: 8px;
+}
+.dark_button__line {
+	position: absolute;
+	top: 0;
+	width: 56px;
+	height: 100%;
+	overflow: hidden;
+}
+.dark_button__line::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	width: 150%;
+	height: 100%;
+	box-sizing: border-box;
+	border-radius: 300px;
+	border: solid 3px var(--dark_custom_button_line_color);
+}
+.dark_button__line:nth-child(1),
+.dark_button__line:nth-child(1)::before {
+	left: 0;
+}
+.dark_button__line:nth-child(2),
+.dark_button__line:nth-child(2)::before {
+	right: 0;
+}
+.dark_custom_button:hover {
+	letter-spacing: 2.5px;
+	/* color: var(--nerd-green); */
+}
+.dark_custom_button:hover::before,
+.dark_custom_button:hover .dark_button__text::before {
+	width: 8px;
+}
+.dark_custom_button:hover::after,
+.dark_custom_button:hover .dark_button__text::after {
+	width: calc(100% - 56px * 2 - 16px);
+}

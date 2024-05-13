@@ -1,0 +1,84 @@
+<section id="contact">
+   <link rel="stylesheet"
+         href="{{ url_for('static', filename='css/register.css') }}">
+   <div class="d-flex flex-lg-row flex-column align-items-lg-center gap-4">
+      <div class="register-text">
+         <h2 class="text-black display-6 fw-semibold m-0">{{ _("Registrate a Nerdearla 2023") }}</h2>
+         <p class="text-black fs-5">{{ _("El evento gratuito de ciencia y tecnología más grande de Latinoamérica.") }}</p>
+      </div>
+      <div class="register-wrapper">
+         <form autocomplete="false"
+               role="form"
+               method="post"
+               action="https://registro.nerdear.la/">
+            <div class="register-email">
+               <label id="register_email" for="email" class="register-label">Email</label>
+               <input id="register_input_email"
+                      name="email"
+                      value=""
+                      class="register-input"
+                      type="email"
+                      placeholder='{{ _("tunombre@gmail.com") }}'
+                      required>
+               <span class="register-errormsg">{{ _("Por favor ingresá un email válido") }}</span>
+            </div>
+            <button type="submit"
+                    name="submit_button"
+                    id="register_submit_button"
+                    value=""
+                    class="btn-register">{{ _("Registrate gratis") }}</button>
+         </form>
+      </div>
+   </div>
+</section>
+<script>
+    // // Select the form element
+    // const form = document.querySelector('form');
+
+    // // Add an event listener to intercept the form submission
+    // form.addEventListener('submit', function(event) {
+    //   // Prevent the default submission so we can modify the action attribute
+    //   event.preventDefault();
+
+    //   // Get the email input value
+    //   const email = document.getElementById('register_input_email').value;
+
+    //   // Modify the action URL to include the email as a query parameter
+    //   form.action = `https://registro.nerdear.la/?register=${encodeURIComponent(email)}`;
+
+    //   // Submit the form programmatically
+    //   form.submit();
+    // });
+
+
+    // Function to generate a random token
+    function generateToken() {
+        // Generate a random array of 16 bytes
+        const array = new Uint8Array(16);
+        crypto.getRandomValues(array);
+
+        // Convert the random bytes to a hexadecimal string
+        return Array.from(array, byte => byte.toString(16).padStart(2, '0')).join('');
+    }
+
+    // Select the form element
+    const form = document.querySelector('form');
+
+    // Add an event listener to intercept the form submission
+    form.addEventListener('submit', function(event) {
+        // Prevent the default submission so we can modify the action attribute
+        event.preventDefault();
+
+        // Get the email input value
+        const email = document.getElementById('register_input_email').value;
+
+        // Generate a token
+        const token = generateToken();
+
+        // Modify the action URL to include the email and token as query parameters
+        form.action = `https://registro.nerdear.la/?register=${encodeURIComponent(email)}&token=${encodeURIComponent(token)}`;
+
+        // Submit the form programmatically
+        form.submit();
+    });
+</script>

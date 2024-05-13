@@ -1,0 +1,42 @@
+[
+	{
+		"title": "Stands Virtuales",
+		"iframe_url": "https://app.swapcard.com/widget/event/nerdearla-2022/exhibitors/RXZlbnRWaWV3XzM3ODQ1Nw==?showActions=true",
+		"ignore": true
+	},
+	{
+		"title": "Ofertas Laborales",
+		"iframe_url": "https://app.swapcard.com/widget/event/nerdearla-2022/products/RXZlbnRWaWV3XzM4NDU0MA==?showActions=true",
+		"ignore": true
+	},
+	{
+		"title": "Jueves 11 de abril (virtual)",
+		"iframe_url": "https://app.swapcard.com/widget/event/nerdearla-chile-2024/plannings/RXZlbnRWaWV3XzgxMDg4NQ==?showActions=true",
+		"ignore": false,
+		"cssName": "test"
+	},
+	{
+		"title": "Viernes 12 de abril (GAM + streaming)",
+		"iframe_url": "https://app.swapcard.com/widget/event/nerdearla-chile-2024/plannings/RXZlbnRWaWV3XzgxMDg4Ng==?showActions=true",
+		"ignore": false,
+		"cssName": "data"
+	},
+	{
+		"title": "Sábado 13 de abril (GAM + streaming)",
+		"iframe_url": "https://app.swapcard.com/widget/event/nerdearla-chile-2024/plannings/RXZlbnRWaWV3XzgxMDg4Nw==?showActions=true",
+		"ignore": false,
+		"cssName": "dev"
+	},
+	{
+		"title": "Workshops virtuales",
+		"iframe_url": "https://app.swapcard.com/widget/event/nerdearla-chile-2024/plannings/RXZlbnRWaWV3XzgxMDg4NA==?showActions=true",
+		"ignore": false,
+		"cssName": "infra"
+	},
+	{
+		"title": "Agenda Completa",
+		"iframe_url": "https://app.swapcard.com/widget/event/nerdearla-chile-2024/plannings/RXZlbnRWaWV3Xzc5Mjk2Ng==?showActions=true",
+		"ignore": false,
+		"cssName": "nerd"
+	}
+]

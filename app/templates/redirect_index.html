@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block content %}
+   {# Necessary for frozen flask#}
+   <a href="{{ url_for('index', lang_code=en) }}"></a>
+   <a href="{{ url_for('index', lang_code=es) }}"></a>
+   <script>
+       // Get the user's preferred language from the browser
+       const userLanguage = navigator.language || navigator.userLanguage;
+
+       // Create a URL object based on the current URL
+       const url = new URL(window.location.href);
+
+       // Remove any existing query parameters
+       url.search = '';
+
+       // Check if the user's preferred language is Spanish
+       if (userLanguage.startsWith('es')) {
+           url.pathname = '/es/'; // Set the path to Spanish version
+       } else {
+           url.pathname = '/en/'; // Set the path to English version (default)
+       }
+
+       // Perform the redirection
+       window.location.href = url.href;
+   </script>
+{% endblock content %}

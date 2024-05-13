@@ -1,0 +1,47 @@
+{# This components displays the footer of the page #}
+<section id="footer" class="bg-black footer">
+   <link rel="stylesheet"
+         href="{{ url_for('static', filename='css/footer.css') }}">
+   <footer class="d-flex flex-wrap justify-content-between align-items-center px-5 py-3">
+      <p class="col-md-4 text-white mb-0">© 2024 Nerdearla</p>
+      {# Social icons #}
+      <div class="col-md-4 d-flex justify-content-center align-items-center flex-row gap-4">
+         <!-- Icons -->
+         <a class="nav-link nav-item" href="https://nerdear.live/yt" aria-label="Youtube Nerdearla">
+            <i class="fab fa-youtube text-white"></i>
+         </a>
+         <a class="nav-link nav-item" href="https://sysar.my/discord" aria-label="Discord Sysarmy">
+            <i class="fab fa-discord text-white"></i>
+         </a>
+         <a class="nav-link nav-item"
+            href="https://www.instagram.com/nerdear_la/" aria-label="Instagram Nerdearla">
+            <i class="fab fa-instagram text-white"></i>
+         </a>
+         <a class="nav-link nav-item"
+            href="https://www.linkedin.com/company/sysarmy/" aria-label="Linkedin Sysarmy">
+            <i class="fab fa-linkedin text-white"></i>
+         </a>
+         <a class="nav-link nav-item" href="https://nerdear.live/spotify" aria-label="Spotify Nerdearla">
+            <i class="fab fa-spotify text-white"></i>
+         </a>
+         <a class="nav-link nav-item" href="https://twitter.com/nerdearla" aria-label="Twitter Nerdearla">
+            <i class="fab fa-twitter text-white"></i>
+         </a>
+      </div>
+      <ul class="nav col-md-4 justify-content-md-end">
+         <li>
+            <a href="{{ url_for('index', lang_code=lang_code) }}"
+               class="nav-item nav-link px-2 text-white">Home</a>
+         </li>
+        {# <li>
+           <a href="{{ url_for('sponsors', lang_code=lang_code) }}"
+               class="nav-item nav-link px-2 text-white">Sponsors</a>
+        </li> #}
+         <li>
+            <a href="{{ url_for('code_of_conduct', lang_code=lang_code) }}"
+               class="nav-item nav-link px-2 text-white">{{ _("Código de Conducta") }}</a>
+         </li>
+         <li>{# <a href="{{ url_for('agenda', lang_code=lang_code ) }}" class="nav-item nav-link px-2 text-body-secondary">Agenda</a> #}</li>
+      </ul>
+   </footer>
+</section>

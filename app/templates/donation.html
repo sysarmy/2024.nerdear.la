@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block content %}
+   <section id="sponsors">
+      <div class="container-fluid bg-trama bg-trama-fit bg-trama-green-3"
+           id="sponsors-thanks">
+         <div class="row d-flex flex-row-reverse align-items-center justify-content-center py-4">
+            <div class="col-6 col-md-4">
+               <img src="{{ url_for('static', filename='img/logos/nerd-square-detailed.png') }}"
+                    alt="Nerd logo cuadrado"
+                    class="responsive-image">
+            </div>
+            <div class="col-12 col-md-8 text-center text-md-start">
+               <h1 class="display-1 fw-bold text-white">{{ _("¡Gracias por tu apoyo! ❤️") }}</h1>
+               <h3 class="text-white">
+                  {{ _("Te esperamos de 26 al 30 de septiembre en Ciudad Cultural Konex y online.") }}
+                  100%
+                  {{ _("Como agradecimiento por tu aporte, de ofrecemos algunos ?✂️ en la Cuponerda") }}
+                  <br>
+                  <br>
+                  <a href="https://cuponerda.sysarmy.com/" style="color:#fff">{{ _("Ir a la Cuponerda") }}</a>
+               </h3>
+            </div>
+         </div>
+      </div>
+   </section>
+{% endblock content %}

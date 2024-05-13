@@ -1,0 +1,87 @@
+{# This component displays the navbar at the top of the page #}
+{# Navbar start #}
+<style>
+:ul{
+--bs-dropdown-min-width: 3rem
+}
+</style>
+{% set languages = ["en", "es"] %}
+<section id="navbar">
+   <link rel="stylesheet"
+         href="{{ url_for('static', filename='css/custom_button.css') }}">
+   <link rel="stylesheet"
+         href="{{ url_for('static', filename='css/navbar.css') }}">
+   <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+      <div class="container-fluid">
+         <a class="navbar-brand"
+            href="{{ url_for('index', lang_code=lang_code) }}">
+            <img src="{{ url_for('static', filename='img/logos/n-detailed.svg') }}"
+                 alt="Bootstrap"
+                 height="90" />
+         </a>
+         <button class="navbar-toggler"
+                 type="button"
+                 data-bs-toggle="collapse"
+                 data-bs-target="#collapsable-navbar-menu"
+                 aria-controls="collapsable-navbar-menu"
+                 aria-expanded="false"
+                 aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse " id="collapsable-navbar-menu">
+            <div class="navbar-nav me-auto justify-content-center align-items-center">
+               {# Put the items (apart of brand) of the navbar here #}
+               <a class="nav-link nav-item" href="{{ url_for('index', lang_code=lang_code) }}">{{ _("Home") }}</a>
+               <a class="nav-link nav-item"
+                  href="https://reg.nerdear.la/?utm_source=navbar"><span style="color:#ffaf00">{{ _("Regístrate gratuitamente") }}</span></a>
+               <a class="nav-link nav-item" href="{{ url_for('agenda', lang_code=lang_code) }}">{{ _("Agenda") }}</a>
+               <a class="nav-link nav-item" href="https://reg.nerdear.la/qr">{{ _("Ingresa con QR") }}</a>
+               <a class="nav-link nav-item" href="{{ url_for('sponsors', lang_code=lang_code) }}">{{ _("Sponsors") }}</a>
+               {# <a href="{{ url_for('code_of_conduct', lang_code=lang_code) }}" class="nav-item nav-link px-2 text-white">{{ _("Código de Conducta") }}</a> #}
+               <a class="nav-link nav-item"
+                  href="https://nerdear.live/sponsors">{{ _("Stands virtuales") }}</a>
+              {# <a class="nav-link nav-item"
+                  href="https://nerdear.live/jobs">{{ _("Búsquedas laborales") }}</a>
+              {#   <a class="nav-link nav-item"
+                  href="https://nerdear.la/qr"><span style="color:#ffaf00">{{ _("Ingresá con QR") }}</span></a> #}
+            </div>
+            {# Lang menu #}
+            <div class="lang-nav ms-auto">
+               <a class="lang-item lang-es"
+                  href="{{ url_for('index', lang_code='es') }}">ES</a> |
+               <a class="lang-item lang-en"
+                  href="{{ url_for('index', lang_code='en') }}">EN</a>
+            </div>
+            {# Social icons #}
+            <div class="navbar-nav d-flex justify-content-center align-items-center flex-row gap-4 gap-sm-2 gap-lg-1">
+               <!-- Icons -->
+               <a class="nav-link nav-item" href="https://nerdear.live/yt" aria-label="YouTube Nerdearla">
+                  <i class="fab fa-youtube text-white"></i>
+               </a>
+               <a class="nav-link nav-item" href="https://sysar.my/discord" aria-label="Discord Sysarmy">
+                  <i class="fab fa-discord text-white"></i>
+               </a>
+               <a class="nav-link nav-item"
+                  href="https://www.instagram.com/nerdear_la/" aria-label="Instagram Nerdearla">
+                  <i class="fab fa-instagram text-white"></i>
+               </a>
+               <a class="nav-link nav-item"
+                  href="https://www.linkedin.com/company/sysarmy/" aria-label="Linkedin Sysarmy">
+                  <i class="fab fa-linkedin text-white"></i>
+               </a>
+               <a class="nav-link nav-item" href="https://nerdear.live/spotify" aria-label="Spotify Nerdearla">
+                  <i class="fab fa-spotify text-white"></i>
+               </a>
+               <a class="nav-link nav-item" href="https://twitter.com/nerdearla" aria-label="Twitter Nerdearla">
+                  <i class="fab fa-twitter text-white"></i>
+               </a>
+            </div>
+            <div class="navbar-nav d-flex justify-content-center align-items-center">
+               {# Register button #}
+               <a href="https://nerdear.live"
+                  class="custom_button">{{ _("¡Mira el evento en vivo!") }}</a>
+            </div>
+         </div>
+      </div>
+   </nav>
+</section>

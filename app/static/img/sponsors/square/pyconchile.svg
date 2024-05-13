@@ -1,0 +1,32 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" xmlns:ns1="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 450 450" style="enable-background:new 0 0 450 220;" xml:space="preserve">
+<ns0:style type="text/css" transform="translate(0.0, 115.0)">
+	.st0{filter:url(#Adobe_OpacityMaskFilter);}
+	.st1{mask:url(#_x36_470a7edf2_00000024716925749744147100000013199772465697806220_);}
+</ns0:style>
+<ns0:g transform="translate(0.0, 115.0)">
+	<ns0:defs>
+		<ns0:filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="140.7" y="47" width="168.7" height="126">
+			<ns0:feColorMatrix type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0" />
+		</ns0:filter>
+	</ns0:defs>
+	
+		<ns0:mask maskUnits="userSpaceOnUse" x="140.7" y="47" width="168.7" height="126" id="_x36_470a7edf2_00000024716925749744147100000013199772465697806220_">
+		<ns0:g class="st0">
+			<ns0:g transform="matrix(0.903956, 0, 0, 0.904378, 10.778591, 122.78339)">
+				
+					<ns0:image style="overflow:visible;enable-background:new    ;" width="872" height="651" ns1:href="924167A7E3F972BA.jpg" transform="matrix(0.214 0 0 0.214 143.6726 -83.7961)">
+				</ns0:image>
+			</ns0:g>
+		</ns0:g>
+	</ns0:mask>
+	<ns0:g class="st1">
+		<ns0:g transform="matrix(0.903956, 0, 0, 0.904378, 10.778591, 122.78339)">
+			<ns0:g style="enable-background:new    ;">
+				
+					<ns0:image style="overflow:visible;" width="872" height="651" ns1:href="924167A7E3F972BD.jpg" transform="matrix(0.214 0 0 0.214 143.6726 -83.7961)">
+				</ns0:image>
+			</ns0:g>
+		</ns0:g>
+	</ns0:g>
+</ns0:g>
+</ns0:svg>

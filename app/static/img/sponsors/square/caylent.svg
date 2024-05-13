@@ -1,0 +1,39 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" xmlns:ns1="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 450 450" style="enable-background:new 0 0 450 220;" xml:space="preserve">
+<ns0:style type="text/css" transform="translate(0.0, 115.0)">
+	.st0{fill:none;}
+	.st1{fill:#231F20;}
+	.st2{clip-path:url(#SVGID_00000127034085173288885080000005926648719152700069_);fill:#231F20;}
+	.st3{clip-path:url(#SVGID_00000080898322430595732830000004698909743391992988_);fill:#231F20;}
+</ns0:style>
+<ns0:rect class="st0" width="450" height="220" transform="translate(0.0, 115.0)" />
+<ns0:g transform="translate(0.0, 115.0)">
+	<ns0:polygon class="st1" points="218.6,91.8 212.6,91.8 212.6,128.6 236.3,128.6 236.3,122.5 218.6,122.5  " />
+	<ns0:polygon class="st1" points="253.1,128.6 280,128.6 280,122.5 253.1,122.5  " />
+	<ns0:polygon class="st1" points="280,107.1 253.2,107.1 253.2,113.3 280,113.3  " />
+	<ns0:polygon class="st1" points="253.1,97.9 280,97.9 280,91.8 253.1,91.8  " />
+	<ns0:polygon class="st1" points="137.1,91.8 120.7,128.6 127.3,128.6 140.1,99.9 152.8,128.6 159.5,128.6 143.1,91.8 140.1,91.8  " />
+	<ns0:path class="st1" d="M93.6,97.4c3.4,0,6.6,1.4,8.9,3.7l4.3-4.3c-3.4-3.4-8-5.4-13.2-5.4C83.3,91.4,75,99.7,75,110   s8.3,18.6,18.6,18.6c5.1,0,9.8-2.1,13.2-5.4l-4.3-4.3c-2.3,2.3-5.4,3.7-8.9,3.7c-6.9,0-12.6-5.7-12.6-12.6   C81,103.1,86.7,97.4,93.6,97.4L93.6,97.4z" />
+	<ns0:polygon class="st1" points="182.4,110 174.3,91.8 167.6,91.8 179.3,118.1 179.3,128.6 185.4,128.6 185.4,118.1 197.1,91.8    190.4,91.8  " />
+	<ns0:g>
+		<ns0:g>
+			<ns0:defs>
+				<ns0:rect id="SVGID_1_" x="75" y="91.4" width="300" height="37.3" />
+			</ns0:defs>
+			<ns0:clipPath id="SVGID_00000149345846246189108530000016592563343626580630_">
+				<ns0:use ns1:href="#SVGID_1_" style="overflow:visible;" />
+			</ns0:clipPath>
+			<ns0:polygon style="clip-path:url(#SVGID_00000149345846246189108530000016592563343626580630_);fill:#231F20;" points="324.1,118.8      303.1,91.8 296.9,91.8 296.9,128.6 303,128.6 303,101.6 324,128.6 330.2,128.6 330.2,91.8 324.1,91.8    " />
+		</ns0:g>
+		<ns0:g>
+			<ns0:defs>
+				<ns0:rect id="SVGID_00000103979791739759871670000000615018101124814482_" x="75" y="91.4" width="300" height="37.3" />
+			</ns0:defs>
+			<ns0:clipPath id="SVGID_00000177455873252201533800000003470716132754909077_">
+				<ns0:use ns1:href="#SVGID_00000103979791739759871670000000615018101124814482_" style="overflow:visible;" />
+			</ns0:clipPath>
+			<ns0:polygon style="clip-path:url(#SVGID_00000177455873252201533800000003470716132754909077_);fill:#231F20;" points="347.1,91.8      347.1,97.9 358,97.9 358,128.6 364.1,128.6 364.1,97.9 375,97.9 375,91.8    " />
+		</ns0:g>
+	</ns0:g>
+	<ns0:polygon class="st1" points="143.6,122 128.7,122 128.7,116 141,116  " />
+</ns0:g>
+</ns0:svg>

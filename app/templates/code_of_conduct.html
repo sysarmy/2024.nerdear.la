@@ -1,0 +1,82 @@
+{# Esta página contiene información sobre el Código de Conducta de Nerdearla #}
+{% extends "base.html" %}
+{% block content %}
+   <style>
+	h3 {
+		font-family: "Rift Soft";
+		font-size: 2rem;
+	}
+	h1{
+		font-size: 4rem;
+	}
+   </style>
+   <section id="code-of-conduct" class="y-spaced-section">
+      <div class="container">
+         <div class="d-flex align-items-center justify-content-center text-center">
+            <h1>{{ _("Código de Conducta") }}</h1>
+         </div>
+         <h3>{{ _("INFORMACIÓN GENERAL") }}</h3>
+         <p>
+            {{ _("A través de este código de conducta establecemos el marco para los fundamentos de Nerdearla.") }}
+            <br />
+            {{ _("El objetivo principal del evento es crear un espacio de intercambio colaborativo donde podamos divertirnos, aprender y compartir problemas y conocimientos.") }}
+         </p>
+         <h3>{{ _("CONFIAMOS EN LA DIVERSIDAD COMO PRINCIPIO ÉTICO FUNDAMENTAL DE CUALQUIER INTERCAMBIO") }}</h3>
+         <p>
+            {{ _("Nos unimos en los esfuerzos para trazar de nuevo los caminos de la discriminación, exclusión y condena de las minorías que sufrieron y sufren más dificultades para ejercer con libertad e igualdad de oportunidades sus plenas competencias, capacidades y potencialidades.") }}
+         </p>
+         <h3>{{ _("NUESTRO ESPÍRITU ES FOMENTAR UN AMBIENTE LIBRE DE DISCRIMINACIÓN") }}</h3>
+         <p>
+            {{ _("Somos conscientes de los múltiples cruces que interfieren con el logro de este objetivo máximo, por lo que creemos que es nuestro trabajo activo y el de toda la comunidad involucrarse en este desafío.") }}
+         </p>
+         <p>
+            {{ _("Esperamos que los patrocinadores, oradores, organizadores y todas las personas que asistan al evento respeten los siguientes principios de participación y colaboración:") }}
+         </p>
+         <ol>
+            <li>
+               {{ _("Mantener en todo momento un diálogo amigable y respetuoso que fomente la mejor versión del intercambio posible.") }}
+            </li>
+            <li>
+               {{ _("Respetar la diversidad en todas sus formas: cultural, género, orientación sexual, discapacidad, apariencia física, edad, profesional, religiosa, perspectivas ideológicas, etc.") }}
+            </li>
+            <li>
+               {{ _("No discriminar, excluir, acosar o ejercer actos que de cualquier manera menoscaben la dignidad de las personas.") }}
+            </li>
+            <li>{{ _("Responsabilizarse del espacio compartido cuidándolo.") }}</li>
+            <li>
+               {{ _("Abstenerse de presentar material, imágenes o actividades cuyo contenido pueda dañar, disminuir u objetivar a personas o grupos.") }}
+            </li>
+         </ol>
+         <h3>{{ _("CONTACTA A LA ORGANIZACIÓN") }}</h3>
+         <p>
+            {{ _("Si observas y/o experimentas que estos principios no están siendo respetados, contacta con la organización vía WhatsApp al +54 9 11 2342-0868 y brindaremos la atención necesaria.") }}
+         </p>
+         <p>
+            {{ _("Ante comportamientos de acoso, discriminación o agresión, se espera que cesen de inmediato. Dependiendo del caso, se procederá a sancionar, expulsar y/o revisar la permanencia en futuros eventos de la comunidad.") }}
+         </p>
+         <p>
+            {{ _("Esperamos contar con la cooperación activa de cada participante para generar un espacio enriquecedor y virtuoso que acompañe estas políticas y haga de Nerdearla un lugar de encuentro heterogéneo, múltiple, amigable e inclusivo.") }}
+         </p>
+         <p>
+            {{ _("Este código de conducta fue desarrollado por") }}
+            <a href="https://twitter.com/digencuentros"
+               target="_blank"
+               rel="noopener">{{ _("DiG Encuentros") }}</a>
+            {{ _("y está disponible para su uso en eventos producidos por comunidades con entrada gratuita, bajo la") }}
+            <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+               target="_blank"
+               rel="noopener">
+               {{ _("Licencia Internacional Attribution-NonCommercial-ShareAlike 4.0 de Creative Commons") }}
+            </a>.
+         </p>
+         <p>
+            <img decoding="async"
+                 loading="lazy"
+                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Cc-by-nc-sa_icon.svg/640px-Cc-by-nc-sa_icon.svg.png"
+                 alt=""
+                 width="176"
+                 height="62" />
+         </p>
+      </div>
+   </section>
+{% endblock content %}

@@ -1,0 +1,21 @@
+{# This component displays a hero section, which should greet the user in the index.html #}
+{# TODO: Change background to a video #}
+<section id="hero">
+   <link rel="stylesheet"
+         href="{{ url_for('static', filename='css/hero.css') }}" />
+   <div class="d-flex  justify-content-center">
+      <div class="video-container">
+         <video autoplay loop muted playsinline>
+            <source src="{{ url_for('static', filename='img/intro.webm') }}"
+                    type="video/webm">
+            {{ _("Tu dispositivo no soporta el video de fondo :(") }}
+         </video>
+         <div class="darken-overlay"></div>
+      {#   <a href="https://nerdear.la/qr" class="custom_button_qr">{{ _("Ingresá con QR") }}</a> #}
+         <div class="logo"></div>
+         <p class="blurb no-border text-center">{{ _("11 al 13 de abril, 2024 - Santiago de Chile") }}<br /><br />
+            <a href="https://nerdear.live" class="custom_button_vivo">{{ _("¡Mira en vivo!") }}</a>
+         </p>
+         </div>
+   </div>
+</section>

@@ -1,0 +1,33 @@
+{# This component displays a section that explains what is Nerdearla #}
+<section id="about" class="about">
+   <link rel="stylesheet"
+         href="{{ url_for('static', filename='css/custom_button_2.css') }}">
+   <link rel="stylesheet"
+         href="{{ url_for('static', filename='css/about.css') }}">
+   <svg xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 83.43 73.78"
+        class="sticker-3">
+      <path d="M41.72 72.28H5.73c-3.25 0-5.28-3.52-3.66-6.34l17.99-31.16 18-31.17c1.63-2.82 5.69-2.82 7.32 0l17.99 31.16 17.99 31.16c1.63 2.82-.41 6.34-3.66 6.34H41.72Z" fill="#ffba00" stroke="#34495e" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" />
+      <text transform="translate(25.53 47.5)" fill="#34495e" font-family="RiftSoft-Bold, 'Rift Soft'" font-size="20"><tspan>100%</tspan><tspan x="-6.66" y="18">{{ _("gratis") }}</tspan></text>
+   </svg>
+   <div class="container">
+      <h1 class="main-title">{{ _("Sobre Nerdearla") }}</h1>
+      <div class="d-flex flex-column flex-xl-row justify-content-center align-items-center">
+         <div>
+            <iframe width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/LEvRHxyekKQ?si=R_7V7pampR1929s4"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            <p class="about-1">
+               <span>{{ _("Nerdearla es una experiencia social, tanto en el formato en persona como online, con espacio de coworking y chats en vivo, charlas, talleres y muchas oportunidades para aprender de líderes de la industria.") }}</span>
+            </p>
+         </div>
+         <p class="about-2">
+            {{ _("Desde 2014 nos dedicamos a organizar una conferencia de clase mundial, completamente gratuita, con contenido de vanguardia en ciencia y tecnología.") }}
+         </p>
+      </div>
+   </div>
+</section>
