@@ -1,5 +1,0 @@
-name = "n24"
-pages_build_output_dir = "./app/build"
-
-[build]
-command = "python -m pip install --upgrade pip && pip install -r requirements.txt && python freeze.py"
