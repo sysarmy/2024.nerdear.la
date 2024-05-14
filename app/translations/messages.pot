@@ -286,8 +286,8 @@ msgid "Tu dispositivo no soporta el video de fondo :("
 msgstr ""
 
 #: app/templates/components/hero.html:16
-msgid "11 al 13 de abril, 2024 - Santiago de Chile"
-msgstr "April 11 - 13, 2024 in Santiago de Chile"
+msgid "24 al 28 de septiembre, 2024 - Buenos Aires"
+msgstr "September 24-28, 2024 - Buenos Aires"
 
 #: app/templates/components/hero.html:17
 msgid "¡Muy pronto, registro gratuito!"
