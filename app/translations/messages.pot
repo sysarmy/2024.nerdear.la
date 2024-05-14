@@ -1,157 +1,152 @@
-# Translations template for Nerdearla 2024.
-# Copyright (C) 2024 Nerdearla
-# This file is distributed under the same license as the Nerdearla project.
-# FIRST AUTHOR <ajolo@sysarmy.com>, 2024.
+# Translations template for PROJECT.
+# Copyright (C) 2024 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
 #
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: 1.0\n"
-"Report-Msgid-Bugs-To: ajolo@sysarmy.com\n"
-"POT-Creation-Date: 2024-03-07 01:34-0300\n"
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2024-05-13 22:42-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Ariel Jolo <ajolo@sysarmy.com>\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.12.1\n"
 
 #: app/templates/agenda.html:20
-msgid "Conocé la agenda del evento"
+msgid "Conoce la agenda del evento"
 msgstr ""
 
 #: app/templates/agenda.html:24
-msgid "Te traemos una selección de más de 150 charlas, talleres y actividades de primer nivel."
+msgid "Te traemos una selección de charlas, talleres y actividades de primer nivel."
 msgstr ""
 
 #: app/templates/agenda.html:27
-msgid "Martes 26 y miércoles 27: solo charlas virtuales"
+msgid "Martes 24 y Miércoles 25 de septiembre: solo charlas virtuales"
 msgstr ""
 
 #: app/templates/agenda.html:28
-msgid "Jueves 28 al sábado 30: presencial en el Konex"
+msgid "Jueves 26, Viernes 27 y sábado 28 de septiembre: presencial en el Konex + streaming"
 msgstr ""
 
-#: app/templates/agenda.html:29
-msgid "Los talleres son solamente de manera virtual"
-msgstr ""
-
-#: app/templates/agenda.html:31
+#: app/templates/agenda.html:30
 msgid "Todo el contenido va a estar disponible vía streaming en vivo, para que no te pierdas de nada."
 msgstr ""
 
-#: app/templates/agenda.html:40
-msgid "Desplegá los ítems para conocer la agenda de cada track"
+#: app/templates/agenda.html:39
+msgid "Despliega los ítems para conocer la agenda de cada día"
 msgstr ""
 
-#: app/templates/agenda.html:57
+#: app/templates/agenda.html:56
 msgid "Cargando agenda..."
 msgstr ""
 
-#: app/templates/agenda.html:76
-msgid "Sacá tu entrada gratuita!"
+#: app/templates/agenda.html:75
+msgid "¡Regístrate gratis!"
 msgstr ""
 
-#: app/templates/base.html:62
-#: app/templates/base.html:69
+#: app/templates/base.html:62 app/templates/base.html:69
 #: app/templates/base.html:79
-msgid "Nerdearla Chile – 2da edición – 11 al 13 de abril"
-msgstr "Nerdearla Chile – 2nd edition – Apr 11 - 13"
+msgid "Nerdearla Argentina – 10ma edición – 24 al 28 de Septiembre"
+msgstr ""
 
-#: app/templates/base.html:64
-#: app/templates/base.html:71
+#: app/templates/base.html:64 app/templates/base.html:71
 #: app/templates/base.html:81
-msgid "Nerdearla 2024, tres días con más de 100 charlas y talleres de tecnología, divulgación científica y una gran variedad de temas."
-msgstr "Nerdearla 2024, three days with over 100 technical talks and workshops, science content and much more!"
+msgid "Nerdearla 2024, cinco días con más de 200 charlas y talleres de tecnología, divulgación científica y una gran variedad de temas."
+msgstr ""
 
 #: app/templates/code_of_conduct.html:16
-#: app/templates/components/footer.html:39
+#: app/templates/components/footer.html:42
 msgid "Código de Conducta"
-msgstr "Code of Conduct"
+msgstr ""
 
 #: app/templates/code_of_conduct.html:18
 msgid "INFORMACIÓN GENERAL"
-msgstr "GENERAL INFORMATION"
+msgstr ""
 
 #: app/templates/code_of_conduct.html:20
 msgid "A través de este código de conducta establecemos el marco para los fundamentos de Nerdearla."
-msgstr "Through this code of conduct, we establish the framework for the fundamentals of Nerdearla."
+msgstr ""
 
 #: app/templates/code_of_conduct.html:22
 msgid "El objetivo principal del evento es crear un espacio de intercambio colaborativo donde podamos divertirnos, aprender y compartir problemas y conocimientos."
-msgstr "The main objective of the event is to create a space for collaborative exchange where we can have fun, learn, and share problems and knowledge."
+msgstr ""
 
 #: app/templates/code_of_conduct.html:24
 msgid "CONFIAMOS EN LA DIVERSIDAD COMO PRINCIPIO ÉTICO FUNDAMENTAL DE CUALQUIER INTERCAMBIO"
-msgstr "WE TRUST DIVERSITY AS THE ETHICAL PRINCIPLE FUNDAMENTAL TO ANY EXCHANGE"
+msgstr ""
 
 #: app/templates/code_of_conduct.html:26
 msgid "Nos unimos en los esfuerzos para trazar de nuevo los caminos de la discriminación, exclusión y condena de las minorías que sufrieron y sufren más dificultades para ejercer con libertad e igualdad de oportunidades sus plenas competencias, capacidades y potencialidades."
-msgstr "We join efforts to redraw the paths of discrimination, exclusion, and condemnation of minorities who have suffered and still face greater difficulties to exercise their full competencies, capacities, and potentials with freedom and equal opportunities."
+msgstr ""
 
 #: app/templates/code_of_conduct.html:28
 msgid "NUESTRO ESPÍRITU ES FOMENTAR UN AMBIENTE LIBRE DE DISCRIMINACIÓN"
-msgstr "OUR SPIRIT IS TO PROMOTE A DISCRIMINATION-FREE ENVIRONMENT"
+msgstr ""
 
 #: app/templates/code_of_conduct.html:30
 msgid "Somos conscientes de los múltiples cruces que interfieren con el logro de este objetivo máximo, por lo que creemos que es nuestro trabajo activo y el de toda la comunidad involucrarse en este desafío."
-msgstr "We are aware of the multiple intersections that interfere with achieving this ultimate goal, so we believe it is our active duty, and that of the entire community, to engage in this challenge."
+msgstr ""
 
 #: app/templates/code_of_conduct.html:33
 msgid "Esperamos que los patrocinadores, oradores, organizadores y todas las personas que asistan al evento respeten los siguientes principios de participación y colaboración:"
-msgstr "We expect sponsors, speakers, organizers, and all event attendees to respect the following principles of participation and collaboration:"
+msgstr ""
 
 #: app/templates/code_of_conduct.html:37
 msgid "Mantener en todo momento un diálogo amigable y respetuoso que fomente la mejor versión del intercambio posible."
-msgstr "Maintain at all times a friendly and respectful dialogue that promotes the best version of the exchange possible."
+msgstr ""
 
 #: app/templates/code_of_conduct.html:40
 msgid "Respetar la diversidad en todas sus formas: cultural, género, orientación sexual, discapacidad, apariencia física, edad, profesional, religiosa, perspectivas ideológicas, etc."
-msgstr "Respect diversity in all its forms: cultural, gender, sexual orientation, disability, physical appearance, age, professional, religious, ideological perspectives, etc."
+msgstr ""
 
 #: app/templates/code_of_conduct.html:43
 msgid "No discriminar, excluir, acosar o ejercer actos que de cualquier manera menoscaben la dignidad de las personas."
-msgstr "Do not discriminate, exclude, harass, or engage in acts that in any way undermine the dignity of individuals."
+msgstr ""
 
 #: app/templates/code_of_conduct.html:45
 msgid "Responsabilizarse del espacio compartido cuidándolo."
-msgstr "Take responsibility for the shared space by taking care of it."
+msgstr ""
 
 #: app/templates/code_of_conduct.html:47
 msgid "Abstenerse de presentar material, imágenes o actividades cuyo contenido pueda dañar, disminuir u objetivar a personas o grupos."
-msgstr "Refrain from presenting material, images, or activities whose content may harm, diminish, or objectify individuals or groups."
+msgstr ""
 
 #: app/templates/code_of_conduct.html:50
 msgid "CONTACTA A LA ORGANIZACIÓN"
-msgstr "CONTACT THE ORGANIZATION"
+msgstr ""
 
 #: app/templates/code_of_conduct.html:52
-#, fuzzy
-msgid "Si observas y/o experimentas que estos principios no están siendo respetados, contacta con la organización. (durante el evento proporcionaremos un número de teléfono) que garantizará la atención necesaria."
-msgstr "If you observe and/or experience that these principles are not being respected, contact the organization on WhatsApp: +54 9 11 2342-0868 and we will provide the necessary attention."
+msgid "Si observas y/o experimentas que estos principios no están siendo respetados, contacta con la organización vía WhatsApp al +54 9 11 2342-0868 y brindaremos la atención necesaria."
+msgstr ""
 
 #: app/templates/code_of_conduct.html:55
 msgid "Ante comportamientos de acoso, discriminación o agresión, se espera que cesen de inmediato. Dependiendo del caso, se procederá a sancionar, expulsar y/o revisar la permanencia en futuros eventos de la comunidad."
-msgstr "In the face of harassment, discrimination, or aggression behaviors, they are expected to cease immediately. Depending on the case, measures will be taken, which may include sanctions, expulsion, and/or reviewing future attendance to community events."
+msgstr ""
 
 #: app/templates/code_of_conduct.html:58
 msgid "Esperamos contar con la cooperación activa de cada participante para generar un espacio enriquecedor y virtuoso que acompañe estas políticas y haga de Nerdearla un lugar de encuentro heterogéneo, múltiple, amigable e inclusivo."
-msgstr "We expect to have the active cooperation of each participant to create an enriching and virtuous space that supports these policies and makes Nerdearla a place of heterogeneous, multiple, friendly, and inclusive encounters."
+msgstr ""
 
 #: app/templates/code_of_conduct.html:61
 msgid "Este código de conducta fue desarrollado por"
-msgstr "This code of conduct was developed by"
+msgstr ""
 
 #: app/templates/code_of_conduct.html:64
 msgid "DiG Encuentros"
-msgstr "DiG Encuentros"
+msgstr ""
 
 #: app/templates/code_of_conduct.html:65
 msgid "y está disponible para su uso en eventos producidos por comunidades con entrada gratuita, bajo la"
-msgstr "and is available for use at events produced by communities with free tickets, under the"
+msgstr ""
 
 #: app/templates/code_of_conduct.html:69
 msgid "Licencia Internacional Attribution-NonCommercial-ShareAlike 4.0 de Creative Commons"
-msgstr "Attribution-NonCommercial-ShareAlike 4.0 International License of Creative Commons"
+msgstr ""
 
 #: app/templates/donation.html:13
 msgid "¡Gracias por tu apoyo! ❤️"
@@ -170,60 +165,64 @@ msgid "Ir a la Cuponerda"
 msgstr ""
 
 #: app/templates/index.html:38
-msgid "Nerdearla 🇨🇱 2024 es posible gracias a"
-msgstr "Nerdearla 🇨🇱 2024 is possible thanks to"
+msgid "Nerdearla 🇦🇷 2024 es posible gracias a"
+msgstr ""
 
 #: app/templates/index.html:43
 msgid "Conoce a nuestros sponsors"
-msgstr "See all sponsors"
+msgstr ""
 
 #: app/templates/sponsors.html:72
 msgid "Nerdearla es posible gracias a nuestros maravillosos sponsors"
-msgstr "Nerdearla is brought to you thanks to our wonderful sponsors"
+msgstr ""
 
 #: app/templates/sponsors.html:74
-msgid "Desde 2014, nuestro objetivo ha sido organizar un evento de clase mundial para personas en América Latina, con entrada"
-msgstr "Since 2014, our goal has been to organize a world-class event for people in Latin America, with"
+msgid "Desde 2014, organizamos un evento de clase mundial para personas en América Latina, con entrada"
+msgstr ""
 
 #: app/templates/sponsors.html:76
 msgid "gratuita. Eso no sería posible sin nuestros patrocinadores y las organizaciones que nos apoyan."
-msgstr "free tickets. That would not be possible without our sponsors and supporting organizations."
+msgstr ""
 
 #: app/templates/sponsors.html:79
 msgid "Convertite en sponsor hoy!"
-msgstr "Become a sponsor today!"
+msgstr ""
+
+#: app/templates/components/about.html:11
+msgid "gratis"
+msgstr ""
 
 #: app/templates/components/about.html:14
 msgid "Sobre Nerdearla"
-msgstr "About Nerdearla"
+msgstr ""
 
 #: app/templates/components/about.html:25
 msgid "Nerdearla es una experiencia social, tanto en el formato en persona como online, con espacio de coworking y chats en vivo, charlas, talleres y muchas oportunidades para aprender de líderes de la industria."
-msgstr "Nerdearla is a social experience, both in-person and online, with coworking space and live chats, talks, workshops, and many opportunities to learn from industry leaders."
+msgstr ""
 
 #: app/templates/components/about.html:29
 msgid "Desde 2014 nos dedicamos a organizar una conferencia de clase mundial, completamente gratuita, con contenido de vanguardia en ciencia y tecnología."
-msgstr "Since 2014, we have been dedicated to organizing a world-class conference, completely free, with cutting-edge content in science and technology."
+msgstr ""
 
 #: app/templates/components/contact.html:6
 msgid "¡Muchas gracias por suscribirte!"
-msgstr "Thank you for subscribing!"
+msgstr ""
 
 #: app/templates/components/contact.html:8
 msgid "Suscribite a nuestro newsletter"
-msgstr "Subscribe to our newsletter"
+msgstr ""
 
 #: app/templates/components/contact.html:9
 msgid "¡Enterate de todas las novedades del evento!"
-msgstr "Get the inside scoop!"
+msgstr ""
 
 #: app/templates/components/contact.html:63
 msgid "¿Sos una persona?"
-msgstr "Are you human?"
+msgstr ""
 
 #: app/templates/components/contact.html:78
 msgid "Suscribirme"
-msgstr "Subscribe"
+msgstr ""
 
 #: app/templates/components/countdown.html:10
 msgid "NERDEARLA"
@@ -231,47 +230,47 @@ msgstr ""
 
 #: app/templates/components/countdown.html:12
 msgid " gratuito"
-msgstr " free"
+msgstr ""
 
 #: app/templates/components/countdown.html:14
 msgid "Presencial y en streaming"
-msgstr "In-person + streaming"
-
-#: app/templates/components/countdown.html:18
-msgid "Santiago de Chile"
 msgstr ""
 
-#: app/templates/components/countdown.html:19
-msgid "11 al 13 de abril"
-msgstr "Apr 11 - 13"
-
-#: app/templates/components/countdown.html:22
+#: app/templates/components/countdown.html:18
 msgid "Buenos Aires"
 msgstr ""
 
-#: app/templates/components/countdown.html:23
+#: app/templates/components/countdown.html:19
 msgid "24 al 28 de septiembre"
-msgstr "Sept 24 - 28"
+msgstr ""
+
+#: app/templates/components/countdown.html:22
+msgid "Ciudad de México"
+msgstr ""
+
+#: app/templates/components/countdown.html:23
+msgid "7 al 9 de noviembre"
+msgstr ""
 
 #: app/templates/components/countdown.html:30
-msgid "¿Cuánto Falta para Nerdearla 🇨🇱 2024?"
-msgstr "How long until Nerdearla 🇨🇱 2024?"
+msgid "¿Cuánto Falta para Nerdearla 🇦🇷 2024?"
+msgstr ""
 
 #: app/templates/components/countdown.html:34
 msgid "Días"
-msgstr "Days"
+msgstr ""
 
 #: app/templates/components/countdown.html:38
 msgid "Horas"
-msgstr "Hours"
+msgstr ""
 
 #: app/templates/components/countdown.html:42
 msgid "Minutos"
-msgstr "Minutes"
+msgstr ""
 
 #: app/templates/components/countdown.html:46
 msgid "Segundos"
-msgstr "Seconds"
+msgstr ""
 
 #: app/templates/components/faq.html:30
 msgid "Preguntas frecuentes sobre"
@@ -286,19 +285,15 @@ msgid "Tu dispositivo no soporta el video de fondo :("
 msgstr ""
 
 #: app/templates/components/hero.html:16
-msgid "11 al 13 de abril, 2024 - Santiago de Chile"
-msgstr "April 11 - 13, 2024 in Santiago de Chile"
+msgid "24 al 28 de septiembre, 2024 - Buenos Aires"
+msgstr ""
 
 #: app/templates/components/hero.html:17
-msgid "¡Muy pronto, registro gratuito!"
-msgstr "Registration coming soon!"
-
-#: app/templates/components/hero.html:18
-msgid "¡Envía tu propuesta!"
+msgid "¡Revive Chile 2024!"
 msgstr ""
 
 #: app/templates/components/intro.html:10
-msgid "3 veces más grande que cualquier otra conferencia en Buenos Aires"
+msgid "3 veces más grande que cualquier otra conferencia en en Mundo"
 msgstr ""
 
 #: app/templates/components/intro.html:13
@@ -307,39 +302,39 @@ msgstr ""
 
 #: app/templates/components/location.html:9
 msgid "Evento presencial"
-msgstr "In-person event"
+msgstr ""
 
 #: app/templates/components/location.html:14
-msgid "Centro Gabriela Mistral"
+msgid "Ciudad Cultural Konex"
 msgstr ""
 
 #: app/templates/components/location.html:14
 msgid "con streaming en vivo para todo el mundo."
-msgstr "plus live streaming for the whole world."
-
-#: app/templates/components/location.html:16
-msgid "Av. Alameda Libertador Bernardo O'Higgins 227, Santiago, Región Metropolitana."
 msgstr ""
 
-#: app/templates/components/navbar.html:35
+#: app/templates/components/location.html:16
+msgid "Sarmiento 3131, C1196 Ciudad Autónoma de Buenos Aires."
+msgstr ""
+
+#: app/templates/components/navbar.html:34
 msgid "Home"
 msgstr ""
 
-#: app/templates/components/navbar.html:36
+#: app/templates/components/navbar.html:38
 msgid "Sponsors"
 msgstr ""
 
-#: app/templates/components/navbar.html:37
-msgid "Código de Conducta"
-msgstr "Code of Conduct"
+#: app/templates/components/navbar.html:78
+msgid "¡Mira el evento en vivo!"
+msgstr ""
 
 #: app/templates/components/recap.html:4
 msgid "Recap del año pasado"
-msgstr "Last year's recap"
+msgstr ""
 
 #: app/templates/components/register.html:6
 msgid "Registrate a Nerdearla 2023"
-msgstr "Register to Nerdearla 🇨🇱 2024"
+msgstr ""
 
 #: app/templates/components/register.html:7
 msgid "El evento gratuito de ciencia y tecnología más grande de Latinoamérica."
@@ -347,37 +342,37 @@ msgstr ""
 
 #: app/templates/components/register.html:21
 msgid "tunombre@gmail.com"
-msgstr "yourname@gmail.com"
+msgstr ""
 
 #: app/templates/components/register.html:23
 msgid "Por favor ingresá un email válido"
-msgstr "Please enter a valid email address."
+msgstr ""
 
 #: app/templates/components/register.html:29
 msgid "Registrate gratis"
-msgstr "Register for free"
+msgstr ""
 
 #: app/templates/components/statistics.html:13
 msgid "Así fue nuestro evento de 2023"
-msgstr "Our 2023 event recap"
+msgstr ""
 
 #: app/templates/components/statistics.html:42
-msgid "Más de 800 participantes presenciales en Santiago de Chile."
-msgstr "Over 800 in-person participants in Santiago de Chile."
+msgid "Más de 10.000 participantes presenciales en Buenos Aires."
+msgstr ""
 
 #: app/templates/components/statistics.html:45
-msgid "Más de 5.000 participantes online durante las conferencias."
-msgstr "Over 5,000 online attendees during the conferences."
+msgid "Más de 25.000 participantes online durante las conferencias."
+msgstr ""
 
 #: app/templates/components/statistics.html:48
-msgid "Más de 150 speakers de la región."
-msgstr "Over 150 speakers from Latin America."
+msgid "Más de 200 speakers provenientes de 15 países."
+msgstr ""
 
 #: app/templates/components/statistics.html:51
 msgid "El evento es"
-msgstr "The event is"
+msgstr ""
 
 #: app/templates/components/statistics.html:51
 msgid "gratuito, desde el día 0."
-msgstr "free, since day 0"
+msgstr ""
 
