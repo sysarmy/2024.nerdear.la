@@ -1,14 +1,15 @@
 name                                       ,category       ,file                    ,link
 GitHub                                     ,Adamantium     ,github.svg              ,https://sysar.my/github
-Falabella								   ,Diamond		   ,falabella.svg           ,https://sysar.my/falabella
-Openqube                                   ,Diamond        ,openqube.svg            ,https://sysar.my/openqube
+Openqube                                   ,Adamantium     ,openqube.svg            ,https://sysar.my/openqube
+BBVA                                       ,Diamond        ,bbva.svg                ,https://sysar.my/bbva
 Linux Professional Institute               ,Gold           ,lpi.svg                 ,https://sysar.my/lpi
-MediaStream                                ,Gold           ,mediastream.svg         ,https://www.mediastream.co
 AreaTres                                   ,Gold           ,areatres.svg            ,https://sysar.my/areatres
-Ovidio                                     ,Silver         ,ovidio.svg              ,https://sysar.my/ovidio
+ArtsSec                                    ,Silver         ,artssec.png             ,https://sysar.my/artssec
+Fudo                                       ,Silver         ,fudo.svg                ,https://sysar.my/fudo
+chevron                                    ,Silver         ,chevron.svg             ,https://sysar.my/chevron
 UV United Visions                          ,Silver         ,uv.svg                  ,https://uv.agency
-ATDT INFORMATICA SRL                       ,Silver         ,atdt.png                ,https://atdt.com.ar
-shortio                                    ,Bronze         ,soho.svg                ,https://sysar.my/soho
+IT Patagonia                               ,Bronze         ,itpatagonia.svg         ,https://sysar.my/itpatagonia
+ATDT INFORMATICA SRL                       ,Bronze         ,atdt.png                ,https://atdt.com.ar
 Short.io                                   ,Bronze         ,shortio.png             ,https://sysar.my/shortio
 Sticker Mule                               ,Bronze         ,stickermule.png         ,https://sysar.my/stickermule       
 Open Source Initiative                     ,Nos apoyan     ,osi.png                 ,https://sysar.my/osi
@@ -44,7 +45,7 @@ Sysarmy Chile                              ,Comunidades    ,sysarmycl.svg       
 JSChile 								   ,Comunidades    ,jschile.svg 		    ,https://jschile.org
 JSConf Chile 							   ,Comunidades    ,jsconfchile.svg         ,https://jsconf.cl
 PyCon Chile                                ,Comunidades    ,pyconchile.png          ,https://pycon.cl
-Speedcubing Chile                         ,Comunidades    ,speedcubing.png         ,https://speedcubing.cl
+Speedcubing Chile                          ,Comunidades    ,speedcubing.png         ,https://speedcubing.cl
 Devs Chile                                 ,Comunidades    ,devschile.svg           ,https://devschile.cl
 SJNHS                                      ,Comunidades    ,sjnhs.svg               ,http://sinjrnohaysr.com
 Women Techmakers Chile                     ,Comunidades    ,womentechmakerschile.svg ,https://www.instagram.com/wtmchile
