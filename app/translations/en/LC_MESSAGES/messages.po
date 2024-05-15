@@ -122,7 +122,6 @@ msgid "CONTACTA A LA ORGANIZACIÓN"
 msgstr "CONTACT THE ORGANIZATION"
 
 #: app/templates/code_of_conduct.html:52
-#, fuzzy
 msgid "Si observas y/o experimentas que estos principios no están siendo respetados, contacta con la organización vía WhatsApp al +54 9 11 2342-0868 y brindaremos la atención necesaria."
 msgstr "If you observe and/or experience that these principles are not being respected, contact the organization on WhatsApp: +54 9 11 2342-0868 and we will provide the necessary attention."
 
