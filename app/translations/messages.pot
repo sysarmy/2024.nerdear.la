@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-05-13 22:42-0300\n"
+"POT-Creation-Date: 2024-05-29 11:18-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -49,14 +49,19 @@ msgstr ""
 msgid "¡Regístrate gratis!"
 msgstr ""
 
-#: app/templates/base.html:62 app/templates/base.html:69
-#: app/templates/base.html:79
+#: app/templates/base.html:63 app/templates/base.html:70
+#: app/templates/base.html:80
 msgid "Nerdearla Argentina – 10ma edición – 24 al 28 de Septiembre"
 msgstr ""
 
-#: app/templates/base.html:64 app/templates/base.html:71
-#: app/templates/base.html:81
+#: app/templates/base.html:65 app/templates/base.html:72
+#: app/templates/base.html:82
 msgid "Nerdearla 2024, cinco días con más de 200 charlas y talleres de tecnología, divulgación científica y una gran variedad de temas."
+msgstr ""
+
+#: app/templates/base.html:98 app/templates/components/hero.html:17
+#: app/templates/components/navbar.html:36
+msgid "¡Envía tu propuesta!"
 msgstr ""
 
 #: app/templates/code_of_conduct.html:16
@@ -121,7 +126,7 @@ msgid "CONTACTA A LA ORGANIZACIÓN"
 msgstr ""
 
 #: app/templates/code_of_conduct.html:52
-msgid "Si observas y/o experimentas que estos principios no están siendo respetados, contacta con la organización vía WhatsApp al +54 9 11 2342-0868 y brindaremos la atención necesaria."
+msgid "Si observas y/o experimentas que estos principios no están siendo respetados, contacta con la organización y brindaremos la atención necesaria."
 msgstr ""
 
 #: app/templates/code_of_conduct.html:55
@@ -288,8 +293,8 @@ msgstr ""
 msgid "24 al 28 de septiembre, 2024 - Buenos Aires"
 msgstr ""
 
-#: app/templates/components/hero.html:17
-msgid "¡Revive Chile 2024!"
+#: app/templates/components/hero.html:18
+msgid "Revive Chile 2024"
 msgstr ""
 
 #: app/templates/components/intro.html:10
@@ -320,12 +325,8 @@ msgstr ""
 msgid "Home"
 msgstr ""
 
-#: app/templates/components/navbar.html:38
+#: app/templates/components/navbar.html:39
 msgid "Sponsors"
-msgstr ""
-
-#: app/templates/components/navbar.html:78
-msgid "¡Mira el evento en vivo!"
 msgstr ""
 
 #: app/templates/components/recap.html:4
