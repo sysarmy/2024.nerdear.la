@@ -295,7 +295,6 @@ msgid "24 al 28 de septiembre, 2024 - Buenos Aires"
 msgstr "September 24-28, 2024 - Buenos Aires"
 
 #: app/templates/components/hero.html:18
-#, fuzzy
 msgid "Revive Chile 2024"
 msgstr "Watch Chile 2024"
 
