@@ -91,8 +91,8 @@
               "@context": "https://schema.org",
               "@type": "Event",
               "name": "Nerdearla 2024",
-              "startDate": "2024-09-24T09:00",
-              "endDate": "2024-09-28T18:00",
+              "startDate": "2024-09-24T09:00-03:00",
+              "endDate": "2024-09-28T18:00-03:00",
               "eventStatus": "https://schema.org/EventScheduled",
               "eventAttendanceMode": "https://schema.org/MixedEventAttendanceMode",
               "location": {
@@ -104,7 +104,8 @@
                   "addressLocality": "Ciudad Autónoma de Buenos Aires",
                   "postalCode": "C1196",
                   "addressCountry": "AR"
-                }
+                },
+                "timeZone": "America/Argentina/Buenos_Aires"
               },
               "image": "https://nerdear.la/static/img/nerd-square-detailed.png",
               "description": "Nerdearla es una experiencia social, tanto presencial como online, con espacio de coworking y charlas en vivo, talleres, y muchas oportunidades para aprender de líderes de la industria. Desde 2014, hemos estado dedicados a organizar una conferencia de clase mundial, completamente gratuita, con contenido de vanguardia en ciencia y tecnología.",
@@ -135,7 +136,11 @@
                   "@type": "Schedule",
                   "startDate": "2024-09-24",
                   "endDate": "2024-09-25",
-                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode"
+                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+                  "location": {
+                    "@type": "VirtualLocation",
+                    "url": "https://nerdear.la"
+                  }
                 },
                 {
                   "@type": "Schedule",
