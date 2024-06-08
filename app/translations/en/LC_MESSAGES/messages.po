@@ -53,7 +53,7 @@ msgstr "Register for free"
 #: app/templates/base.html:63 app/templates/base.html:70
 #: app/templates/base.html:80
 msgid "Nerdearla Argentina – 10ma edición – 24 al 28 de Septiembre"
-msgstr ""
+msgstr "Nerdearla Argentina - 10th edition - September 24-28"
 
 #: app/templates/base.html:65 app/templates/base.html:72
 #: app/templates/base.html:82
