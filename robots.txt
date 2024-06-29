@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: http://nerdear.la/static/sitemap.xml
