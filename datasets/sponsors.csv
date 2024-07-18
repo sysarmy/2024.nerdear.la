@@ -1,13 +1,15 @@
 name                                       ,category       ,file                    ,link
 GitHub                                     ,Adamantium     ,github.svg              ,https://sysar.my/github
 Google Cloud                               ,Adamantium     ,googleCloud.svg         ,https://sysar.my/googlecloud
+ICBC                                       ,Adamantium     ,icbc.svg                ,https://sysar.my/icbc
 Openqube                                   ,Adamantium     ,openqube.svg            ,https://sysar.my/openqube
 BBVA                                       ,Diamond        ,bbva.svg                ,https://sysar.my/bbva
 Galicia                                    ,Diamond        ,galicia.svg             ,https://sysar.my/galicia
-Clarin                                     ,Diamond        ,clarin.svg                ,https://sysar.my/clarin
-Binance                                    ,Platinum       ,binance.svg             ,https://nerdear.live/binance
+Clarin                                     ,Diamond        ,clarin.svg              ,https://sysar.my/clarin
 NTT Data                                   ,Platinum       ,nttdata_azul.svg        ,https://nerdear.live/nttdata
+Santander                                  ,Platinum       ,santander.svg           ,https://sysar.my/santander
 NaranjaX                                   ,Platinum       ,naranjax.svg            ,https://sysar.my/naranjax
+Binance                                    ,Gold           ,binance.svg             ,https://nerdear.live/binance
 Linux Professional Institute               ,Gold           ,lpi.svg                 ,https://sysar.my/lpi
 AreaTres                                   ,Gold           ,areatres.svg            ,https://sysar.my/areatres
 Mercado Libre                              ,Silver         ,meli.svg                ,https://nerdear.live/mercadolibre
@@ -26,7 +28,7 @@ Planetario                                 ,Nos apoyan     ,planetario.svg      
 Museo de Informática                       ,Nos apoyan     ,museoinformatica.png    ,https://sysar.my/museoinformatica
 Roboteam                                   ,Nos apoyan     ,roboteam.png            ,https://sysar.my/roboteam
 Chalin Tech                                ,Nos apoyan     ,chalintech.svg          ,https://sysar.my/chalintech
-Big Dipper                                 ,Nos apoyan     ,bigdipper.svg          ,https://sysar.my/bigdipper
+Big Dipper                                 ,Nos apoyan     ,bigdipper.svg           ,https://sysar.my/bigdipper
 DCC                                        ,Nos apoyan     ,dcc.svg                 ,https://www.dcc.uchile.cl/
 VTI Universidad de Chile                   ,Nos apoyan     ,vti.svg                 ,https://vti.uchile.cl/
 Universidad Finis Terrae                   ,Nos apoyan     ,finis.png               ,https://ingenieria.uft.cl/
@@ -38,6 +40,7 @@ Pangea Cooperativa						   ,Nos apoyan     ,pangea.svg              ,https://www
 Mujeres en Tecnología                      ,Nos apoyan     ,met.svg                 ,https://mujeresentecnologia.org/
 Escuela de Datos Vivos                     ,Nos apoyan     ,escueladedatosvivos.svg ,https://www.escueladedatosvivos.ai
 Semillero Digital                   	   ,Nos apoyan	   ,semillerodigital.svg	,https://semillerodigital.org/
+Sysarmy Argentina                          ,Comunidades    ,sysarmy-10anios.png     ,https://sysar.my/sysarmy
 Sysarmy México                             ,Comunidades    ,sysarmymx.png           ,https://sysar.my/sysarmymx
 Sysarmy Chile                              ,Comunidades    ,sysarmycl.svg           ,https://sysar.my/sysarmycl
 Doctarmy                                   ,Comunidades    ,doctarmy.png            ,https://sysar.my/doctarmy
