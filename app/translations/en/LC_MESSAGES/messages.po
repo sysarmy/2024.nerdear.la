@@ -295,8 +295,8 @@ msgid "24 al 28 de septiembre, 2024 - Buenos Aires"
 msgstr "September 24-28, 2024 - Buenos Aires"
 
 #: app/templates/components/hero.html:18
-msgid "Revive Chile 2024"
-msgstr "Watch Chile 2024"
+msgid "¡Postula tu charla para México!"
+msgstr "Submit your talk for Mexico!"
 
 #: app/templates/components/intro.html:10
 msgid "3 veces más grande que cualquier otra conferencia en en Mundo"

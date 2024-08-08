@@ -2,10 +2,11 @@ name                                       ,category       ,file                
 GitHub                                     ,Adamantium     ,github.svg              ,https://sysar.my/github
 Google Cloud                               ,Adamantium     ,googleCloud.svg         ,https://sysar.my/googlecloud
 ICBC                                       ,Adamantium     ,icbc.svg                ,https://sysar.my/icbc
-Openqube                                   ,Adamantium     ,openqube.svg            ,https://sysar.my/openqube
+Microsoft                                  ,Adamantium     ,microsoft_azure.svg     ,https://sysar.my/microsoft24
 BBVA                                       ,Diamond        ,bbva.svg                ,https://sysar.my/bbva
 Galicia                                    ,Diamond        ,galicia.svg             ,https://sysar.my/galicia
 Clarin                                     ,Diamond        ,clarin.svg              ,https://sysar.my/clarin
+Openqube                                   ,Diamond        ,openqube.svg            ,https://sysar.my/openqube
 NTT Data                                   ,Platinum       ,nttdata_azul.svg        ,https://nerdear.live/nttdata
 Santander                                  ,Platinum       ,santander.svg           ,https://sysar.my/santander
 NaranjaX                                   ,Platinum       ,naranjax.svg            ,https://sysar.my/naranjax
@@ -19,6 +20,7 @@ Chevron                                    ,Silver         ,chevron.svg         
 Oracle                                     ,Silver         ,oracle.svg              ,https://sysar.my/oracle
 Ekumen                                     ,Silver         ,ekumen.png              ,https://sysar.my/ekumen
 Svitla                                     ,Silver         ,svitla.svg              ,https://sysar.my/svitla
+Galileo                                    ,Silver         ,galileo.svg             ,https://sysar.my/galileo
 UV United Visions                          ,Silver         ,uv.svg                  ,https://uv.agency
 ArtsSec                                    ,Silver         ,artssec.png             ,https://sysar.my/artssec
 Getonboard                                 ,Silver         ,getonbrd.svg            ,https://sysar.my/getonbrd
